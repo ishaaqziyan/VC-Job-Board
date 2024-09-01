@@ -1,0 +1,47 @@
+---
+// Import necessary components and data
+import blogPosts from '../components/blogPosts.json';
+import Article from '../components/Article.astro';
+import Background from "../components/Background.astro";
+import BaseHead from "../components/BaseHead.astro";
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_SOCIAL_IMAGE } from "../consts";
+
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={SITE_TITLE}
+      description={SITE_DESCRIPTION}
+      image={SITE_SOCIAL_IMAGE}
+    />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" />
+
+  </head>
+
+  <body>
+    <header class="bg-gray-800 text-white py-4">
+      <nav class="container mx-auto flex justify-between items-center">
+        <a href="/" class="text-xl font-bold">The Great Crypto VC Job Board</a>
+        <img src="./100.png" alt="ICP Logo" width="250" height="600">
+      </nav>
+    </header>
+
+    <main>
+      <div class="container mx-auto my-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {blogPosts.map((post) => (
+            <Article
+              title={post.title}
+              image={post.image}
+              description={post.description}
+              url={post.url}
+            />
+          ))}
+        </div>
+      </div>
+    </main>
+    <Background/>
+  </body>
+</html>
