@@ -1,12 +1,11 @@
 # The Great Crypto VC Jobs Board
 The Great Crypto VC Job Board, which combines 30 major crypto VC job portals into a single page, making lives a bit easier for people seeking work on #Web3.
+<br>
 Built on [InternetComputer](https://github.com/dfinity) and [Juno](https://juno.build/)
 
 
 
 ## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
 
 | Command          | Action                                                      |
 | :--------------- | :---------------------------------------------------------- |
