@@ -1,11 +1,9 @@
 ---
-// Import necessary components and data
 import blogPosts from '../components/blogPosts.json';
 import Article from '../components/Article.astro';
 import Background from "../components/Background.astro";
 import BaseHead from "../components/BaseHead.astro";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_SOCIAL_IMAGE } from "../consts";
-
 ---
 
 <!doctype html>
@@ -16,8 +14,7 @@ import { SITE_TITLE, SITE_DESCRIPTION, SITE_SOCIAL_IMAGE } from "../consts";
       description={SITE_DESCRIPTION}
       image={SITE_SOCIAL_IMAGE}
     />
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" />
   </head>
 
   <body>
@@ -42,6 +39,15 @@ import { SITE_TITLE, SITE_DESCRIPTION, SITE_SOCIAL_IMAGE } from "../consts";
         </div>
       </div>
     </main>
+
+    <footer class="bg-gray-800 text-white py-4">
+      <div class="container mx-auto text-center">
+        <p class="text-sm">
+          An initiative by <a href="https://x.com/IshaaqZiyan" class="text-blue-500 underline">IshaaqZiyan</a>
+        </p>
+      </div>
+    </footer>
+
     <Background/>
   </body>
 </html>
