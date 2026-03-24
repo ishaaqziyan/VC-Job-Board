@@ -14,20 +14,21 @@ import { SITE_TITLE, SITE_DESCRIPTION, SITE_SOCIAL_IMAGE } from "../consts";
       description={SITE_DESCRIPTION}
       image={SITE_SOCIAL_IMAGE}
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" />
   </head>
 
-  <body>
+  <body class="min-h-screen flex flex-col">
     <header class="bg-black/70 text-white py-4">
-      <nav class="container mx-auto flex justify-between items-center">
-        <a href="/" class="text-xl font-bold">The Great Crypto VC Job Board</a>
-        <img src="./100.png" alt="ICP Logo" width="250" height="600">
+      <nav class="container mx-auto px-4 flex flex-wrap justify-between items-center gap-4">
+        <a href="/" class="text-lg sm:text-xl font-bold leading-tight">The Great Crypto VC Job Board</a>
+        <img src="./100.png" alt="ICP Logo" class="w-24 sm:w-32 md:w-40 h-auto" />
       </nav>
     </header>
 
-    <main>
-      <div class="container mx-auto my-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <main class="flex-grow">
+      <div class="container mx-auto my-8 px-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {blogPosts.map((post) => (
             <Article
               title={post.title}
@@ -41,7 +42,7 @@ import { SITE_TITLE, SITE_DESCRIPTION, SITE_SOCIAL_IMAGE } from "../consts";
     </main>
 
     <footer class="bg-gray-800 text-white py-4">
-      <div class="container mx-auto text-center">
+      <div class="container mx-auto px-4 text-center">
         <p class="text-sm">
           An initiative by <a href="https://x.com/IshaaqZiyan" class="text-blue-500 underline">IshaaqZiyan</a> <br>
           This project is open-source, and all logos and related assets used in this project belong to their respective owners.
