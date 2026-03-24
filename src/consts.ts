@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = "The Great Crypto VC Job Board";
 export const SITE_DESCRIPTION = "Welcome";
-export const SITE_SOCIAL_IMAGE = "public\TGCJ.png";
+export const SITE_SOCIAL_IMAGE = "public/TGCJ.png";
