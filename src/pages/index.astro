@@ -14,25 +14,29 @@ import { SITE_TITLE, SITE_DESCRIPTION, SITE_SOCIAL_IMAGE } from "../consts";
       description={SITE_DESCRIPTION}
       image={SITE_SOCIAL_IMAGE}
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" />
   </head>
 
   <body class="min-h-screen flex flex-col">
     <header class="bg-black/70 text-white py-4">
       <nav class="container mx-auto px-4 flex flex-wrap justify-between items-center gap-4">
         <a href="/" class="text-lg sm:text-xl font-bold leading-tight">The Great Crypto VC Job Board</a>
-        <img src="./100.png" alt="ICP Logo" class="w-24 sm:w-32 md:w-40 h-auto" />
+        <img
+          src="/100.png"
+          alt="Internet Computer logo"
+          width="160"
+          height="40"
+          class="w-24 sm:w-32 md:w-40 h-auto"
+        />
       </nav>
     </header>
 
-    <main class="flex-grow">
+    <main class="grow">
       <div class="container mx-auto my-8 px-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {blogPosts.map((post) => (
             <Article
               title={post.title}
-              image={post.image}
+              image={post.image.replace(/^\.\//, "/")}
               description={post.description}
               url={post.url}
             />
