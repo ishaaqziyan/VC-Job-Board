@@ -1,9 +1,26 @@
 ---
-import blogPosts from '../components/blogPosts.json';
-import Article from '../components/Article.astro';
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import Article from "../components/Article.astro";
 import Background from "../components/Background.astro";
 import BaseHead from "../components/BaseHead.astro";
+import icpLogo from "../assets/icp-logo.png";
+import { logos } from "../data/logos";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_SOCIAL_IMAGE } from "../consts";
+
+const boards = await getCollection("boards");
+
+const cards = boards
+  .map(({ data }) => {
+    const logo = logos[data.image];
+    if (!logo) {
+      throw new Error(
+        `Missing logo "src/assets/logos/${data.image}" for board "${data.title}".`,
+      );
+    }
+    return { ...data, logo };
+  })
+  .sort((a, b) => a.title.localeCompare(b.title));
 ---
 
 <!doctype html>
@@ -17,31 +34,51 @@ import { SITE_TITLE, SITE_DESCRIPTION, SITE_SOCIAL_IMAGE } from "../consts";
   </head>
 
   <body class="min-h-screen flex flex-col">
-    <header class="bg-black/70 text-white py-4">
+    <header class="sticky top-0 z-10 bg-black/90 backdrop-blur text-white py-4">
       <nav class="container mx-auto px-4 flex flex-wrap justify-between items-center gap-4">
         <a href="/" class="text-lg sm:text-xl font-bold leading-tight">The Great Crypto VC Job Board</a>
-        <img
-          src="/100.png"
+        <Image
+          src={icpLogo}
           alt="Internet Computer logo"
-          width="160"
-          height="40"
+          width={320}
+          format="webp"
+          quality={80}
+          loading="eager"
           class="w-24 sm:w-32 md:w-40 h-auto"
         />
       </nav>
+      <div class="container mx-auto px-4 mt-4">
+        <label class="relative block">
+          <span class="sr-only">Search job boards</span>
+          <input
+            id="board-search"
+            type="search"
+            placeholder={`Search ${cards.length} job boards by name…`}
+            autocomplete="off"
+            class="w-full rounded-lg border-2 border-transparent bg-white/10 px-4 py-2 text-white placeholder-white/60 focus:outline-none focus:border-lavender-blue-500 focus:bg-white/5"
+          />
+        </label>
+      </div>
     </header>
 
     <main class="grow">
       <div class="container mx-auto my-8 px-4">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {blogPosts.map((post) => (
+        <p id="board-count" class="mb-4 text-sm text-gray-500" aria-live="polite">
+          Showing {cards.length} of {cards.length} job boards
+        </p>
+        <div id="board-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {cards.map((card) => (
             <Article
-              title={post.title}
-              image={post.image.replace(/^\.\//, "/")}
-              description={post.description}
-              url={post.url}
+              title={card.title}
+              image={card.logo}
+              description={card.description}
+              url={card.url}
             />
           ))}
         </div>
+        <p id="board-empty" class="hidden py-16 text-center text-gray-500">
+          No job boards match "<span id="board-empty-query"></span>".
+        </p>
       </div>
     </main>
 
@@ -55,5 +92,33 @@ import { SITE_TITLE, SITE_DESCRIPTION, SITE_SOCIAL_IMAGE } from "../consts";
     </footer>
 
     <Background/>
+
+    <script>
+      const input = document.getElementById("board-search") as HTMLInputElement;
+      const grid = document.getElementById("board-grid") as HTMLElement;
+      const cards = Array.from(grid.children) as HTMLElement[];
+      const total = cards.length;
+      const countEl = document.getElementById("board-count") as HTMLElement;
+      const emptyEl = document.getElementById("board-empty") as HTMLElement;
+      const emptyQueryEl = document.getElementById("board-empty-query") as HTMLElement;
+
+      function applyFilter() {
+        const query = input.value.trim().toLowerCase();
+        let shown = 0;
+
+        for (const card of cards) {
+          const matches = !query || (card.dataset.boardTitle ?? "").includes(query);
+          card.classList.toggle("hidden", !matches);
+          if (matches) shown++;
+        }
+
+        countEl.textContent = `Showing ${shown} of ${total} job boards`;
+        emptyQueryEl.textContent = input.value.trim();
+        emptyEl.classList.toggle("hidden", shown !== 0);
+        grid.classList.toggle("hidden", shown === 0);
+      }
+
+      input.addEventListener("input", applyFilter);
+    </script>
   </body>
 </html>
