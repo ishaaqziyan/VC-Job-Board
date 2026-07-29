@@ -21,4 +21,22 @@ const boards = defineCollection({
   }),
 });
 
-export const collections = { boards };
+// src/data/jobs.json is written by scripts/fetch-getro-jobs.mjs and wraps
+// the array in { fetchedAt, boards, jobs }; unwrap it for the loader.
+const jobs = defineCollection({
+  loader: file("src/data/jobs.json", {
+    parser: (text) => JSON.parse(text).jobs,
+  }),
+  schema: z.object({
+    title: z.string().min(1),
+    company: z.string().nullable(),
+    companyLogo: z.string().url().nullable(),
+    location: z.string().nullable(),
+    remote: z.boolean(),
+    url: z.string().url(),
+    postedAt: z.string().nullable(),
+    board: z.object({ id: z.string(), title: z.string() }),
+  }),
+});
+
+export const collections = { boards, jobs };
