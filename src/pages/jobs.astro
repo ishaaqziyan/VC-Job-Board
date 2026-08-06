@@ -30,9 +30,8 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
   </head>
 
   <body class="min-h-screen flex flex-col">
-    <header class="sticky top-0 z-10 bg-black/90 backdrop-blur text-white py-4">
-      <nav class="container mx-auto px-4 flex flex-wrap justify-between items-center gap-4">
-        <a href="/" class="text-lg sm:text-xl font-bold leading-tight">The Great Crypto VC Job Board</a>
+    <header class="sticky top-0 z-10 bg-transparent text-white py-4">
+      <nav class="container mx-auto px-4 flex flex-wrap justify-end items-center gap-4">
         <Image
           src={icpLogo}
           alt="Internet Computer logo"
@@ -104,7 +103,7 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
       </div>
     </main>
 
-    <footer class="bg-gray-800 text-white py-4">
+    <footer class="bg-transparent text-white py-4">
       <div class="container mx-auto px-4 text-center">
         <p class="text-sm">
           An initiative by <a href="https://x.com/IshaaqZiyan" class="text-blue-500 underline">IshaaqZiyan</a> <br>

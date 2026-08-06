@@ -13,6 +13,8 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
 
 const { getCollection } = await import("astro:content");
 const boardCount = (await getCollection("boards")).length;
+
+const descSentences = SITE_DESCRIPTION.split(/(?<=\. )/);
 ---
 
 <!doctype html>
@@ -26,9 +28,8 @@ const boardCount = (await getCollection("boards")).length;
   </head>
 
   <body class="min-h-screen flex flex-col">
-    <header class="sticky top-0 z-10 bg-black/90 backdrop-blur text-white py-4">
-      <nav class="container mx-auto px-4 flex flex-wrap justify-between items-center gap-4">
-        <a href="/" class="text-lg sm:text-xl font-bold leading-tight">The Great Crypto VC Job Board</a>
+    <header class="sticky top-0 z-10 bg-transparent text-white py-4">
+      <nav class="container mx-auto px-4 flex flex-wrap justify-end items-center gap-4">
         <Image
           src={icpLogo}
           alt="Internet Computer logo"
@@ -44,33 +45,35 @@ const boardCount = (await getCollection("boards")).length;
     <main class="grow flex items-center">
       <div class="container mx-auto px-4 py-16">
         <div class="max-w-2xl mx-auto text-center mb-12">
-          <h1 class="text-3xl sm:text-4xl font-bold mb-3">The Great Crypto VC Job Board</h1>
-          <p class="text-gray-600">{SITE_DESCRIPTION}</p>
+          <h1 class="text-3xl sm:text-4xl font-bold mb-3 text-white">The Great Crypto VC Job Board</h1>
+          {descSentences.map((sentence) => (
+            <p class="text-gray-300">{sentence}</p>
+          ))}
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
           <a
             href="/jobs"
-            class="group flex flex-col gap-2 bg-white shadow-md rounded-lg p-8 border border-gray-100 transition hover:shadow-xl hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-lavender-blue-500"
+            class="group flex flex-col gap-2 bg-white/5 backdrop-blur-sm shadow-md rounded-lg p-8 border border-white/20 transition hover:bg-white/10 hover:shadow-xl hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-lavender-blue-500"
           >
-            <h2 class="text-2xl font-bold text-black group-hover:text-lavender-blue-600">Jobs</h2>
-            <p class="text-sm text-gray-600">
+            <h2 class="text-2xl font-bold text-white group-hover:text-lavender-blue-300">Jobs</h2>
+            <p class="text-sm text-gray-300">
               Browse {jobCount} live roles pulled directly from {jobBoardCount} portfolio job boards.
             </p>
-            <span class="mt-auto text-lavender-blue-600 group-hover:text-lavender-blue-800 group-hover:underline">
+            <span class="mt-auto text-lavender-blue-300 group-hover:text-lavender-blue-200 group-hover:underline">
               View live postings &rarr;
             </span>
           </a>
 
           <a
             href="/job-boards"
-            class="group flex flex-col gap-2 bg-white shadow-md rounded-lg p-8 border border-gray-100 transition hover:shadow-xl hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-lavender-blue-500"
+            class="group flex flex-col gap-2 bg-white/5 backdrop-blur-sm shadow-md rounded-lg p-8 border border-white/20 transition hover:bg-white/10 hover:shadow-xl hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-lavender-blue-500"
           >
-            <h2 class="text-2xl font-bold text-black group-hover:text-lavender-blue-600">Job Boards</h2>
-            <p class="text-sm text-gray-600">
+            <h2 class="text-2xl font-bold text-white group-hover:text-lavender-blue-300">Job Boards</h2>
+            <p class="text-sm text-gray-300">
               Browse all {boardCount} portfolio job boards directly, including the ones without a live feed.
             </p>
-            <span class="mt-auto text-lavender-blue-600 group-hover:text-lavender-blue-800 group-hover:underline">
+            <span class="mt-auto text-lavender-blue-300 group-hover:text-lavender-blue-200 group-hover:underline">
               View job boards &rarr;
             </span>
           </a>
@@ -78,7 +81,7 @@ const boardCount = (await getCollection("boards")).length;
       </div>
     </main>
 
-    <footer class="bg-gray-800 text-white py-4">
+    <footer class="bg-transparent text-white py-4">
       <div class="container mx-auto px-4 text-center">
         <p class="text-sm">
           An initiative by <a href="https://x.com/IshaaqZiyan" class="text-blue-500 underline">IshaaqZiyan</a> <br>

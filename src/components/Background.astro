@@ -1,6 +1,25 @@
-<div 
+<div
+  id="vanta-bg"
   class="fixed inset-0 -z-10"
-  style="background: linear-gradient(to right, #D4A574, #C7B595, #E8C9A0)"
-  role="presentation" 
-  aria-label="A background gradient for the website" 
+  role="presentation"
+  aria-label="Animated network background"
 />
+
+<script>
+  import p5 from "p5";
+  import TOPOLOGY from "vanta/dist/vanta.topology.min";
+
+  TOPOLOGY({
+    el: "#vanta-bg",
+    p5,
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.0,
+    minWidth: 200.0,
+    scale: 1.0,
+    scaleMobile: 1.0,
+    color: 0x3a6bd8,
+    backgroundColor: 0x0c1220,
+  });
+</script>

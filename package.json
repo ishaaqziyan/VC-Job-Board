@@ -17,6 +17,7 @@
     "@astrojs/sitemap": "^3.7.1",
     "@junobuild/config": "^0.0.14",
     "@junobuild/vite-plugin": "^4.7.1",
+    "@types/p5": "^1.7.7",
     "astro": "^5.18.1",
     "baseline-browser-mapping": "^2.10.10",
     "prettier": "^3.3.3",
@@ -25,6 +26,8 @@
     "typescript": "^5.4.3"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.2.2"
+    "@tailwindcss/vite": "^4.2.2",
+    "p5": "^2.3.2",
+    "vanta": "^0.5.24"
   }
 }
