@@ -1,6 +1,13 @@
 import { defineCollection, z } from "astro:content";
 import { file } from "astro/loaders";
 
+// Rejects javascript:/data: etc — z.string().url() only checks the value
+// parses as a URL, not that its scheme is safe to render into an href.
+const httpUrl = z
+  .string()
+  .url()
+  .refine((u) => /^https?:\/\//i.test(u), "must be an http(s) URL");
+
 const boards = defineCollection({
   loader: file("src/data/boards.json"),
   schema: z.object({
@@ -30,10 +37,10 @@ const jobs = defineCollection({
   schema: z.object({
     title: z.string().min(1),
     company: z.string().nullable(),
-    companyLogo: z.string().url().nullable(),
+    companyLogo: httpUrl.nullable(),
     location: z.string().nullable(),
     remote: z.boolean(),
-    url: z.string().url(),
+    url: httpUrl,
     postedAt: z.string().nullable(),
     board: z.object({ id: z.string(), title: z.string() }),
   }),
