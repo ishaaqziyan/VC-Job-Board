@@ -34,10 +34,13 @@ jobs:
       # as a lower-privilege alternative to full controller access).
       - name: Import deploy identity
         run: |
-          doppler secrets get DFX_IDENTITY_PEM --plain > identity.pem
-          icp identity import github-actions --from-pem identity.pem
-          icp identity default github-actions
-          rm identity.pem
+          dbus-run-session -- bash -c '
+            set -e
+            doppler secrets get DFX_IDENTITY_PEM --plain > identity.pem
+            icp identity import github-actions --from-pem identity.pem
+            icp identity default github-actions
+            rm identity.pem
+          '
         env:
           DOPPLER_TOKEN: ${{ secrets.DOPPLER_TOKEN }}
           DOPPLER_PROJECT: vc-jobs
