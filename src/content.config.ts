@@ -12,7 +12,7 @@ const boards = defineCollection({
     // than the image() helper: image() makes Astro emit the unoptimized
     // original into dist/_astro alongside the webp (3.3MB of files nothing
     // references). The page resolves this through a static import map
-    // instead (src/data/logos.ts), which emits only the optimized output —
+    // instead (src/data/logos.ts), which emits only the optimized output,
     // and still fails the build on a missing file.
     image: z
       .string()

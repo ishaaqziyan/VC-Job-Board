@@ -8,7 +8,8 @@
     "build": "astro check && astro build && node scripts/prune-unused-assets.mjs",
     "preview": "astro preview",
     "astro": "astro",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "discover-boards": "node scripts/discover-boards.mjs"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.8",

@@ -4,7 +4,7 @@
 // a board that migrates onto or off Getro is picked up automatically.
 //
 // For a Getro-powered board this reads the same JSON its own page renders
-// from — Next.js's public data route (`/_next/data/{buildId}{path}.json`) —
+// from: Next.js's public data route (`/_next/data/{buildId}{path}.json`),
 // rather than scraping rendered HTML. That route only returns the first page
 // (~20 postings) of each board's listing; deeper pagination uses an
 // undocumented internal API this script does not call.
@@ -123,9 +123,9 @@ const skipped = boardSummaries.filter((b) => b.skipped);
 // instead of committing an empty result over it.
 if (jobs.length === 0) {
   console.error(
-    `[fetch-getro-jobs] 0 jobs from ${boards.length} boards — leaving existing src/data/jobs.json untouched.`,
+    `[fetch-getro-jobs] 0 jobs from ${boards.length} boards, leaving existing src/data/jobs.json untouched.`,
   );
-  for (const b of skipped) console.error(`  skip: ${b.title} — ${b.skipped}`);
+  for (const b of skipped) console.error(`  skip: ${b.title}: ${b.skipped}`);
   process.exit(1);
 }
 
@@ -138,4 +138,4 @@ await writeFile(
 console.log(
   `[fetch-getro-jobs] ${ok.length}/${boards.length} boards yielded ${jobs.length} jobs; ${skipped.length} skipped`,
 );
-for (const b of skipped) console.log(`  skip: ${b.title} — ${b.skipped}`);
+for (const b of skipped) console.log(`  skip: ${b.title}: ${b.skipped}`);
