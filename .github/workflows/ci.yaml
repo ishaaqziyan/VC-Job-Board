@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm ci
+
+      # astro check (type-checking + content-collection schema validation)
+      # plus a full production build is the project's only automated
+      # correctness gate today — there's no separate unit test suite.
+      - name: Build site
+        run: npm run build
