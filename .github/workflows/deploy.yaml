@@ -1,4 +1,4 @@
-name: Deploy to Juno
+name: Deploy to ICP
 
 on:
   workflow_dispatch:
@@ -8,8 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      id-token: write
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
@@ -17,15 +15,36 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-          registry-url: "https://registry.npmjs.org"
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm ci
 
       - name: Build site
         run: npm run build
 
-      - name: Deploy to Juno
-        uses: junobuild/juno-action@main
-        with:
-          args: hosting deploy
+      - name: Install dfx
+        run: |
+          sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
+          echo "$HOME/.local/share/dfx/bin" >> "$GITHUB_PATH"
+        env:
+          DFXVM_INIT_YES: "true"
+
+      - uses: dopplerhq/cli-action@v3
+
+      # DFX_IDENTITY_PEM in Doppler (project vc-jobs, config prd) must be the
+      # contents of a .pem file for an identity that is a controller of the
+      # canister in canister_ids.json. Generate locally with:
+      # dfx identity export <name> > identity.pem
+      - name: Import deploy identity
+        run: |
+          doppler secrets get DFX_IDENTITY_PEM --plain > identity.pem
+          dfx identity import github-actions identity.pem --storage-mode=plaintext
+          dfx identity use github-actions
+          rm identity.pem
+        env:
+          DOPPLER_TOKEN: ${{ secrets.DOPPLER_TOKEN }}
+          DOPPLER_PROJECT: vc-jobs
+          DOPPLER_CONFIG: prd
+
+      - name: Deploy to ICP
+        run: dfx deploy --network ic vc_job_board

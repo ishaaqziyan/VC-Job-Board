@@ -26,6 +26,17 @@ There's no separate unit test suite yet — the Build badge reflects `astro chec
 
 GitHub only fires scheduled workflows as they exist on the repository's default branch, so `refresh-jobs.yaml` (and this CI workflow) need to be on `master` to actually run.
 
+## Secrets
+
+Deploy credentials are centralized in [Doppler](https://doppler.com) (project `vc-jobs`, config `prd`) rather than duplicated across GitHub Secrets and local machines:
+
+- `DFX_IDENTITY_PEM` — the dfx identity used by `deploy.yaml` to deploy to ICP. GitHub Actions only needs the single `DOPPLER_TOKEN` secret (a Doppler service token scoped to `vc-jobs`/`prd`) to pull it at deploy time.
+- `GITHUB_TOKEN` (fine-grained PAT, `Actions: Read and write` on this repo only) — used by the Cloudflare Worker (`worker/`) that backs the **Refresh now** button. Set it on the Worker with:
+  ```
+  doppler secrets get GITHUB_TOKEN --plain --project vc-jobs --config prd | npx wrangler secret put GITHUB_TOKEN
+  ```
+  (piping it in avoids mistyping the secret name at Wrangler's interactive prompt)
+
 ## 🧞 Commands
 
 | Command                 | Action                                                       |
