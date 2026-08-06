@@ -25,26 +25,25 @@ jobs:
       - name: Install icp-cli
         run: npm install -g @icp-sdk/icp-cli @icp-sdk/ic-wasm
 
-      - uses: dopplerhq/cli-action@v3
-
       # DFX_IDENTITY_PEM in Doppler (project vc-jobs, config prd) must be the
       # contents of a .pem file for an identity authorized against the
       # canister in .icp/data/mappings/ic.ids.json (see worker/README-style
       # comment in the static-site skill re: `icp canister call ... authorize`
       # as a lower-privilege alternative to full controller access).
+      - name: Fetch deploy identity from Doppler
+        id: doppler
+        uses: dopplerhq/secrets-fetch-action@v2.0.0
+        with:
+          doppler-token: ${{ secrets.DOPPLER_TOKEN }}
+          doppler-project: vc-jobs
+          doppler-config: prd
+
       - name: Import deploy identity
         run: |
-          dbus-run-session -- bash -c '
-            set -e
-            doppler secrets get DFX_IDENTITY_PEM --plain > identity.pem
-            icp identity import github-actions --from-pem identity.pem
-            icp identity default github-actions
-            rm identity.pem
-          '
-        env:
-          DOPPLER_TOKEN: ${{ secrets.DOPPLER_TOKEN }}
-          DOPPLER_PROJECT: vc-jobs
-          DOPPLER_CONFIG: prd
+          echo "${{ steps.doppler.outputs.DFX_IDENTITY_PEM }}" > identity.pem
+          icp identity import github-actions --from-pem identity.pem --storage plaintext
+          icp identity default github-actions
+          rm identity.pem
 
       # This canister currently runs Juno's satellite Wasm, not a
       # certified-assets Wasm, so this first deploy is a full code
