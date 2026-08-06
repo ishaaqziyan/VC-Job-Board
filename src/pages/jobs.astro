@@ -30,8 +30,22 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
   </head>
 
   <body class="min-h-screen flex flex-col">
-    <header class="sticky top-0 z-10 bg-transparent text-white py-4">
-      <nav class="container mx-auto px-4 flex flex-wrap justify-end items-center gap-4">
+    <header class="sticky top-0 z-10 bg-gray-950/80 backdrop-blur-md text-white py-4">
+      <nav class="container mx-auto px-4 flex flex-wrap justify-between items-center gap-4">
+        <div class="flex flex-wrap items-center gap-4">
+          <a
+            href="/"
+            class="group bg-transparent hover:bg-lavender-blue-500 text-lavender-blue-300 hover:text-white font-semibold text-sm py-2 px-4 border border-lavender-blue-300/40 hover:border-transparent rounded transition"
+          >
+            <span class="inline-block transition-transform group-hover:-translate-x-1">&larr;</span> Back
+          </a>
+          <a
+            href="/job-boards"
+            class="bg-transparent hover:bg-lavender-blue-500 text-lavender-blue-300 hover:text-white font-semibold text-sm py-2 px-4 border border-lavender-blue-300/40 hover:border-transparent rounded transition"
+          >
+            Browse job boards instead
+          </a>
+        </div>
         <Image
           src={icpLogo}
           alt="Internet Computer logo"
@@ -42,20 +56,6 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
           class="w-24 sm:w-32 md:w-40 h-auto"
         />
       </nav>
-      <div class="container mx-auto px-4 mt-4 flex flex-wrap items-center gap-4">
-        <a
-          href="/"
-          class="group bg-transparent hover:bg-lavender-blue-500 text-lavender-blue-300 hover:text-white font-semibold text-sm py-2 px-4 border border-lavender-blue-300/40 hover:border-transparent rounded transition"
-        >
-          <span class="inline-block transition-transform group-hover:-translate-x-1">&larr;</span> Back
-        </a>
-        <a
-          href="/job-boards"
-          class="bg-transparent hover:bg-lavender-blue-500 text-lavender-blue-300 hover:text-white font-semibold text-sm py-2 px-4 border border-lavender-blue-300/40 hover:border-transparent rounded transition"
-        >
-          Browse job boards instead
-        </a>
-      </div>
     </header>
 
     <main class="grow">
