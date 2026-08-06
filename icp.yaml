@@ -1,0 +1,6 @@
+canisters:
+  - name: vc_job_board
+    recipe:
+      type: "@dfinity/static-site@v0.3.3"
+      configuration:
+        dir: dist
