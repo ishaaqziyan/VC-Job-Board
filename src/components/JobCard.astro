@@ -1,0 +1,39 @@
+---
+interface Props {
+  title: string;
+  company: string | null;
+  location: string | null;
+  remote: boolean;
+  url: string;
+  postedAt: string | null;
+  boardTitle: string;
+}
+
+const { title, company, location, remote, url, postedAt, boardTitle } = Astro.props;
+
+const posted = postedAt
+  ? new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" }).format(new Date(postedAt))
+  : null;
+
+const searchKey = [title, company, location, boardTitle].filter(Boolean).join(" ").toLowerCase();
+---
+
+<a
+  href={url}
+  target="_blank"
+  rel="noopener noreferrer"
+  data-job-search={searchKey}
+  data-job-remote={remote ? "true" : "false"}
+  class="group flex flex-col gap-1 bg-white shadow-sm rounded-lg p-4 border border-gray-100 transition hover:shadow-md hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-lavender-blue-500"
+>
+  <h4 class="font-bold text-black group-hover:text-lavender-blue-600 leading-snug">{title}</h4>
+  {company && <p class="text-sm text-gray-700">{company}</p>}
+  <div class="mt-2 flex flex-wrap items-center gap-2 text-xs text-gray-500">
+    {location && <span>{location}</span>}
+    {remote && (
+      <span class="rounded-full bg-lavender-blue-50 text-lavender-blue-700 px-2 py-0.5 font-medium">Remote</span>
+    )}
+    {posted && <span>· Posted {posted}</span>}
+  </div>
+  <p class="mt-1 text-xs text-gray-400">via {boardTitle}</p>
+</a>

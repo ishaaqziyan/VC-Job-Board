@@ -1,0 +1,52 @@
+name: Refresh live job postings
+
+# Runs against master only — GitHub only fires `schedule` for the workflow
+# file as it exists on the repo's default branch, regardless of what's on
+# other branches. Push to master triggers deploy.yaml, so a successful
+# refresh here republishes the site with no extra deploy step required.
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:17 UTC daily. Off-the-hour so it isn't queued behind the stampede
+    # of jobs everyone else schedules at :00.
+    - cron: "17 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Fetch live job postings
+        run: node scripts/fetch-getro-jobs.mjs
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Validates the freshly-fetched data against the content-collection
+      # schema before it's committed, so a malformed upstream API response
+      # can't land on master and break the next deploy.
+      - name: Build site (schema validation gate)
+        run: npm run build
+
+      - name: Commit and push if data changed
+        run: |
+          if git diff --quiet -- src/data/jobs.json; then
+            echo "No job data changes; skipping commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/jobs.json
+          git commit -m "chore: refresh live job postings"
+          git push origin HEAD:master

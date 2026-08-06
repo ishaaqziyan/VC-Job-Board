@@ -1,0 +1,7 @@
+name = "vc-job-board-refresh-trigger"
+main = "refresh-trigger.js"
+compatibility_date = "2025-01-01"
+
+kv_namespaces = [
+  { binding = "RATE_LIMIT_KV", id = "4b5a532e4753422787b07e2965e6d3e3" }
+]

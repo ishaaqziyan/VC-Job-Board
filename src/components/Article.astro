@@ -1,21 +1,45 @@
 ---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
 interface Props {
   title: string;
-  image: string;
-  description: string;
+  image: ImageMetadata;
+  description?: string;
   url: string;
 }
 
 const { title, image, description, url } = Astro.props;
+
+// Cap the emitted width so a 1000px+ source logo isn't shipped at full size
+// for a ~400px slot, but never upscale a small one past its intrinsic width.
+const width = Math.min(image.width, 800);
 ---
 
-<div class="bg-white shadow-md rounded-lg overflow-hidden">
-  <a href={url} target="_blank">
-    <img src={image} alt={title} class="w-full h-48 object-cover" />
-  </a>
-  <div class="p-4">
-    <h3 class="text-xl font-bold mb-2">{title}</h3>
-    <p class="text-gray-600 mb-4">{description}</p>
-    <a href={url} target="_blank" class="text-blue-500 hover:text-blue-700">View</a>
+<a
+  href={url}
+  target="_blank"
+  rel="noopener noreferrer"
+  data-board-title={title.toLowerCase()}
+  class="group flex flex-col bg-white shadow-md rounded-lg overflow-hidden transition hover:shadow-xl hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-lavender-blue-500"
+>
+  <Image
+    src={image}
+    alt={`${title} logo`}
+    width={width}
+    format="webp"
+    quality={80}
+    loading="lazy"
+    decoding="async"
+    class="w-full h-48 object-contain bg-white p-4"
+  />
+  <div class="p-4 grow flex flex-col">
+    <h3 class="text-xl font-bold mb-2 text-black">{title}</h3>
+    {description && <p class="text-gray-600 mb-4">{description}</p>}
+    <span
+      class="mt-auto text-blue-600 group-hover:text-blue-800 group-hover:underline"
+    >
+      View openings &rarr;
+    </span>
   </div>
-</div>
+</a>

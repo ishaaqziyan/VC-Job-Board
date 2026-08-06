@@ -1,0 +1,270 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import JobCard from "../components/JobCard.astro";
+import Background from "../components/Background.astro";
+import BaseHead from "../components/BaseHead.astro";
+import icpLogo from "../assets/icp-logo.png";
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_SOCIAL_IMAGE } from "../consts";
+
+const jobEntries = await getCollection("jobs");
+const jobs = jobEntries
+  .map((e) => e.data)
+  .sort((a, b) => (b.postedAt ?? "").localeCompare(a.postedAt ?? ""));
+
+const jobsFile = JSON.parse(
+  await (await import("node:fs/promises")).readFile("src/data/jobs.json", "utf8"),
+);
+const jobsFetchedAt = new Date(jobsFile.fetchedAt);
+const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => !b.skipped).length;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`Live job postings: ${SITE_TITLE}`}
+      description={SITE_DESCRIPTION}
+      image={SITE_SOCIAL_IMAGE}
+    />
+  </head>
+
+  <body class="min-h-screen flex flex-col">
+    <header class="sticky top-0 z-10 bg-transparent text-white py-4">
+      <nav class="container mx-auto px-4 flex flex-wrap justify-end items-center gap-4">
+        <Image
+          src={icpLogo}
+          alt="Internet Computer logo"
+          width={320}
+          format="webp"
+          quality={80}
+          loading="eager"
+          class="w-24 sm:w-32 md:w-40 h-auto"
+        />
+      </nav>
+      <div class="container mx-auto px-4 mt-4 flex flex-wrap items-center gap-4">
+        <a href="/" class="text-sm text-white/70 hover:text-white">&larr; Back</a>
+        <a href="/job-boards" class="text-sm text-white/70 hover:text-white underline underline-offset-2">
+          Browse job boards instead
+        </a>
+      </div>
+    </header>
+
+    <main class="grow">
+      <div class="container mx-auto my-8 px-4">
+        <section>
+          <div class="flex flex-wrap items-baseline justify-between gap-2 mb-1">
+            <h2 class="text-2xl font-bold text-white">Live job postings</h2>
+            <div class="flex items-center gap-3">
+              <p id="jobs-meta" class="text-xs text-gray-300">
+                {jobs.length} roles from {jobBoardCount} boards · updated {jobsFetchedAt.toLocaleDateString("en-US", { month: "short", day: "numeric" })}
+              </p>
+              <button
+                id="refresh-jobs-btn"
+                type="button"
+                class="text-xs font-medium text-lavender-blue-300 hover:text-lavender-blue-200 border border-lavender-blue-300/40 rounded-full px-3 py-1 transition disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Refresh now
+              </button>
+            </div>
+          </div>
+          <p id="refresh-status" class="text-xs text-gray-400 mb-1 hidden" aria-live="polite"></p>
+          <p class="text-sm text-gray-300 mb-4">
+            Pulled directly from {jobBoardCount} portfolio job boards. Boards without a fetchable feed aren't included here; see <a href="/job-boards" class="text-lavender-blue-300 underline">all job boards</a>.
+          </p>
+
+          <div class="flex flex-wrap gap-3 mb-4">
+            <label class="relative grow min-w-[200px]">
+              <span class="sr-only">Search live job postings</span>
+              <input
+                id="job-search"
+                type="search"
+                placeholder="Search role, company, or location…"
+                autocomplete="off"
+                class="w-full rounded-lg border-2 border-gray-200 px-4 py-2 focus:outline-none focus:border-lavender-blue-500"
+              />
+            </label>
+            <label class="flex items-center gap-2 text-sm text-gray-300 select-none">
+              <input id="job-remote-only" type="checkbox" class="rounded border-gray-300" />
+              Remote only
+            </label>
+          </div>
+
+          <p id="job-count" class="mb-4 text-sm text-gray-300" aria-live="polite">
+            Showing {jobs.length} of {jobs.length} roles
+          </p>
+          <div id="job-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {jobs.map((job) => (
+              <JobCard
+                title={job.title}
+                company={job.company}
+                location={job.location}
+                remote={job.remote}
+                url={job.url}
+                postedAt={job.postedAt}
+                boardTitle={job.board.title}
+              />
+            ))}
+          </div>
+          <p id="job-empty" class="hidden py-16 text-center text-gray-300">
+            No roles match your search.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="bg-transparent text-white py-4">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-sm">
+          An initiative by <a href="https://x.com/IshaaqZiyan" class="text-blue-500 underline">IshaaqZiyan</a> <br>
+          This project is open-source, and all logos and related assets used in this project belong to their respective owners.
+        </p>
+      </div>
+    </footer>
+
+    <Background/>
+
+    <script>
+      const jobInput = document.getElementById("job-search") as HTMLInputElement;
+      const remoteOnly = document.getElementById("job-remote-only") as HTMLInputElement;
+      const jobGrid = document.getElementById("job-grid") as HTMLElement;
+      const jobCards = Array.from(jobGrid.children) as HTMLElement[];
+      const jobTotal = jobCards.length;
+      const jobCountEl = document.getElementById("job-count") as HTMLElement;
+      const jobEmptyEl = document.getElementById("job-empty") as HTMLElement;
+
+      function applyJobFilter() {
+        const query = jobInput.value.trim().toLowerCase();
+        const onlyRemote = remoteOnly.checked;
+        let shown = 0;
+
+        for (const card of jobCards) {
+          const matchesQuery = !query || (card.dataset.jobSearch ?? "").includes(query);
+          const matchesRemote = !onlyRemote || card.dataset.jobRemote === "true";
+          const matches = matchesQuery && matchesRemote;
+          card.classList.toggle("hidden", !matches);
+          if (matches) shown++;
+        }
+
+        jobCountEl.textContent = `Showing ${shown} of ${jobTotal} roles`;
+        jobEmptyEl.classList.toggle("hidden", shown !== 0);
+        jobGrid.classList.toggle("hidden", shown === 0);
+      }
+
+      jobInput.addEventListener("input", applyJobFilter);
+      remoteOnly.addEventListener("change", applyJobFilter);
+    </script>
+
+    <script>
+      // Triggers scripts/fetch-getro-jobs.mjs via GitHub Actions
+      // workflow_dispatch (proxied through a Cloudflare Worker that holds
+      // the token — see worker/refresh-trigger.js) and polls public GitHub
+      // API endpoints to detect when fresh data has landed and deployed.
+      const REFRESH_WORKER_URL = "https://vc-job-board-refresh-trigger.ishaaqziyan.workers.dev";
+      const OWNER = "ishaaqziyan";
+      const REPO = "VC-Job-Board";
+      const POLL_INTERVAL_MS = 15_000;
+      const POLL_TIMEOUT_MS = 6 * 60_000;
+
+      const refreshBtn = document.getElementById("refresh-jobs-btn") as HTMLButtonElement;
+      const refreshStatus = document.getElementById("refresh-status") as HTMLElement;
+
+      function sleep(ms: number) {
+        return new Promise((resolve) => setTimeout(resolve, ms));
+      }
+
+      async function latestJobsCommitSha(): Promise<string | null> {
+        const res = await fetch(
+          `https://api.github.com/repos/${OWNER}/${REPO}/commits?path=src/data/jobs.json&per_page=1`,
+        );
+        if (!res.ok) return null;
+        const data = await res.json();
+        return data[0]?.sha ?? null;
+      }
+
+      async function latestWorkflowRun(workflowFile: string) {
+        const res = await fetch(
+          `https://api.github.com/repos/${OWNER}/${REPO}/actions/workflows/${workflowFile}/runs?per_page=1`,
+        );
+        if (!res.ok) return null;
+        const data = await res.json();
+        return data.workflow_runs?.[0] ?? null;
+      }
+
+      async function pollUntilNewRunCompletes(workflowFile: string, after: string) {
+        const deadline = Date.now() + POLL_TIMEOUT_MS;
+        let run = null;
+        while (Date.now() < deadline) {
+          const latest = await latestWorkflowRun(workflowFile);
+          if (latest && latest.created_at > after) {
+            run = latest;
+            if (run.status === "completed") return run;
+          }
+          await sleep(POLL_INTERVAL_MS);
+        }
+        return run;
+      }
+
+      function showStatus(text: string) {
+        refreshStatus.textContent = text;
+        refreshStatus.classList.remove("hidden");
+      }
+
+      refreshBtn?.addEventListener("click", async () => {
+        refreshBtn.disabled = true;
+        showStatus("Triggering refresh…");
+
+        const triggeredAt = new Date().toISOString();
+        const shaBefore = await latestJobsCommitSha();
+
+        try {
+          const res = await fetch(REFRESH_WORKER_URL, { method: "POST" });
+          if (res.status === 429) {
+            const { retryAfter } = await res.json();
+            showStatus(`Refreshed recently — try again in ${Math.ceil(retryAfter / 60)} min.`);
+            refreshBtn.disabled = false;
+            return;
+          }
+          if (!res.ok) throw new Error(`trigger failed (${res.status})`);
+        } catch {
+          showStatus("Couldn't trigger refresh. Try again shortly.");
+          refreshBtn.disabled = false;
+          return;
+        }
+
+        showStatus("Fetching latest postings… this can take a few minutes.");
+        const fetchRun = await pollUntilNewRunCompletes("refresh-jobs.yaml", triggeredAt);
+
+        if (!fetchRun || fetchRun.status !== "completed") {
+          showStatus("Still running — check back in a bit.");
+          refreshBtn.disabled = false;
+          return;
+        }
+
+        if (fetchRun.conclusion !== "success") {
+          showStatus("Refresh failed upstream. Try again later.");
+          refreshBtn.disabled = false;
+          return;
+        }
+
+        const shaAfter = await latestJobsCommitSha();
+        if (shaAfter === shaBefore) {
+          showStatus("Already up to date — no new postings.");
+          refreshBtn.disabled = false;
+          return;
+        }
+
+        showStatus("New postings found — deploying…");
+        const deployRun = await pollUntilNewRunCompletes("deploy.yaml", triggeredAt);
+
+        if (deployRun?.status === "completed" && deployRun.conclusion === "success") {
+          showStatus("Updated — reloading…");
+          location.reload();
+        } else {
+          showStatus("Data refreshed — reload shortly to see it.");
+          refreshBtn.disabled = false;
+        }
+      });
+    </script>
+  </body>
+</html>
