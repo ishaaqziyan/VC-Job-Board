@@ -52,4 +52,4 @@ jobs:
       # run `icp deploy --help` locally to find the non-interactive
       # confirm/force flag for this version and add it here.
       - name: Deploy to ICP
-        run: icp deploy -e ic vc_job_board
+        run: icp deploy -e ic vc_job_board --yes
