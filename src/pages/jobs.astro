@@ -43,8 +43,16 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
         />
       </nav>
       <div class="container mx-auto px-4 mt-4 flex flex-wrap items-center gap-4">
-        <a href="/" class="text-sm text-white/70 hover:text-white">&larr; Back</a>
-        <a href="/job-boards" class="text-sm text-white/70 hover:text-white underline underline-offset-2">
+        <a
+          href="/"
+          class="group bg-transparent hover:bg-lavender-blue-500 text-lavender-blue-300 hover:text-white font-semibold text-sm py-2 px-4 border border-lavender-blue-300/40 hover:border-transparent rounded transition"
+        >
+          <span class="inline-block transition-transform group-hover:-translate-x-1">&larr;</span> Back
+        </a>
+        <a
+          href="/job-boards"
+          class="bg-transparent hover:bg-lavender-blue-500 text-lavender-blue-300 hover:text-white font-semibold text-sm py-2 px-4 border border-lavender-blue-300/40 hover:border-transparent rounded transition"
+        >
           Browse job boards instead
         </a>
       </div>
@@ -62,7 +70,7 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
               <button
                 id="refresh-jobs-btn"
                 type="button"
-                class="text-xs font-medium text-lavender-blue-300 hover:text-lavender-blue-200 border border-lavender-blue-300/40 rounded-full px-3 py-1 transition disabled:opacity-50 disabled:cursor-not-allowed"
+                class="bg-lavender-blue-500 hover:bg-lavender-blue-600 text-white font-bold text-xs py-2 px-4 rounded transition disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 Refresh now
               </button>

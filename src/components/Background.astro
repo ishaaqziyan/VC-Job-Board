@@ -1,25 +1,41 @@
 <div
   id="vanta-bg"
-  class="fixed inset-0 -z-10"
+  class="fixed inset-0 -z-10 bg-[#0c1220]"
   role="presentation"
   aria-label="Animated network background"
 />
 
 <script>
-  import p5 from "p5";
-  import TOPOLOGY from "vanta/dist/vanta.topology.min";
+  // Defer the p5/vanta bundle off the critical path: it's decorative, so it
+  // shouldn't compete with real content for main-thread time during load.
+  // Skipped entirely under prefers-reduced-motion (also saves the CPU/battery
+  // cost of a continuous canvas loop for users who asked not to see motion).
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const init = async () => {
+      const [{ default: p5 }, { default: TOPOLOGY }] = await Promise.all([
+        import("p5"),
+        import("vanta/dist/vanta.topology.min"),
+      ]);
 
-  TOPOLOGY({
-    el: "#vanta-bg",
-    p5,
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 200.0,
-    minWidth: 200.0,
-    scale: 1.0,
-    scaleMobile: 1.0,
-    color: 0x3a6bd8,
-    backgroundColor: 0x0c1220,
-  });
+      TOPOLOGY({
+        el: "#vanta-bg",
+        p5,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x3a6bd8,
+        backgroundColor: 0x0c1220,
+      });
+    };
+
+    if ("requestIdleCallback" in window) {
+      requestIdleCallback(init, { timeout: 2000 });
+    } else {
+      setTimeout(init, 200);
+    }
+  }
 </script>
