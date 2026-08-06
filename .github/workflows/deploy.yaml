@@ -46,5 +46,11 @@ jobs:
           DOPPLER_PROJECT: vc-jobs
           DOPPLER_CONFIG: prd
 
+      # A CI runner has no OS keyring to store the identity securely, so dfx
+      # refuses mainnet ops on it by default. The runner is ephemeral and the
+      # identity is imported fresh each run, so this is an acceptable
+      # tradeoff here.
       - name: Deploy to ICP
         run: dfx deploy --network ic vc_job_board
+        env:
+          DFX_WARNING: "-mainnet_plaintext_identity"
