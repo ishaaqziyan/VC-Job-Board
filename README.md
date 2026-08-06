@@ -30,7 +30,7 @@ GitHub only fires scheduled workflows as they exist on the repository's default 
 
 Deploy credentials are centralized in [Doppler](https://doppler.com) (project `vc-jobs`, config `prd`) rather than duplicated across GitHub Secrets and local machines:
 
-- `DFX_IDENTITY_PEM` — the dfx identity used by `deploy.yaml` to deploy to ICP. GitHub Actions only needs the single `DOPPLER_TOKEN` secret (a Doppler service token scoped to `vc-jobs`/`prd`) to pull it at deploy time.
+- `DFX_IDENTITY_PEM` — the identity `deploy.yaml` imports into `icp-cli` to deploy to ICP. GitHub Actions only needs the single `DOPPLER_TOKEN` secret (a Doppler service token scoped to `vc-jobs`/`prd`) to pull it at deploy time.
 - `GITHUB_TOKEN` (fine-grained PAT, `Actions: Read and write` on this repo only) — used by the Cloudflare Worker (`worker/`) that backs the **Refresh now** button. Set it on the Worker with:
   ```
   doppler secrets get GITHUB_TOKEN --plain --project vc-jobs --config prd | npx wrangler secret put GITHUB_TOKEN
