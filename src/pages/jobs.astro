@@ -55,10 +55,20 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
         <section>
           <div class="flex flex-wrap items-baseline justify-between gap-2 mb-1">
             <h2 class="text-2xl font-bold text-white">Live job postings</h2>
-            <p class="text-xs text-gray-300">
-              {jobs.length} roles from {jobBoardCount} boards · updated {jobsFetchedAt.toLocaleDateString("en-US", { month: "short", day: "numeric" })}
-            </p>
+            <div class="flex items-center gap-3">
+              <p id="jobs-meta" class="text-xs text-gray-300">
+                {jobs.length} roles from {jobBoardCount} boards · updated {jobsFetchedAt.toLocaleDateString("en-US", { month: "short", day: "numeric" })}
+              </p>
+              <button
+                id="refresh-jobs-btn"
+                type="button"
+                class="text-xs font-medium text-lavender-blue-300 hover:text-lavender-blue-200 border border-lavender-blue-300/40 rounded-full px-3 py-1 transition disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Refresh now
+              </button>
+            </div>
           </div>
+          <p id="refresh-status" class="text-xs text-gray-400 mb-1 hidden" aria-live="polite"></p>
           <p class="text-sm text-gray-300 mb-4">
             Pulled directly from {jobBoardCount} portfolio job boards. Boards without a fetchable feed aren't included here; see <a href="/job-boards" class="text-lavender-blue-300 underline">all job boards</a>.
           </p>
@@ -143,6 +153,118 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
 
       jobInput.addEventListener("input", applyJobFilter);
       remoteOnly.addEventListener("change", applyJobFilter);
+    </script>
+
+    <script>
+      // Triggers scripts/fetch-getro-jobs.mjs via GitHub Actions
+      // workflow_dispatch (proxied through a Cloudflare Worker that holds
+      // the token — see worker/refresh-trigger.js) and polls public GitHub
+      // API endpoints to detect when fresh data has landed and deployed.
+      const REFRESH_WORKER_URL = "https://vc-job-board-refresh-trigger.ishaaqziyan.workers.dev";
+      const OWNER = "ishaaqziyan";
+      const REPO = "VC-Job-Board";
+      const POLL_INTERVAL_MS = 15_000;
+      const POLL_TIMEOUT_MS = 6 * 60_000;
+
+      const refreshBtn = document.getElementById("refresh-jobs-btn") as HTMLButtonElement;
+      const refreshStatus = document.getElementById("refresh-status") as HTMLElement;
+
+      function sleep(ms: number) {
+        return new Promise((resolve) => setTimeout(resolve, ms));
+      }
+
+      async function latestJobsCommitSha(): Promise<string | null> {
+        const res = await fetch(
+          `https://api.github.com/repos/${OWNER}/${REPO}/commits?path=src/data/jobs.json&per_page=1`,
+        );
+        if (!res.ok) return null;
+        const data = await res.json();
+        return data[0]?.sha ?? null;
+      }
+
+      async function latestWorkflowRun(workflowFile: string) {
+        const res = await fetch(
+          `https://api.github.com/repos/${OWNER}/${REPO}/actions/workflows/${workflowFile}/runs?per_page=1`,
+        );
+        if (!res.ok) return null;
+        const data = await res.json();
+        return data.workflow_runs?.[0] ?? null;
+      }
+
+      async function pollUntilNewRunCompletes(workflowFile: string, after: string) {
+        const deadline = Date.now() + POLL_TIMEOUT_MS;
+        let run = null;
+        while (Date.now() < deadline) {
+          const latest = await latestWorkflowRun(workflowFile);
+          if (latest && latest.created_at > after) {
+            run = latest;
+            if (run.status === "completed") return run;
+          }
+          await sleep(POLL_INTERVAL_MS);
+        }
+        return run;
+      }
+
+      function showStatus(text: string) {
+        refreshStatus.textContent = text;
+        refreshStatus.classList.remove("hidden");
+      }
+
+      refreshBtn?.addEventListener("click", async () => {
+        refreshBtn.disabled = true;
+        showStatus("Triggering refresh…");
+
+        const triggeredAt = new Date().toISOString();
+        const shaBefore = await latestJobsCommitSha();
+
+        try {
+          const res = await fetch(REFRESH_WORKER_URL, { method: "POST" });
+          if (res.status === 429) {
+            const { retryAfter } = await res.json();
+            showStatus(`Refreshed recently — try again in ${Math.ceil(retryAfter / 60)} min.`);
+            refreshBtn.disabled = false;
+            return;
+          }
+          if (!res.ok) throw new Error(`trigger failed (${res.status})`);
+        } catch {
+          showStatus("Couldn't trigger refresh. Try again shortly.");
+          refreshBtn.disabled = false;
+          return;
+        }
+
+        showStatus("Fetching latest postings… this can take a few minutes.");
+        const fetchRun = await pollUntilNewRunCompletes("refresh-jobs.yaml", triggeredAt);
+
+        if (!fetchRun || fetchRun.status !== "completed") {
+          showStatus("Still running — check back in a bit.");
+          refreshBtn.disabled = false;
+          return;
+        }
+
+        if (fetchRun.conclusion !== "success") {
+          showStatus("Refresh failed upstream. Try again later.");
+          refreshBtn.disabled = false;
+          return;
+        }
+
+        const shaAfter = await latestJobsCommitSha();
+        if (shaAfter === shaBefore) {
+          showStatus("Already up to date — no new postings.");
+          refreshBtn.disabled = false;
+          return;
+        }
+
+        showStatus("New postings found — deploying…");
+        const deployRun = await pollUntilNewRunCompletes("deploy.yaml", triggeredAt);
+
+        if (deployRun?.status === "completed" && deployRun.conclusion === "success") {
+          showStatus("Updated — reloading…");
+          location.reload();
+        } else {
+          showStatus("Data refreshed — reload shortly to see it.");
+          refreshBtn.disabled = false;
+        }
+      });
     </script>
   </body>
 </html>
