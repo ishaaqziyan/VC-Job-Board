@@ -39,8 +39,10 @@ jobs:
           doppler-config: prd
 
       - name: Import deploy identity
+        env:
+          DFX_IDENTITY_PEM: ${{ steps.doppler.outputs.DFX_IDENTITY_PEM }}
         run: |
-          echo "${{ steps.doppler.outputs.DFX_IDENTITY_PEM }}" > identity.pem
+          echo "$DFX_IDENTITY_PEM" > identity.pem
           icp identity import github-actions --from-pem identity.pem --storage plaintext
           icp identity default github-actions
           rm identity.pem
