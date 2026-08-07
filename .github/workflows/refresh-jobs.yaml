@@ -1,8 +1,8 @@
 name: Refresh live job postings
 
-# Runs against master only — GitHub only fires `schedule` for the workflow
+# Runs against main only — GitHub only fires `schedule` for the workflow
 # file as it exists on the repo's default branch, regardless of what's on
-# other branches. Push to master triggers deploy.yaml, so a successful
+# other branches. Push to main triggers deploy.yaml, so a successful
 # refresh here republishes the site with no extra deploy step required.
 on:
   workflow_dispatch:
@@ -21,7 +21,7 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v7
         with:
-          ref: master
+          ref: main
 
       - uses: actions/setup-node@v7
         with:
@@ -35,7 +35,7 @@ jobs:
 
       # Validates the freshly-fetched data against the content-collection
       # schema before it's committed, so a malformed upstream API response
-      # can't land on master and break the next deploy.
+      # can't land on main and break the next deploy.
       - name: Build site (schema validation gate)
         run: npm run build
 
@@ -49,4 +49,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/jobs.json
           git commit -m "chore: refresh live job postings"
-          git push origin HEAD:master
+          git push origin HEAD:main
