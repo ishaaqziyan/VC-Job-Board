@@ -56,7 +56,7 @@ export default {
           "User-Agent": "vc-job-board-refresh-worker",
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ ref: "master" }),
+        body: JSON.stringify({ ref: "main" }),
       },
     );
 
