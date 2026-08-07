@@ -18,10 +18,26 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
+      # WORKER_GITHUB_TOKEN in Doppler (project vc-jobs, config prd) — same
+      # PAT the Cloudflare Worker uses (see worker/refresh-trigger.js and
+      # .github/workflows/deploy-worker.yaml). Checking out with a PAT
+      # instead of the default ambient GITHUB_TOKEN matters: GitHub's
+      # anti-loop rule means a push made with the ambient token does NOT
+      # trigger other workflows' `on: push`, so deploy.yaml would silently
+      # never fire and the site would never pick up the refreshed data.
+      - name: Fetch deploy credentials from Doppler
+        id: doppler
+        uses: dopplerhq/secrets-fetch-action@v2.0.0
+        with:
+          doppler-token: ${{ secrets.DOPPLER_TOKEN }}
+          doppler-project: vc-jobs
+          doppler-config: prd
+
       - name: Check out the repo
         uses: actions/checkout@v7
         with:
           ref: main
+          token: ${{ steps.doppler.outputs.WORKER_GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v7
         with:
