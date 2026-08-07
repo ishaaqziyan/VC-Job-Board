@@ -1,0 +1,41 @@
+name: Deploy refresh-trigger Worker
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "worker/**"
+      - ".github/workflows/deploy-worker.yaml"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v7
+
+      # CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID in Doppler (project
+      # vc-jobs, config prd) — same project as the ICP deploy identity in
+      # deploy.yaml. GITHUB_TOKEN here is the PAT the Worker uses to call
+      # the workflow_dispatch API (see worker/refresh-trigger.js), pushed in
+      # as a Worker secret — distinct from the ambient GITHUB_TOKEN this
+      # Actions job gets for free.
+      - name: Fetch deploy credentials from Doppler
+        id: doppler
+        uses: dopplerhq/secrets-fetch-action@v2.0.0
+        with:
+          doppler-token: ${{ secrets.DOPPLER_TOKEN }}
+          doppler-project: vc-jobs
+          doppler-config: prd
+
+      - name: Deploy Worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ steps.doppler.outputs.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ steps.doppler.outputs.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: worker
+          secrets: |
+            GITHUB_TOKEN
+        env:
+          GITHUB_TOKEN: ${{ steps.doppler.outputs.WORKER_GITHUB_TOKEN }}
