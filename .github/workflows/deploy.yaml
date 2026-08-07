@@ -30,6 +30,11 @@ jobs:
       # canister in .icp/data/mappings/ic.ids.json (see worker/README-style
       # comment in the static-site skill re: `icp canister call ... authorize`
       # as a lower-privilege alternative to full controller access).
+      #
+      # ICP_STORAGE_PASSWORD (also in Doppler, same project/config) encrypts
+      # the imported identity at rest — without it, `--storage plaintext`
+      # leaves the deploy key readable on disk to anything else running
+      # later in the job (e.g. a compromised build-time dependency).
       - name: Fetch deploy identity from Doppler
         id: doppler
         uses: dopplerhq/secrets-fetch-action@v2.0.0
@@ -41,9 +46,11 @@ jobs:
       - name: Import deploy identity
         env:
           DFX_IDENTITY_PEM: ${{ steps.doppler.outputs.DFX_IDENTITY_PEM }}
+          ICP_STORAGE_PASSWORD: ${{ steps.doppler.outputs.ICP_STORAGE_PASSWORD }}
         run: |
           echo "$DFX_IDENTITY_PEM" > identity.pem
-          icp identity import github-actions --from-pem identity.pem --storage plaintext
+          echo "$ICP_STORAGE_PASSWORD" > storage.pass
+          icp identity import github-actions --from-pem identity.pem --storage password --storage-password-file ./storage.pass
           icp identity default github-actions
           rm identity.pem
 
@@ -54,4 +61,6 @@ jobs:
       # run `icp deploy --help` locally to find the non-interactive
       # confirm/force flag for this version and add it here.
       - name: Deploy to ICP
-        run: icp deploy -e ic vc_job_board --yes
+        run: |
+          icp deploy -e ic vc_job_board --yes --identity-password-file ./storage.pass
+          rm storage.pass
