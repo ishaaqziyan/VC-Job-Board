@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-10T06:48:10.398Z",
+  "fetchedAt": "2026-08-10T08:04:09.291Z",
   "boards": [
     {
       "id": "a16z-crypto",
@@ -271,7 +271,7 @@
       "id": "solana-ecosystem-job-board",
       "title": "Solana Ecosystem Job Board",
       "fetched": 20,
-      "total": 405,
+      "total": 404,
       "skipped": null
     },
     {
@@ -291,8 +291,8 @@
     {
       "id": "ton-ecosystem-job-board",
       "title": "Ton Ecosystem Job Board",
-      "fetched": 5,
-      "total": 5,
+      "fetched": 4,
+      "total": 4,
       "skipped": null
     },
     {
@@ -4827,20 +4827,6 @@
       }
     },
     {
-      "id": "foundation-capital:89297924",
-      "title": "SMB Account Executive",
-      "company": "Mode Analytics",
-      "companyLogo": "https://cdn.getro.com/companies/0721045b-fd2b-491d-97a1-d8a740927e3f-1760060536",
-      "location": "Chicago, IL, USA",
-      "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/smb-account-executive-at-thoughtspot-4443197086",
-      "postedAt": "2026-08-08T14:07:12.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
       "id": "foundation-capital:89297927",
       "title": "Commercial Account Executive",
       "company": "Mode Analytics",
@@ -4883,20 +4869,6 @@
       }
     },
     {
-      "id": "foundation-capital:89297928",
-      "title": "Commercial Account Executive",
-      "company": "Mode Analytics",
-      "companyLogo": "https://cdn.getro.com/companies/0721045b-fd2b-491d-97a1-d8a740927e3f-1760060536",
-      "location": "Chicago, IL, USA",
-      "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/commercial-account-executive-at-thoughtspot-4443194222",
-      "postedAt": "2026-08-08T14:07:12.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
       "id": "foundation-capital:89297923",
       "title": "Total Rewards Manager",
       "company": "Mode Analytics",
@@ -4911,6 +4883,20 @@
       }
     },
     {
+      "id": "foundation-capital:89297924",
+      "title": "SMB Account Executive",
+      "company": "Mode Analytics",
+      "companyLogo": "https://cdn.getro.com/companies/0721045b-fd2b-491d-97a1-d8a740927e3f-1760060536",
+      "location": "Chicago, IL, USA",
+      "remote": false,
+      "url": "https://www.linkedin.com/jobs/view/smb-account-executive-at-thoughtspot-4443197086",
+      "postedAt": "2026-08-08T14:07:12.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
       "id": "foundation-capital:89297929",
       "title": "Enterprise Account Executive",
       "company": "Mode Analytics",
@@ -4918,6 +4904,20 @@
       "location": "Chicago, IL, USA",
       "remote": false,
       "url": "https://www.linkedin.com/jobs/view/enterprise-account-executive-at-thoughtspot-4443188376",
+      "postedAt": "2026-08-08T14:07:12.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:89297928",
+      "title": "Commercial Account Executive",
+      "company": "Mode Analytics",
+      "companyLogo": "https://cdn.getro.com/companies/0721045b-fd2b-491d-97a1-d8a740927e3f-1760060536",
+      "location": "Chicago, IL, USA",
+      "remote": false,
+      "url": "https://www.linkedin.com/jobs/view/commercial-account-executive-at-thoughtspot-4443194222",
       "postedAt": "2026-08-08T14:07:12.000Z",
       "board": {
         "id": "foundation-capital",
@@ -5933,20 +5933,6 @@
       }
     },
     {
-      "id": "ton-ecosystem-job-board:82247946",
-      "title": "Senior Product Manager",
-      "company": "The Open Platform",
-      "companyLogo": "https://cdn.getro.com/companies/549adb8a-0e8b-4198-8a97-26bfd27cf524-1769824001",
-      "location": "Remote",
-      "remote": false,
-      "url": "https://jobs.ton.org/companies/the-open-platform-2/jobs/82247946-senior-product-manager",
-      "postedAt": "2026-06-10T12:44:26.000Z",
-      "board": {
-        "id": "ton-ecosystem-job-board",
-        "title": "Ton Ecosystem Job Board"
-      }
-    },
-    {
       "id": "ton-ecosystem-job-board:51810611",
       "title": "Secretary-Assistant / HR Manager",
       "company": "Whales CORP",
@@ -5989,20 +5975,6 @@
       }
     },
     {
-      "id": "blockchain-association:89349962",
-      "title": "Staff Product Manager (Vaults)",
-      "company": "Morpho",
-      "companyLogo": "https://cdn.getro.com/companies/403b9e0a-440b-42d6-906f-17581ce67e18-1770759054",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://morpho.org/jobs/ashby-staff-product-manager-vaults-67c72479-36a8-4c25-bb46-413a8d4eee84",
-      "postedAt": "2026-08-10T06:30:04.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
       "id": "blockchain-association:89349963",
       "title": "Technical Lead Manager, Infrastructure",
       "company": "Morpho",
@@ -6024,6 +5996,20 @@
       "location": "Remote",
       "remote": true,
       "url": "https://morpho.org/jobs/ashby-technical-program-manager-protocol-4629f300-5871-4acd-b430-9b2ffdbc524d",
+      "postedAt": "2026-08-10T06:30:04.000Z",
+      "board": {
+        "id": "blockchain-association",
+        "title": "Blockchain Association"
+      }
+    },
+    {
+      "id": "blockchain-association:89349962",
+      "title": "Staff Product Manager (Vaults)",
+      "company": "Morpho",
+      "companyLogo": "https://cdn.getro.com/companies/403b9e0a-440b-42d6-906f-17581ce67e18-1770759054",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://morpho.org/jobs/ashby-staff-product-manager-vaults-67c72479-36a8-4c25-bb46-413a8d4eee84",
       "postedAt": "2026-08-10T06:30:04.000Z",
       "board": {
         "id": "blockchain-association",
