@@ -13,11 +13,11 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.8",
-    "@astrojs/mdx": "^4.3.14",
+    "@astrojs/mdx": "^7.0.5",
     "@astrojs/rss": "^4.0.17",
     "@astrojs/sitemap": "^3.7.1",
     "@types/p5": "^1.7.7",
-    "astro": "^5.18.1",
+    "astro": "^7.2.2",
     "baseline-browser-mapping": "^2.10.10",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
