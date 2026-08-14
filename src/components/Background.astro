@@ -12,12 +12,17 @@
   // cost of a continuous canvas loop for users who asked not to see motion).
   if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     const init = async () => {
-      const [{ default: p5 }, { default: TOPOLOGY }] = await Promise.all([
+      // vanta/dist/vanta.topology.min is a UMD bundle — it has no ESM default
+      // export. It self-registers onto window.VANTA via its factory, so we
+      // import both modules for their side-effects, then call the registered
+      // effect directly.
+      const [{ default: p5 }] = await Promise.all([
         import("p5"),
         import("vanta/dist/vanta.topology.min"),
       ]);
 
-      TOPOLOGY({
+      // @ts-ignore — VANTA is set by the UMD bundle above
+      window.VANTA.TOPOLOGY({
         el: "#vanta-bg",
         p5,
         mouseControls: true,
