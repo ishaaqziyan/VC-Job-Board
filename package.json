@@ -12,23 +12,23 @@
     "discover-boards": "node scripts/discover-boards.mjs"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.8",
+    "@astrojs/check": "^0.9.10",
     "@astrojs/mdx": "^7.0.5",
-    "@astrojs/rss": "^4.0.17",
-    "@astrojs/sitemap": "^3.7.1",
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.3",
     "@types/p5": "^1.7.7",
     "astro": "^7.2.2",
-    "baseline-browser-mapping": "^2.10.10",
-    "prettier": "^3.3.3",
+    "baseline-browser-mapping": "^2.11.13",
+    "prettier": "^3.9.6",
     "prettier-plugin-astro": "^0.14.1",
     "tailwindcss": "^4.2.2",
-    "typescript": "^5.4.3"
+    "typescript": "^7.0.2"
   },
   "overrides": {
     "fast-uri": ">=3.1.1"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.2.2",
+    "@tailwindcss/vite": "^4.3.3",
     "p5": "^2.3.2",
     "vanta": "^0.5.24"
   }
