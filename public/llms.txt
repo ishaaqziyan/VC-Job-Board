@@ -1,0 +1,20 @@
+# The Great Crypto VC Job Board
+
+> Every major crypto VC and Web3 job portal on one page. Browse open roles across 45+ funds and job boards — a16z crypto, Paradigm, Multicoin, Polychain, and more. No more hunting them down one by one.
+
+A free, open-source aggregator that pulls live job postings directly from the career portals of the world's leading crypto venture capital firms and Web3 funds. Updated automatically on a recurring schedule. Built and maintained by [@IshaaqZiyan](https://x.com/IshaaqZiyan).
+
+## Pages
+
+- [Home](https://cryptovcjobs.ishaaq.org/): Landing page with links to live job postings and the full directory of job boards.
+- [Jobs](https://cryptovcjobs.ishaaq.org/jobs): Browse live, filterable job postings pulled from 45+ crypto VC portfolio job boards. Supports search by role, company, or location, and a remote-only filter. Data is refreshed automatically and can also be triggered manually.
+- [Job Boards](https://cryptovcjobs.ishaaq.org/job-boards): Full directory of all tracked crypto VC and Web3 job boards, including those without a machine-readable feed. Searchable by fund name.
+
+## About
+
+- **What it does**: Aggregates job listings from the career pages of leading crypto venture capital funds and Web3-focused job boards into a single, searchable interface.
+- **Who it's for**: Web3 and crypto job seekers who want to find roles at portfolio companies of top funds without manually checking dozens of sites.
+- **Data source**: Job data is fetched directly from each fund's public job board feed (e.g. Getro-powered boards). No scraping of individual company pages.
+- **Update cadence**: Listings are refreshed on an automated schedule via GitHub Actions. Visitors can also trigger a manual refresh from the Jobs page.
+- **Open source**: The full codebase is available on GitHub at [ishaaqziyan/VC-Job-Board](https://github.com/ishaaqziyan/VC-Job-Board).
+- **Infrastructure**: Built with Astro, deployed on the Internet Computer (ICP) and served via the custom domain cryptovcjobs.ishaaq.org.
