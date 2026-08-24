@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-24T06:12:08.207Z",
+  "fetchedAt": "2026-08-24T07:19:44.127Z",
   "boards": [
     {
       "id": "a16z-crypto",
@@ -285,7 +285,7 @@
       "id": "monad-ecosystem-job-board",
       "title": "Monad Ecosystem Job Board",
       "fetched": 20,
-      "total": 56,
+      "total": 42,
       "skipped": null
     },
     {
@@ -739,6 +739,20 @@
       }
     },
     {
+      "id": "framework-ventures:89978936",
+      "title": "Director of Events",
+      "company": "Chainlink",
+      "companyLogo": "https://cdn.getro.com/companies/9a31bddf-8262-4cb0-b2f6-96d2ecba5988-1763516398",
+      "location": "New York, NY, USA",
+      "remote": false,
+      "url": "https://www.linkedin.com/jobs/view/director-of-events-at-chainlink-labs-4451958712",
+      "postedAt": "2026-08-14T13:44:28.000Z",
+      "board": {
+        "id": "framework-ventures",
+        "title": "Framework Ventures"
+      }
+    },
+    {
       "id": "framework-ventures:89978939",
       "title": "Senior Product Marketing Manager, Institutional Data",
       "company": "Chainlink",
@@ -809,14 +823,14 @@
       }
     },
     {
-      "id": "framework-ventures:89978936",
-      "title": "Director of Events",
+      "id": "framework-ventures:89978931",
+      "title": "Software Engineer, Data Feeds",
       "company": "Chainlink",
       "companyLogo": "https://cdn.getro.com/companies/9a31bddf-8262-4cb0-b2f6-96d2ecba5988-1763516398",
-      "location": "New York, NY, USA",
+      "location": "Colombia",
       "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/director-of-events-at-chainlink-labs-4451958712",
-      "postedAt": "2026-08-14T13:44:28.000Z",
+      "url": "https://co.linkedin.com/jobs/view/software-engineer-data-feeds-at-chainlink-labs-4454321800",
+      "postedAt": "2026-08-14T13:44:27.000Z",
       "board": {
         "id": "framework-ventures",
         "title": "Framework Ventures"
@@ -830,20 +844,6 @@
       "location": "Mexico",
       "remote": false,
       "url": "https://mx.linkedin.com/jobs/view/software-engineer-data-feeds-at-chainlink-labs-4454335421",
-      "postedAt": "2026-08-14T13:44:27.000Z",
-      "board": {
-        "id": "framework-ventures",
-        "title": "Framework Ventures"
-      }
-    },
-    {
-      "id": "framework-ventures:89978931",
-      "title": "Software Engineer, Data Feeds",
-      "company": "Chainlink",
-      "companyLogo": "https://cdn.getro.com/companies/9a31bddf-8262-4cb0-b2f6-96d2ecba5988-1763516398",
-      "location": "Colombia",
-      "remote": false,
-      "url": "https://co.linkedin.com/jobs/view/software-engineer-data-feeds-at-chainlink-labs-4454321800",
       "postedAt": "2026-08-14T13:44:27.000Z",
       "board": {
         "id": "framework-ventures",
@@ -2293,20 +2293,6 @@
       }
     },
     {
-      "id": "sv-angel:90918721",
-      "title": "Marketing Professionals: 30-Minute Interview On Industry Experience",
-      "company": "Terac",
-      "companyLogo": "https://cdn.getro.com/companies/8ef72eac-0412-4c26-95a9-f192cd168389-1767874734",
-      "location": "Poland",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/terac/c3571fb3-f7c7-492b-95c4-cb086e30f142",
-      "postedAt": "2026-08-23T10:17:10.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
       "id": "sv-angel:90918720",
       "title": "Marketing Professionals: 30-Minute Interview on Industry Experience",
       "company": "Terac",
@@ -2314,6 +2300,20 @@
       "location": "United States",
       "remote": false,
       "url": "https://jobs.ashbyhq.com/terac/9f04f139-680a-4971-a606-eaa8f3be6ad3",
+      "postedAt": "2026-08-23T10:17:10.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:90918721",
+      "title": "Marketing Professionals: 30-Minute Interview On Industry Experience",
+      "company": "Terac",
+      "companyLogo": "https://cdn.getro.com/companies/8ef72eac-0412-4c26-95a9-f192cd168389-1767874734",
+      "location": "Poland",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/terac/c3571fb3-f7c7-492b-95c4-cb086e30f142",
       "postedAt": "2026-08-23T10:17:10.000Z",
       "board": {
         "id": "sv-angel",
@@ -5919,70 +5919,70 @@
       }
     },
     {
-      "id": "monad-ecosystem-job-board:88739879",
-      "title": "Senior Marketer",
-      "company": "LFJ",
-      "companyLogo": "https://cdn.getro.com/companies/357f601d-6471-5ed8-9f9c-eedcc4a2a52a-1737467547",
-      "location": null,
+      "id": "monad-ecosystem-job-board:87371013",
+      "title": "Head of Korea",
+      "company": "Monad Foundation",
+      "companyLogo": "https://cdn.getro.com/companies/f98d3443-e565-5f19-9d7e-013d639190ae-1740054726",
+      "location": "South Korea",
       "remote": false,
-      "url": "https://lfjgg.notion.site/Senior-Marketer-1edd85d70f704f00859a51b24f4362cc?pvs=25",
-      "postedAt": "2026-08-05T10:07:13.000Z",
+      "url": "https://jobs.ashbyhq.com/monad.foundation/ac2614cd-5050-4594-87a1-56ffa2c6c3ff",
+      "postedAt": "2026-07-24T10:13:16.000Z",
       "board": {
         "id": "monad-ecosystem-job-board",
         "title": "Monad Ecosystem Job Board"
       }
     },
     {
-      "id": "monad-ecosystem-job-board:88739875",
-      "title": "Data Scientist",
-      "company": "LFJ",
-      "companyLogo": "https://cdn.getro.com/companies/357f601d-6471-5ed8-9f9c-eedcc4a2a52a-1737467547",
-      "location": null,
+      "id": "monad-ecosystem-job-board:87031556",
+      "title": "Manager, Strategic Finance",
+      "company": "Agora",
+      "companyLogo": "https://cdn.getro.com/companies/17aca299-b338-5da4-8e70-c97b071df1ad-1748395281",
+      "location": "New York, NY, USA",
       "remote": false,
-      "url": "https://lfjgg.notion.site/Data-Scientist-752aa9f0a9574cbeb70040fe252205f0?pvs=25",
-      "postedAt": "2026-08-05T10:07:13.000Z",
+      "url": "https://jobs.gem.com/agora/am9icG9zdDr9LZ1g4SJ_Jsk1JoS14AYJ",
+      "postedAt": "2026-07-21T14:08:09.000Z",
       "board": {
         "id": "monad-ecosystem-job-board",
         "title": "Monad Ecosystem Job Board"
       }
     },
     {
-      "id": "monad-ecosystem-job-board:88739873",
-      "title": "Frontend Engineer",
-      "company": "LFJ",
-      "companyLogo": "https://cdn.getro.com/companies/357f601d-6471-5ed8-9f9c-eedcc4a2a52a-1737467547",
-      "location": null,
+      "id": "monad-ecosystem-job-board:86212792",
+      "title": "People Operations & Office Coordinator",
+      "company": "Agora",
+      "companyLogo": "https://cdn.getro.com/companies/17aca299-b338-5da4-8e70-c97b071df1ad-1748395281",
+      "location": "New York, NY, USA",
       "remote": false,
-      "url": "https://lfjgg.notion.site/Frontend-Engineer-665ea332fc2b4c61b61c44a3e3477c76?pvs=25",
-      "postedAt": "2026-08-05T10:07:13.000Z",
+      "url": "https://jobs.gem.com/agora/am9icG9zdDqUybtbjPMzRLmtZZA00RKU",
+      "postedAt": "2026-07-14T11:00:45.000Z",
       "board": {
         "id": "monad-ecosystem-job-board",
         "title": "Monad Ecosystem Job Board"
       }
     },
     {
-      "id": "monad-ecosystem-job-board:88739876",
-      "title": "Social Media Marketer",
-      "company": "LFJ",
-      "companyLogo": "https://cdn.getro.com/companies/357f601d-6471-5ed8-9f9c-eedcc4a2a52a-1737467547",
-      "location": null,
+      "id": "monad-ecosystem-job-board:83509512",
+      "title": "Senior Software Engineer, Formal Verification",
+      "company": "Category Labs",
+      "companyLogo": "https://cdn.getro.com/companies/cf3eb237-6837-4153-9bdc-6b2962f2ff86-1768350891",
+      "location": "New York, NY, USA",
       "remote": false,
-      "url": "https://lfjgg.notion.site/Social-Media-Marketer-f96b3890a44045999dae9beeb07bbd5a?pvs=25",
-      "postedAt": "2026-08-05T10:07:13.000Z",
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-formal-verification-at-category-labs-4429612810",
+      "postedAt": "2026-06-21T02:06:43.000Z",
       "board": {
         "id": "monad-ecosystem-job-board",
         "title": "Monad Ecosystem Job Board"
       }
     },
     {
-      "id": "monad-ecosystem-job-board:88739874",
-      "title": "Product Designer",
-      "company": "LFJ",
-      "companyLogo": "https://cdn.getro.com/companies/357f601d-6471-5ed8-9f9c-eedcc4a2a52a-1737467547",
-      "location": null,
+      "id": "monad-ecosystem-job-board:83509513",
+      "title": "Senior Software Engineer, Formal Verification",
+      "company": "Category Labs",
+      "companyLogo": "https://cdn.getro.com/companies/cf3eb237-6837-4153-9bdc-6b2962f2ff86-1768350891",
+      "location": "United States",
       "remote": false,
-      "url": "https://lfjgg.notion.site/Product-Designer-e363d37794b4430fb6a1bac86730ed4d?pvs=25",
-      "postedAt": "2026-08-05T10:07:13.000Z",
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-formal-verification-at-category-labs-4429398924",
+      "postedAt": "2026-06-21T02:06:43.000Z",
       "board": {
         "id": "monad-ecosystem-job-board",
         "title": "Monad Ecosystem Job Board"
