@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-26T06:18:42.112Z",
+  "fetchedAt": "2026-08-26T07:08:05.908Z",
   "boards": [
     {
       "id": "a16z-crypto",
@@ -137,8 +137,8 @@
     {
       "id": "dragonfly-capital",
       "title": "Dragonfly Capital",
-      "fetched": 20,
-      "total": 1106,
+      "fetched": 0,
+      "total": 0,
       "skipped": null
     },
     {
@@ -1453,20 +1453,6 @@
       }
     },
     {
-      "id": "electric-capital:91046175",
-      "title": "Head of Fraud, Payments & Banking",
-      "company": "Kraken",
-      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
-      "location": "Canada",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/kraken.com/e71e1c0b-166c-4acf-9269-b9ab79aee686",
-      "postedAt": "2026-08-25T12:05:16.000Z",
-      "board": {
-        "id": "electric-capital",
-        "title": "Electric Capital"
-      }
-    },
-    {
       "id": "electric-capital:91046174",
       "title": "Head of Fraud, Payments & Banking",
       "company": "Kraken",
@@ -1474,6 +1460,20 @@
       "location": "United States",
       "remote": false,
       "url": "https://jobs.ashbyhq.com/kraken.com/4301156e-90cf-4f10-b54d-d1c305fe21f6",
+      "postedAt": "2026-08-25T12:05:16.000Z",
+      "board": {
+        "id": "electric-capital",
+        "title": "Electric Capital"
+      }
+    },
+    {
+      "id": "electric-capital:91046175",
+      "title": "Head of Fraud, Payments & Banking",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "Canada",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/kraken.com/e71e1c0b-166c-4acf-9269-b9ab79aee686",
       "postedAt": "2026-08-25T12:05:16.000Z",
       "board": {
         "id": "electric-capital",
@@ -2237,20 +2237,6 @@
       }
     },
     {
-      "id": "digital-currency-group:90836238",
-      "title": "Infrastructure Security Engineer",
-      "company": "Blockchain.com",
-      "companyLogo": "https://cdn.getro.com/companies/e3c17438-01ea-4744-a728-6f1b23c5b279-1762220264",
-      "location": "Paris, France",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/blockchain/jobs/8147215",
-      "postedAt": "2026-08-22T12:19:13.000Z",
-      "board": {
-        "id": "digital-currency-group",
-        "title": "Digital Currency Group"
-      }
-    },
-    {
       "id": "digital-currency-group:90836240",
       "title": "Performance Marketing Specialist, Mobile",
       "company": "Blockchain.com",
@@ -2286,6 +2272,20 @@
       "location": "Paris, France",
       "remote": false,
       "url": "https://boards.greenhouse.io/blockchain/jobs/8147195",
+      "postedAt": "2026-08-22T12:19:13.000Z",
+      "board": {
+        "id": "digital-currency-group",
+        "title": "Digital Currency Group"
+      }
+    },
+    {
+      "id": "digital-currency-group:90836244",
+      "title": "Senior Product Security Engineer",
+      "company": "Blockchain.com",
+      "companyLogo": "https://cdn.getro.com/companies/e3c17438-01ea-4744-a728-6f1b23c5b279-1762220264",
+      "location": "Paris, France",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/blockchain/jobs/8147200",
       "postedAt": "2026-08-22T12:19:13.000Z",
       "board": {
         "id": "digital-currency-group",
@@ -2853,6 +2853,20 @@
       }
     },
     {
+      "id": "coinbase-ventures:91059001",
+      "title": "Commercial Counsel",
+      "company": "Greenhouse",
+      "companyLogo": "https://cdn.getro.com/companies/e0504449-2150-4d08-ad9a-650f3f690720-1764633204",
+      "location": "United States",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/greenhouse/jobs/8126988",
+      "postedAt": "2026-08-25T12:29:12.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
       "id": "coinbase-ventures:91059007",
       "title": "Manager, Security Engineering",
       "company": "Greenhouse",
@@ -2874,20 +2888,6 @@
       "location": "Ontario, Canada",
       "remote": false,
       "url": "https://boards.greenhouse.io/greenhouse/jobs/8115111",
-      "postedAt": "2026-08-25T12:29:12.000Z",
-      "board": {
-        "id": "coinbase-ventures",
-        "title": "Coinbase Ventures"
-      }
-    },
-    {
-      "id": "coinbase-ventures:91059001",
-      "title": "Commercial Counsel",
-      "company": "Greenhouse",
-      "companyLogo": "https://cdn.getro.com/companies/e0504449-2150-4d08-ad9a-650f3f690720-1764633204",
-      "location": "United States",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/greenhouse/jobs/8126988",
       "postedAt": "2026-08-25T12:29:12.000Z",
       "board": {
         "id": "coinbase-ventures",
@@ -3130,286 +3130,6 @@
       "board": {
         "id": "coinbase-ventures",
         "title": "Coinbase Ventures"
-      }
-    },
-    {
-      "id": "dragonfly-capital:91061269",
-      "title": "Director, Institutional Onboarding",
-      "company": "Polymarket",
-      "companyLogo": "https://cdn.getro.com/companies/26ca9fb9-7198-4fd7-9ef1-d42991f8c94b-1760578520",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/polymarket/6e9dc47a-0887-4a86-b25d-85860bdf027a",
-      "postedAt": "2026-08-25T12:32:58.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:91061274",
-      "title": "Client Associate",
-      "company": "Polymarket",
-      "companyLogo": "https://cdn.getro.com/companies/26ca9fb9-7198-4fd7-9ef1-d42991f8c94b-1760578520",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/polymarket/5953e21c-3bd2-4ff4-9eba-13facae7de40",
-      "postedAt": "2026-08-25T12:32:58.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:91057266",
-      "title": "Senior Manager, Tax",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "United States",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/63475bcc-834d-438d-92b6-8a7915688d48",
-      "postedAt": "2026-08-25T12:24:33.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:91057270",
-      "title": "Staff Applied AI Inference Engineer",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "Denver, CO, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/9f83a7b1-5cd3-454d-b477-00107001f133",
-      "postedAt": "2026-08-25T12:24:33.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:91057260",
-      "title": "Senior Manager, Tax",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "Denver, CO, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/a2035d3a-050f-47ff-9cd0-dfa8cb17dbfb",
-      "postedAt": "2026-08-25T12:24:32.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:91057248",
-      "title": "Strategic Sourcing Specialist III (Contract)",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "Denver, CO, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/7df713e4-a3d3-448d-88bf-3c8357ab6b70",
-      "postedAt": "2026-08-25T12:24:31.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:91057251",
-      "title": "Senior Project Manager, Power Infrastructure",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "Denver, CO, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/542dd4e1-019a-453c-a3ff-4d4ee4015589",
-      "postedAt": "2026-08-25T12:24:31.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:91057253",
-      "title": "Director of Engineering, Flex Compute",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "United States",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/7af9050a-114b-4b7c-b2c9-1e95d03e7103",
-      "postedAt": "2026-08-25T12:24:31.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:91018883",
-      "title": "MLRO, Georgia",
-      "company": "Bybit",
-      "companyLogo": "https://cdn.getro.com/companies/9b7044e8-156a-4d6f-8f5b-277a2b258430-1763516394",
-      "location": "Tbilisi, Georgia",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/bybit/jobs/4902185101",
-      "postedAt": "2026-08-25T10:59:30.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:91015736",
-      "title": "Strategic Account Manager",
-      "company": "Coin Metrics",
-      "companyLogo": "https://cdn.getro.com/companies/816228cc-ba1d-4791-9e11-7c5c6410865b-1761730917",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Talos-Trading/49e397be-add9-4233-8ef5-02e235e8eae2",
-      "postedAt": "2026-08-25T10:51:28.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:90952168",
-      "title": "Principal Risk Control Development Engineer",
-      "company": "Bybit",
-      "companyLogo": "https://cdn.getro.com/companies/9b7044e8-156a-4d6f-8f5b-277a2b258430-1763516394",
-      "location": "Kuala Lumpur, Malaysia",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/bybit/jobs/4958691101",
-      "postedAt": "2026-08-24T11:04:38.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:90952169",
-      "title": "VIP Relationship Manager",
-      "company": "Bybit",
-      "companyLogo": "https://cdn.getro.com/companies/9b7044e8-156a-4d6f-8f5b-277a2b258430-1763516394",
-      "location": "Abu Dhabi - United Arab Emirates",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/bybit/jobs/4958625101",
-      "postedAt": "2026-08-24T11:04:38.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:90939946",
-      "title": "Corporate Sales Executive in Hyderabad",
-      "company": "Swipe.io",
-      "companyLogo": "https://cdn.getro.com/companies/e586cb1d-305d-44e3-9ae4-fa553f269a42-1765849126",
-      "location": "Hyderabad, Telangana, India",
-      "remote": false,
-      "url": "https://in.linkedin.com/jobs/view/corporate-sales-executive-in-hyderabad-at-swipe-4457033347",
-      "postedAt": "2026-08-23T14:02:35.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:90841430",
-      "title": "Senior Media Planner, Strategy & Insights",
-      "company": "Polymarket",
-      "companyLogo": "https://cdn.getro.com/companies/26ca9fb9-7198-4fd7-9ef1-d42991f8c94b-1760578520",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/polymarket/414e5888-aeee-408f-9436-9ea18d22cf91",
-      "postedAt": "2026-08-22T12:28:01.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:90825163",
-      "title": "Learning & Development Coordinator",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "Brighton, CO, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/76c7031e-9fef-495a-b6c3-b0efd14ac003",
-      "postedAt": "2026-08-22T11:48:08.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:90825167",
-      "title": "Learning & Development Specialist",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "Brighton, CO, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/2b146de5-eed0-426b-8ecc-710afa51864c",
-      "postedAt": "2026-08-22T11:48:08.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:90825156",
-      "title": "Material Planner",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "Arvada, CO, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/938d90ff-88f7-4876-b522-238acaee85d9",
-      "postedAt": "2026-08-22T11:48:07.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:90825158",
-      "title": "Learning & Development Coordinator",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "San Francisco, CA, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/a9d08293-7016-455c-8590-8228755b5845",
-      "postedAt": "2026-08-22T11:48:07.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:90825149",
-      "title": "Production Planner",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "Arvada, CO, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/d6e8efe4-6d14-4f04-87c0-69e3d973c877",
-      "postedAt": "2026-08-22T11:48:06.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:90825152",
-      "title": "Material Planner (Electrical)",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "Arvada, CO, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/99fede61-450c-44cd-9dad-ca4fef925cfb",
-      "postedAt": "2026-08-22T11:48:06.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
       }
     },
     {
@@ -3959,20 +3679,6 @@
       }
     },
     {
-      "id": "longhash-ventures:90265498",
-      "title": "Enterprise Product Manager",
-      "company": "Zero Gravity",
-      "companyLogo": "https://cdn.getro.com/companies/a3f171bc-cbfd-4d56-baa3-1c0effe0cacd-1761442288",
-      "location": "Singapore",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/0g/859cb27c-7bb8-4c80-8bd7-1c053a01d21a",
-      "postedAt": "2026-08-18T11:44:43.000Z",
-      "board": {
-        "id": "longhash-ventures",
-        "title": "Longhash Ventures"
-      }
-    },
-    {
       "id": "longhash-ventures:90265500",
       "title": "Brand Design Lead",
       "company": "Zero Gravity",
@@ -3994,6 +3700,20 @@
       "location": "Remote",
       "remote": true,
       "url": "https://jobs.ashbyhq.com/0g/89ef45ce-0f81-4ef3-a31b-adc38311824b",
+      "postedAt": "2026-08-18T11:44:43.000Z",
+      "board": {
+        "id": "longhash-ventures",
+        "title": "Longhash Ventures"
+      }
+    },
+    {
+      "id": "longhash-ventures:90265498",
+      "title": "Enterprise Product Manager",
+      "company": "Zero Gravity",
+      "companyLogo": "https://cdn.getro.com/companies/a3f171bc-cbfd-4d56-baa3-1c0effe0cacd-1761442288",
+      "location": "Singapore",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/0g/859cb27c-7bb8-4c80-8bd7-1c053a01d21a",
       "postedAt": "2026-08-18T11:44:43.000Z",
       "board": {
         "id": "longhash-ventures",
