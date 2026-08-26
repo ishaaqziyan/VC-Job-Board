@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T16:48:16.467Z",
+  "fetchedAt": "2026-08-26T06:18:42.112Z",
   "boards": [
     {
       "id": "a16z-crypto",
@@ -26,7 +26,7 @@
       "id": "multicoin-capital",
       "title": "Multicoin Capital",
       "fetched": 20,
-      "total": 441,
+      "total": 442,
       "skipped": null
     },
     {
@@ -89,14 +89,14 @@
       "id": "digital-currency-group",
       "title": "Digital Currency Group",
       "fetched": 20,
-      "total": 1107,
+      "total": 1106,
       "skipped": null
     },
     {
       "id": "sv-angel",
       "title": "SV Angel",
       "fetched": 20,
-      "total": 2690,
+      "total": 2692,
       "skipped": null
     },
     {
@@ -145,7 +145,7 @@
       "id": "variant-fund",
       "title": "Variant Fund",
       "fetched": 20,
-      "total": 286,
+      "total": 287,
       "skipped": null
     },
     {
@@ -229,7 +229,7 @@
       "id": "foundation-capital",
       "title": "Foundation Capital",
       "fetched": 20,
-      "total": 1416,
+      "total": 1436,
       "skipped": null
     },
     {
@@ -271,7 +271,7 @@
       "id": "solana-ecosystem-job-board",
       "title": "Solana Ecosystem Job Board",
       "fetched": 20,
-      "total": 410,
+      "total": 411,
       "skipped": null
     },
     {
@@ -299,7 +299,7 @@
       "id": "blockchain-association",
       "title": "Blockchain Association",
       "fetched": 20,
-      "total": 1814,
+      "total": 1813,
       "skipped": null
     },
     {
@@ -313,7 +313,7 @@
       "id": "castle-ventures",
       "title": "Castle Ventures",
       "fetched": 20,
-      "total": 620,
+      "total": 622,
       "skipped": null
     },
     {
@@ -333,42 +333,14 @@
   ],
   "jobs": [
     {
-      "id": "multicoin-capital:90895369",
-      "title": "Applications Engineer",
-      "company": "StreamingFast",
-      "companyLogo": "https://cdn.getro.com/companies/545e5a67-d915-4487-846e-18f69d52e690-1761558080",
-      "location": "Mesa, AZ, USA",
+      "id": "multicoin-capital:91119330",
+      "title": "Sales Engineer, Product Integrations",
+      "company": "Zama",
+      "companyLogo": "https://cdn.getro.com/companies/140afa91-4b29-40c1-bea0-52bb1d805b99-1760838018",
+      "location": null,
       "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/applications-engineer-at-hadrian-4454664913",
-      "postedAt": "2026-08-22T14:58:04.000Z",
-      "board": {
-        "id": "multicoin-capital",
-        "title": "Multicoin Capital"
-      }
-    },
-    {
-      "id": "multicoin-capital:90895370",
-      "title": "IT System Admin",
-      "company": "StreamingFast",
-      "companyLogo": "https://cdn.getro.com/companies/545e5a67-d915-4487-846e-18f69d52e690-1761558080",
-      "location": "Mesa, AZ, USA",
-      "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/it-system-admin-at-hadrian-4453452885",
-      "postedAt": "2026-08-22T14:58:04.000Z",
-      "board": {
-        "id": "multicoin-capital",
-        "title": "Multicoin Capital"
-      }
-    },
-    {
-      "id": "multicoin-capital:90895373",
-      "title": "CNC Controls Engineer",
-      "company": "StreamingFast",
-      "companyLogo": "https://cdn.getro.com/companies/545e5a67-d915-4487-846e-18f69d52e690-1761558080",
-      "location": "Mesa, AZ, USA",
-      "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/cnc-controls-engineer-at-hadrian-4454658956",
-      "postedAt": "2026-08-22T14:58:04.000Z",
+      "url": "https://jobs.zama.org/jobs/sales-engineer-product-integrations_paris",
+      "postedAt": "2026-08-25T14:50:04.000Z",
       "board": {
         "id": "multicoin-capital",
         "title": "Multicoin Capital"
@@ -417,14 +389,42 @@
       }
     },
     {
-      "id": "multicoin-capital:90895362",
-      "title": "Accounts Payable Specialist",
+      "id": "multicoin-capital:90895369",
+      "title": "Applications Engineer",
       "company": "StreamingFast",
       "companyLogo": "https://cdn.getro.com/companies/545e5a67-d915-4487-846e-18f69d52e690-1761558080",
-      "location": "Los Angeles, CA, USA",
+      "location": "Mesa, AZ, USA",
       "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/accounts-payable-specialist-at-hadrian-4454140457",
-      "postedAt": "2026-08-22T14:58:03.000Z",
+      "url": "https://www.linkedin.com/jobs/view/applications-engineer-at-hadrian-4454664913",
+      "postedAt": "2026-08-22T14:58:04.000Z",
+      "board": {
+        "id": "multicoin-capital",
+        "title": "Multicoin Capital"
+      }
+    },
+    {
+      "id": "multicoin-capital:90895373",
+      "title": "CNC Controls Engineer",
+      "company": "StreamingFast",
+      "companyLogo": "https://cdn.getro.com/companies/545e5a67-d915-4487-846e-18f69d52e690-1761558080",
+      "location": "Mesa, AZ, USA",
+      "remote": false,
+      "url": "https://www.linkedin.com/jobs/view/cnc-controls-engineer-at-hadrian-4454658956",
+      "postedAt": "2026-08-22T14:58:04.000Z",
+      "board": {
+        "id": "multicoin-capital",
+        "title": "Multicoin Capital"
+      }
+    },
+    {
+      "id": "multicoin-capital:90895370",
+      "title": "IT System Admin",
+      "company": "StreamingFast",
+      "companyLogo": "https://cdn.getro.com/companies/545e5a67-d915-4487-846e-18f69d52e690-1761558080",
+      "location": "Mesa, AZ, USA",
+      "remote": false,
+      "url": "https://www.linkedin.com/jobs/view/it-system-admin-at-hadrian-4453452885",
+      "postedAt": "2026-08-22T14:58:04.000Z",
       "board": {
         "id": "multicoin-capital",
         "title": "Multicoin Capital"
@@ -438,20 +438,6 @@
       "location": "Los Angeles, CA, USA",
       "remote": false,
       "url": "https://www.linkedin.com/jobs/view/program-manager-capabilities-at-hadrian-4302605411",
-      "postedAt": "2026-08-22T14:58:03.000Z",
-      "board": {
-        "id": "multicoin-capital",
-        "title": "Multicoin Capital"
-      }
-    },
-    {
-      "id": "multicoin-capital:90895367",
-      "title": "Engineering Manager, Technical Data Intelligence",
-      "company": "StreamingFast",
-      "companyLogo": "https://cdn.getro.com/companies/545e5a67-d915-4487-846e-18f69d52e690-1761558080",
-      "location": "Los Angeles, CA, USA",
-      "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/engineering-manager-technical-data-intelligence-at-hadrian-4454662956",
       "postedAt": "2026-08-22T14:58:03.000Z",
       "board": {
         "id": "multicoin-capital",
@@ -473,13 +459,13 @@
       }
     },
     {
-      "id": "multicoin-capital:90895364",
-      "title": "Manufacturing Specialist",
+      "id": "multicoin-capital:90895367",
+      "title": "Engineering Manager, Technical Data Intelligence",
       "company": "StreamingFast",
       "companyLogo": "https://cdn.getro.com/companies/545e5a67-d915-4487-846e-18f69d52e690-1761558080",
-      "location": "Mesa, AZ, USA",
+      "location": "Los Angeles, CA, USA",
       "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/manufacturing-specialist-at-hadrian-4454659985",
+      "url": "https://www.linkedin.com/jobs/view/engineering-manager-technical-data-intelligence-at-hadrian-4454662956",
       "postedAt": "2026-08-22T14:58:03.000Z",
       "board": {
         "id": "multicoin-capital",
@@ -508,6 +494,34 @@
       "location": "Mesa, AZ, USA",
       "remote": false,
       "url": "https://www.linkedin.com/jobs/view/factory-lead-2nd-shift-at-hadrian-4453838044",
+      "postedAt": "2026-08-22T14:58:03.000Z",
+      "board": {
+        "id": "multicoin-capital",
+        "title": "Multicoin Capital"
+      }
+    },
+    {
+      "id": "multicoin-capital:90895364",
+      "title": "Manufacturing Specialist",
+      "company": "StreamingFast",
+      "companyLogo": "https://cdn.getro.com/companies/545e5a67-d915-4487-846e-18f69d52e690-1761558080",
+      "location": "Mesa, AZ, USA",
+      "remote": false,
+      "url": "https://www.linkedin.com/jobs/view/manufacturing-specialist-at-hadrian-4454659985",
+      "postedAt": "2026-08-22T14:58:03.000Z",
+      "board": {
+        "id": "multicoin-capital",
+        "title": "Multicoin Capital"
+      }
+    },
+    {
+      "id": "multicoin-capital:90895362",
+      "title": "Accounts Payable Specialist",
+      "company": "StreamingFast",
+      "companyLogo": "https://cdn.getro.com/companies/545e5a67-d915-4487-846e-18f69d52e690-1761558080",
+      "location": "Los Angeles, CA, USA",
+      "remote": false,
+      "url": "https://www.linkedin.com/jobs/view/accounts-payable-specialist-at-hadrian-4454140457",
       "postedAt": "2026-08-22T14:58:03.000Z",
       "board": {
         "id": "multicoin-capital",
@@ -593,20 +607,6 @@
       "remote": false,
       "url": "https://www.linkedin.com/jobs/view/construction-superintendent-at-hadrian-4452550371",
       "postedAt": "2026-08-19T14:18:47.000Z",
-      "board": {
-        "id": "multicoin-capital",
-        "title": "Multicoin Capital"
-      }
-    },
-    {
-      "id": "multicoin-capital:90484337",
-      "title": "Sourcer",
-      "company": "StreamingFast",
-      "companyLogo": "https://cdn.getro.com/companies/545e5a67-d915-4487-846e-18f69d52e690-1761558080",
-      "location": "Los Angeles, CA, USA",
-      "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/sourcer-at-hadrian-4452554355",
-      "postedAt": "2026-08-19T14:18:46.000Z",
       "board": {
         "id": "multicoin-capital",
         "title": "Multicoin Capital"
@@ -739,6 +739,20 @@
       }
     },
     {
+      "id": "framework-ventures:89978936",
+      "title": "Director of Events",
+      "company": "Chainlink",
+      "companyLogo": "https://cdn.getro.com/companies/9a31bddf-8262-4cb0-b2f6-96d2ecba5988-1763516398",
+      "location": "New York, NY, USA",
+      "remote": false,
+      "url": "https://www.linkedin.com/jobs/view/director-of-events-at-chainlink-labs-4451958712",
+      "postedAt": "2026-08-14T13:44:28.000Z",
+      "board": {
+        "id": "framework-ventures",
+        "title": "Framework Ventures"
+      }
+    },
+    {
       "id": "framework-ventures:89978939",
       "title": "Senior Product Marketing Manager, Institutional Data",
       "company": "Chainlink",
@@ -809,14 +823,14 @@
       }
     },
     {
-      "id": "framework-ventures:89978936",
-      "title": "Director of Events",
+      "id": "framework-ventures:89978931",
+      "title": "Software Engineer, Data Feeds",
       "company": "Chainlink",
       "companyLogo": "https://cdn.getro.com/companies/9a31bddf-8262-4cb0-b2f6-96d2ecba5988-1763516398",
-      "location": "New York, NY, USA",
+      "location": "Colombia",
       "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/director-of-events-at-chainlink-labs-4451958712",
-      "postedAt": "2026-08-14T13:44:28.000Z",
+      "url": "https://co.linkedin.com/jobs/view/software-engineer-data-feeds-at-chainlink-labs-4454321800",
+      "postedAt": "2026-08-14T13:44:27.000Z",
       "board": {
         "id": "framework-ventures",
         "title": "Framework Ventures"
@@ -830,20 +844,6 @@
       "location": "Mexico",
       "remote": false,
       "url": "https://mx.linkedin.com/jobs/view/software-engineer-data-feeds-at-chainlink-labs-4454335421",
-      "postedAt": "2026-08-14T13:44:27.000Z",
-      "board": {
-        "id": "framework-ventures",
-        "title": "Framework Ventures"
-      }
-    },
-    {
-      "id": "framework-ventures:89978931",
-      "title": "Software Engineer, Data Feeds",
-      "company": "Chainlink",
-      "companyLogo": "https://cdn.getro.com/companies/9a31bddf-8262-4cb0-b2f6-96d2ecba5988-1763516398",
-      "location": "Colombia",
-      "remote": false,
-      "url": "https://co.linkedin.com/jobs/view/software-engineer-data-feeds-at-chainlink-labs-4454321800",
       "postedAt": "2026-08-14T13:44:27.000Z",
       "board": {
         "id": "framework-ventures",
@@ -1453,20 +1453,6 @@
       }
     },
     {
-      "id": "electric-capital:91046174",
-      "title": "Head of Fraud, Payments & Banking",
-      "company": "Kraken",
-      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
-      "location": "United States",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/kraken.com/4301156e-90cf-4f10-b54d-d1c305fe21f6",
-      "postedAt": "2026-08-25T12:05:16.000Z",
-      "board": {
-        "id": "electric-capital",
-        "title": "Electric Capital"
-      }
-    },
-    {
       "id": "electric-capital:91046175",
       "title": "Head of Fraud, Payments & Banking",
       "company": "Kraken",
@@ -1474,6 +1460,20 @@
       "location": "Canada",
       "remote": false,
       "url": "https://jobs.ashbyhq.com/kraken.com/e71e1c0b-166c-4acf-9269-b9ab79aee686",
+      "postedAt": "2026-08-25T12:05:16.000Z",
+      "board": {
+        "id": "electric-capital",
+        "title": "Electric Capital"
+      }
+    },
+    {
+      "id": "electric-capital:91046174",
+      "title": "Head of Fraud, Payments & Banking",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "United States",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/kraken.com/4301156e-90cf-4f10-b54d-d1c305fe21f6",
       "postedAt": "2026-08-25T12:05:16.000Z",
       "board": {
         "id": "electric-capital",
@@ -2489,6 +2489,34 @@
       }
     },
     {
+      "id": "sv-angel:91078918",
+      "title": "Senior Support Data Analyst",
+      "company": "Census",
+      "companyLogo": "https://cdn.getro.com/companies/b39d9ccd-4a01-477e-9e91-395eb869ae08-1762220305",
+      "location": "Oakland, CA, USA",
+      "remote": false,
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7818330003",
+      "postedAt": "2026-08-25T13:06:55.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:91078901",
+      "title": "Senior Data Analyst, Revenue",
+      "company": "Census",
+      "companyLogo": "https://cdn.getro.com/companies/b39d9ccd-4a01-477e-9e91-395eb869ae08-1762220305",
+      "location": "Oakland, CA, USA",
+      "remote": false,
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7918614003",
+      "postedAt": "2026-08-25T13:06:53.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
       "id": "sv-angel:91076069",
       "title": "Software Engineer",
       "company": "Doppel",
@@ -2539,34 +2567,6 @@
       "remote": false,
       "url": "https://jobs.ashbyhq.com/elevenlabs/f00cd4ae-3429-43a9-9e78-247ca3e4c404",
       "postedAt": "2026-08-25T12:28:39.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:91056302",
-      "title": "Associate Director/Director, Digital Quality",
-      "company": "Formation Bio",
-      "companyLogo": "https://cdn.getro.com/companies/a250e35e-4f0f-4ef5-ac89-4db389aa0eb4-1761355587",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/formationbio/jobs/8120161",
-      "postedAt": "2026-08-25T12:22:27.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:91043973",
-      "title": "Mid-Market Outcomes Architect, Japan",
-      "company": "Loops",
-      "companyLogo": "https://cdn.getro.com/companies/a750ed8e-9dc6-497d-9b97-ef8281570f88-1762134352",
-      "location": "Tokyo, Japan",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/notion/2c2f62b2-5c8d-4e6c-8ba5-e7ef724d4cba",
-      "postedAt": "2026-08-25T12:01:18.000Z",
       "board": {
         "id": "sv-angel",
         "title": "SV Angel"
@@ -2853,20 +2853,6 @@
       }
     },
     {
-      "id": "coinbase-ventures:91059001",
-      "title": "Commercial Counsel",
-      "company": "Greenhouse",
-      "companyLogo": "https://cdn.getro.com/companies/e0504449-2150-4d08-ad9a-650f3f690720-1764633204",
-      "location": "United States",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/greenhouse/jobs/8126988",
-      "postedAt": "2026-08-25T12:29:12.000Z",
-      "board": {
-        "id": "coinbase-ventures",
-        "title": "Coinbase Ventures"
-      }
-    },
-    {
       "id": "coinbase-ventures:91059007",
       "title": "Manager, Security Engineering",
       "company": "Greenhouse",
@@ -2888,6 +2874,20 @@
       "location": "Ontario, Canada",
       "remote": false,
       "url": "https://boards.greenhouse.io/greenhouse/jobs/8115111",
+      "postedAt": "2026-08-25T12:29:12.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
+      "id": "coinbase-ventures:91059001",
+      "title": "Commercial Counsel",
+      "company": "Greenhouse",
+      "companyLogo": "https://cdn.getro.com/companies/e0504449-2150-4d08-ad9a-650f3f690720-1764633204",
+      "location": "United States",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/greenhouse/jobs/8126988",
       "postedAt": "2026-08-25T12:29:12.000Z",
       "board": {
         "id": "coinbase-ventures",
@@ -3203,6 +3203,20 @@
       }
     },
     {
+      "id": "dragonfly-capital:91057248",
+      "title": "Strategic Sourcing Specialist III (Contract)",
+      "company": "Crusoe",
+      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
+      "location": "Denver, CO, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/Crusoe/7df713e4-a3d3-448d-88bf-3c8357ab6b70",
+      "postedAt": "2026-08-25T12:24:31.000Z",
+      "board": {
+        "id": "dragonfly-capital",
+        "title": "Dragonfly Capital"
+      }
+    },
+    {
       "id": "dragonfly-capital:91057251",
       "title": "Senior Project Manager, Power Infrastructure",
       "company": "Crusoe",
@@ -3224,20 +3238,6 @@
       "location": "United States",
       "remote": false,
       "url": "https://jobs.ashbyhq.com/Crusoe/7af9050a-114b-4b7c-b2c9-1e95d03e7103",
-      "postedAt": "2026-08-25T12:24:31.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
-      "id": "dragonfly-capital:91057248",
-      "title": "Strategic Sourcing Specialist III (Contract)",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "Denver, CO, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/7df713e4-a3d3-448d-88bf-3c8357ab6b70",
       "postedAt": "2026-08-25T12:24:31.000Z",
       "board": {
         "id": "dragonfly-capital",
@@ -3410,6 +3410,20 @@
       "board": {
         "id": "dragonfly-capital",
         "title": "Dragonfly Capital"
+      }
+    },
+    {
+      "id": "variant-fund:91139248",
+      "title": "Senior Designer",
+      "company": "Parallel",
+      "companyLogo": "https://cdn.getro.com/companies/517425c0-82a1-5267-bc8d-a711a236d6f0-1748842888",
+      "location": null,
+      "remote": false,
+      "url": "https://careers.useparallel.com",
+      "postedAt": "2026-08-25T19:14:28.000Z",
+      "board": {
+        "id": "variant-fund",
+        "title": "Variant Fund"
       }
     },
     {
@@ -3672,20 +3686,6 @@
       "location": "New York, NY, USA",
       "remote": false,
       "url": "https://jobs.ashbyhq.com/uniswap/fb4d4137-f003-4669-beb7-2a5caca88012",
-      "postedAt": "2026-08-13T09:35:11.000Z",
-      "board": {
-        "id": "variant-fund",
-        "title": "Variant Fund"
-      }
-    },
-    {
-      "id": "variant-fund:89732691",
-      "title": "Software Engineer- General Interest",
-      "company": "Uniswap Labs",
-      "companyLogo": "https://cdn.getro.com/companies/202eaa27-f34c-4c44-bc16-3d6901757b4b-1761644608",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/uniswap/bb981823-b923-4f53-95ba-19d732c1caf3",
       "postedAt": "2026-08-13T09:35:11.000Z",
       "board": {
         "id": "variant-fund",
@@ -4715,266 +4715,266 @@
       }
     },
     {
-      "id": "foundation-capital:91038026",
-      "title": "Software Engineer, Backend",
-      "company": "Tessera Labs",
-      "companyLogo": "https://cdn.getro.com/companies/fa904772-8ff6-4be7-8574-c3112ce6d33c-1765541796",
-      "location": "San Jose, CA, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/tessera-labs/0e719bf0-e1ef-4cad-ae3b-c16ab4e08307",
-      "postedAt": "2026-08-25T11:49:35.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:91038031",
-      "title": "Product Manager",
-      "company": "Tessera Labs",
-      "companyLogo": "https://cdn.getro.com/companies/fa904772-8ff6-4be7-8574-c3112ce6d33c-1765541796",
-      "location": "San Jose, CA, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/tessera-labs/0bf8dc5d-b180-475e-9473-2d10f04c7fe9",
-      "postedAt": "2026-08-25T11:49:35.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:91012785",
-      "title": "Associate Account Manager Outbound",
-      "company": "Mya Systems",
-      "companyLogo": "https://cdn.getro.com/companies/40e39439-97a2-41dd-964b-299ad47b5057-1763084457",
-      "location": "Dublin, Ireland",
-      "remote": false,
-      "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000145298563",
-      "postedAt": "2026-08-25T10:39:17.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:91012783",
-      "title": "Team Manager (m/w/d) Inside Sales - Neukundenvertrieb",
-      "company": "Mya Systems",
-      "companyLogo": "https://cdn.getro.com/companies/40e39439-97a2-41dd-964b-299ad47b5057-1763084457",
-      "location": "Münster, Germany",
-      "remote": false,
-      "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000145300490",
-      "postedAt": "2026-08-25T10:39:16.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:91012769",
-      "title": "Team Manager (m/w/d) Inside Sales - Neukundenvertrieb",
-      "company": "Mya Systems",
-      "companyLogo": "https://cdn.getro.com/companies/40e39439-97a2-41dd-964b-299ad47b5057-1763084457",
-      "location": "Delaware, USA",
-      "remote": false,
-      "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000145303489",
-      "postedAt": "2026-08-25T10:39:13.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:91012225",
-      "title": "Staff Machine Learning Engineer",
-      "company": "MoonPay",
-      "companyLogo": "https://cdn.getro.com/companies/d827b036-d411-40a0-97bc-8236a2e1d04f-1762133928",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://jobs.lever.co/moonpay/a12369da-ded2-4798-b176-b22928e9cf21",
-      "postedAt": "2026-08-25T10:37:29.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:91012218",
-      "title": "Capital Officer",
-      "company": "MoonPay",
-      "companyLogo": "https://cdn.getro.com/companies/d827b036-d411-40a0-97bc-8236a2e1d04f-1762133928",
+      "id": "foundation-capital:91086284",
+      "title": "Senior Sales Engineer",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
       "location": "United States",
       "remote": true,
-      "url": "https://jobs.lever.co/moonpay/7c3112f7-9c0f-4663-b592-d7b02784ad83",
-      "postedAt": "2026-08-25T10:37:27.000Z",
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/USA---California---Remote/Senior-Sales-Engineer_R04467",
+      "postedAt": "2026-08-25T13:20:24.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
       }
     },
     {
-      "id": "foundation-capital:91011016",
-      "title": "Creative Operations Short Term Employee",
-      "company": "Kikoff",
-      "companyLogo": "https://cdn.getro.com/companies/d63a0df9-27cb-4efe-a311-7ecc8f587e07-1760577700",
-      "location": "San Francisco, CA, USA",
+      "id": "foundation-capital:91068580",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
       "remote": false,
-      "url": "https://boards.greenhouse.io/kikoff/jobs/4381242009",
-      "postedAt": "2026-08-25T10:30:11.000Z",
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122645",
+      "postedAt": "2026-08-25T12:48:00.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
       }
     },
     {
-      "id": "foundation-capital:91007757",
-      "title": "Software Engineer - Rust (KI)",
-      "company": "Fortanix",
-      "companyLogo": "https://cdn.getro.com/companies/820d2b10-9795-459f-9479-b1f179b67315-1760837931",
-      "location": "Bengaluru, Karnataka, India",
+      "id": "foundation-capital:91068582",
+      "title": "Picker",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Porto Alegre, RS, Brazil",
       "remote": false,
-      "url": "https://apply.workable.com/fortanix/j/773D5F3151",
-      "postedAt": "2026-08-25T10:16:19.000Z",
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/BRA-Porto-Alegre/Picker_JR122567",
+      "postedAt": "2026-08-25T12:48:00.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
       }
     },
     {
-      "id": "foundation-capital:91007760",
-      "title": "Senior Software Engineer - Backend (Rust)",
-      "company": "Fortanix",
-      "companyLogo": "https://cdn.getro.com/companies/820d2b10-9795-459f-9479-b1f179b67315-1760837931",
-      "location": "Bengaluru, Karnataka, India",
+      "id": "foundation-capital:91068568",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
       "remote": false,
-      "url": "https://apply.workable.com/fortanix/j/6EFD1E6148",
-      "postedAt": "2026-08-25T10:16:19.000Z",
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122651",
+      "postedAt": "2026-08-25T12:47:59.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
       }
     },
     {
-      "id": "foundation-capital:91007759",
-      "title": "Senior Software Engineer - Backend (Rust)",
-      "company": "Fortanix",
-      "companyLogo": "https://cdn.getro.com/companies/820d2b10-9795-459f-9479-b1f179b67315-1760837931",
-      "location": "Eindhoven, Netherlands",
+      "id": "foundation-capital:91068569",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
       "remote": false,
-      "url": "https://apply.workable.com/fortanix/j/E2444CB425",
-      "postedAt": "2026-08-25T10:16:19.000Z",
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122652",
+      "postedAt": "2026-08-25T12:47:59.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
       }
     },
     {
-      "id": "foundation-capital:91007761",
-      "title": "SDET Engineer",
-      "company": "Fortanix",
-      "companyLogo": "https://cdn.getro.com/companies/820d2b10-9795-459f-9479-b1f179b67315-1760837931",
-      "location": "Bengaluru, Karnataka, India",
+      "id": "foundation-capital:91068570",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
       "remote": false,
-      "url": "https://apply.workable.com/fortanix/j/EAAB9EDA77",
-      "postedAt": "2026-08-25T10:16:19.000Z",
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122650",
+      "postedAt": "2026-08-25T12:47:59.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
       }
     },
     {
-      "id": "foundation-capital:91007553",
-      "title": "Senior Manager, Product Design - Product Platform",
-      "company": "CaptivateIQ",
-      "companyLogo": "https://cdn.getro.com/companies/c521c2da-e28f-40ed-aaaf-9eaa64bb71b0-1762047602",
-      "location": "United States",
-      "remote": true,
-      "url": "https://jobs.lever.co/captivateiq/2bdc7e45-0445-4b89-9ed5-ae23eb9746ad",
-      "postedAt": "2026-08-25T10:15:24.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:91005052",
-      "title": "Lead Forward Deployment Engineer",
-      "company": "Mode Analytics",
-      "companyLogo": "https://cdn.getro.com/companies/0721045b-fd2b-491d-97a1-d8a740927e3f-1760060536",
-      "location": "Bengaluru, Karnataka, India",
+      "id": "foundation-capital:91068573",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
       "remote": false,
-      "url": "https://in.linkedin.com/jobs/view/lead-forward-deployment-engineer-at-thoughtspot-4457446290",
-      "postedAt": "2026-08-25T10:02:01.000Z",
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122648",
+      "postedAt": "2026-08-25T12:47:59.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
       }
     },
     {
-      "id": "foundation-capital:91005050",
-      "title": "Staff Forward Deployment Engineer",
-      "company": "Mode Analytics",
-      "companyLogo": "https://cdn.getro.com/companies/0721045b-fd2b-491d-97a1-d8a740927e3f-1760060536",
-      "location": "Mountain View, CA, USA",
+      "id": "foundation-capital:91068576",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
       "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/staff-forward-deployment-engineer-at-thoughtspot-4456855894",
-      "postedAt": "2026-08-25T10:02:01.000Z",
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122647",
+      "postedAt": "2026-08-25T12:47:59.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
       }
     },
     {
-      "id": "foundation-capital:91005051",
-      "title": "Senior/Staff Cloud Reliability Engineer",
-      "company": "Mode Analytics",
-      "companyLogo": "https://cdn.getro.com/companies/0721045b-fd2b-491d-97a1-d8a740927e3f-1760060536",
-      "location": "Mountain View, CA, USA",
+      "id": "foundation-capital:91068579",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
       "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/senior-staff-cloud-reliability-engineer-at-thoughtspot-4456846944",
-      "postedAt": "2026-08-25T10:02:01.000Z",
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122646",
+      "postedAt": "2026-08-25T12:47:59.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
       }
     },
     {
-      "id": "foundation-capital:90981498",
-      "title": "Observability, Data Scientist",
-      "company": "Graphcore",
-      "companyLogo": "https://cdn.getro.com/companies/5ce92c03-eb84-4917-b65c-5e9a4f9d826b-1761012705",
-      "location": "Gdańsk, Poland",
+      "id": "foundation-capital:91068572",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
       "remote": false,
-      "url": "https://boards.greenhouse.io/graphcore/jobs/8632740002",
-      "postedAt": "2026-08-24T13:12:38.000Z",
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122649",
+      "postedAt": "2026-08-25T12:47:59.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
       }
     },
     {
-      "id": "foundation-capital:90967617",
-      "title": "Inhouse Consultant für Sales & Client Strategy (m/w/d)",
-      "company": "Mya Systems",
-      "companyLogo": "https://cdn.getro.com/companies/40e39439-97a2-41dd-964b-299ad47b5057-1763084457",
-      "location": "Düsseldorf, Germany",
+      "id": "foundation-capital:91068551",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
       "remote": false,
-      "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000145190409",
-      "postedAt": "2026-08-24T12:23:13.000Z",
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122657",
+      "postedAt": "2026-08-25T12:47:58.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
       }
     },
     {
-      "id": "foundation-capital:90967622",
-      "title": "Junior Manager Sales & Client Strategy (m/w/d)",
-      "company": "Mya Systems",
-      "companyLogo": "https://cdn.getro.com/companies/40e39439-97a2-41dd-964b-299ad47b5057-1763084457",
-      "location": "Düsseldorf, Germany",
+      "id": "foundation-capital:91068559",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
       "remote": false,
-      "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000145190159",
-      "postedAt": "2026-08-24T12:23:13.000Z",
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122658",
+      "postedAt": "2026-08-25T12:47:58.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:91068562",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
+      "remote": false,
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122656",
+      "postedAt": "2026-08-25T12:47:58.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:91068564",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
+      "remote": false,
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122655",
+      "postedAt": "2026-08-25T12:47:58.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:91068567",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
+      "remote": false,
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122653",
+      "postedAt": "2026-08-25T12:47:58.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:91068563",
+      "title": "Apprentice",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Bogotá, Bogota, Colombia",
+      "remote": false,
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/COL-Bogot/Apprentice_JR122654",
+      "postedAt": "2026-08-25T12:47:58.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:91068545",
+      "title": "PICKER",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Lima, Peru",
+      "remote": false,
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/PER-Lima/PICKER_JR122593",
+      "postedAt": "2026-08-25T12:47:57.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:91068547",
+      "title": "PICKER",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Lima, Peru",
+      "remote": false,
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/PER-Lima/PICKER_JR122664",
+      "postedAt": "2026-08-25T12:47:57.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:91068538",
+      "title": "Picker",
+      "company": "Rappi",
+      "companyLogo": "https://cdn.getro.com/companies/1af7bfd8-fe07-493d-990b-48fedd43b9a8-1760924053",
+      "location": "Lima, Peru",
+      "remote": false,
+      "url": "https://rappi.wd12.myworkdayjobs.com/Rappi_jobs/job/PER-Lima/Picker_JR122519",
+      "postedAt": "2026-08-25T12:47:57.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
@@ -5429,6 +5429,20 @@
       }
     },
     {
+      "id": "solana-ecosystem-job-board:91101033",
+      "title": "Risk & Audit Lead",
+      "company": "Kast",
+      "companyLogo": "https://cdn.getro.com/companies/e622b181-2625-4628-baf3-6e6889954fc6-1762134181",
+      "location": "London, UK",
+      "remote": false,
+      "url": "https://careers.kast.xyz/en/postings/a9c17dce-d6c7-4979-b5cb-7c76a37381da",
+      "postedAt": "2026-08-25T13:47:18.000Z",
+      "board": {
+        "id": "solana-ecosystem-job-board",
+        "title": "Solana Ecosystem Job Board"
+      }
+    },
+    {
       "id": "solana-ecosystem-job-board:90852735",
       "title": "Senior Product Manager - Core",
       "company": "Coinflow Labs",
@@ -5689,20 +5703,6 @@
       "remote": false,
       "url": "https://careers.kast.xyz/en/postings/7ab30354-7d80-4b5e-bac8-5396c94da8d1",
       "postedAt": "2026-08-18T10:55:43.000Z",
-      "board": {
-        "id": "solana-ecosystem-job-board",
-        "title": "Solana Ecosystem Job Board"
-      }
-    },
-    {
-      "id": "solana-ecosystem-job-board:90180584",
-      "title": "Lead Product Designer, Growth",
-      "company": "Magic Eden",
-      "companyLogo": "https://cdn.getro.com/companies/e999d6da-bcf3-56be-ac2a-ed7564f655c8-1749087709",
-      "location": "Australia",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/magiceden/ae3d6863-aa22-4f06-8067-6b509e0b3513",
-      "postedAt": "2026-08-17T11:16:47.000Z",
       "board": {
         "id": "solana-ecosystem-job-board",
         "title": "Solana Ecosystem Job Board"
@@ -6605,6 +6605,20 @@
       }
     },
     {
+      "id": "castle-ventures:91139257",
+      "title": "Head of Legal",
+      "company": "BabylonChain",
+      "companyLogo": "https://cdn.getro.com/companies/ab0e60ce-cbb3-4fd8-ae2a-6305970280f3-1761269556",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://babylonlabs.io/job-listings/head-of-legal",
+      "postedAt": "2026-08-25T19:43:38.000Z",
+      "board": {
+        "id": "castle-ventures",
+        "title": "Castle Ventures"
+      }
+    },
+    {
       "id": "castle-ventures:91039951",
       "title": "Accounting Lead",
       "company": "Meow",
@@ -6865,20 +6879,6 @@
       "remote": true,
       "url": "https://jobs.lever.co/moonpay/202dec29-039f-4211-8d8e-4ce8e36511ab",
       "postedAt": "2026-08-24T10:39:10.000Z",
-      "board": {
-        "id": "castle-ventures",
-        "title": "Castle Ventures"
-      }
-    },
-    {
-      "id": "castle-ventures:90938753",
-      "title": "Compliance Manager, Licensing & Regulatory Affairs",
-      "company": "Félix",
-      "companyLogo": "https://cdn.getro.com/companies/fecd430a-82f6-4811-bc43-fd8fc7f0e0f0-1764812359",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/compliance-manager-licensing-regulatory-affairs-at-f%C3%A9lix-4454424443",
-      "postedAt": "2026-08-23T13:48:40.000Z",
       "board": {
         "id": "castle-ventures",
         "title": "Castle Ventures"
