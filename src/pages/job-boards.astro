@@ -34,8 +34,22 @@ const cards = boards
   </head>
 
   <body class="min-h-screen flex flex-col">
-    <header class="sticky top-0 z-10 bg-transparent text-white py-4">
-      <nav class="container mx-auto px-4 flex flex-wrap justify-end items-center gap-4">
+    <header class="sticky top-0 z-10 bg-gray-950/80 backdrop-blur-md text-white py-4">
+      <nav class="container mx-auto px-4 flex flex-wrap justify-between items-center gap-4">
+        <div class="flex flex-wrap items-center gap-4">
+          <a
+            href="/"
+            class="group bg-transparent hover:bg-lavender-blue-500 text-lavender-blue-300 hover:text-white font-semibold text-sm py-2 px-4 border border-lavender-blue-300/40 hover:border-transparent rounded transition"
+          >
+            <span class="inline-block transition-transform group-hover:-translate-x-1">&larr;</span> Back
+          </a>
+          <a
+            href="/jobs"
+            class="bg-transparent hover:bg-lavender-blue-500 text-lavender-blue-300 hover:text-white font-semibold text-sm py-2 px-4 border border-lavender-blue-300/40 hover:border-transparent rounded transition"
+          >
+            Browse live job postings instead
+          </a>
+        </div>
         <Image
           src={icpLogo}
           alt="Internet Computer logo"
@@ -46,12 +60,6 @@ const cards = boards
           class="w-24 sm:w-32 md:w-40 h-auto"
         />
       </nav>
-      <div class="container mx-auto px-4 mt-4 flex flex-wrap items-center gap-4">
-        <a href="/" class="text-sm text-white/70 hover:text-white">&larr; Back</a>
-        <a href="/jobs" class="text-sm text-white/70 hover:text-white underline underline-offset-2">
-          Browse live job postings instead
-        </a>
-      </div>
       <div class="container mx-auto px-4 mt-4">
         <label class="relative block">
           <span class="sr-only">Search job boards</span>
@@ -69,8 +77,8 @@ const cards = boards
     <main class="grow">
       <div class="container mx-auto my-8 px-4">
         <section>
-          <h2 class="text-2xl font-bold mb-4">All job boards</h2>
-          <p id="board-count" class="mb-4 text-sm text-gray-500" aria-live="polite">
+          <h2 class="text-2xl font-bold mb-4 text-white">All job boards</h2>
+          <p id="board-count" class="mb-4 text-sm text-white/70" aria-live="polite">
             Showing {cards.length} of {cards.length} job boards
           </p>
           <div id="board-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -83,7 +91,7 @@ const cards = boards
               />
             ))}
           </div>
-          <p id="board-empty" class="hidden py-16 text-center text-gray-500">
+          <p id="board-empty" class="hidden py-16 text-center text-white/70">
             No job boards match "<span id="board-empty-query"></span>".
           </p>
         </section>

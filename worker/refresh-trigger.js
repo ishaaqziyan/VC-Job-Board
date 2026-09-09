@@ -3,6 +3,7 @@
 // trigger a workflow run can't live in browser JS — this holds it as a
 // Worker secret instead. See ../worker/README for deploy steps.
 const ALLOWED_ORIGINS = new Set([
+  "https://cryptovcjobs.ishaaq.org",
   "https://hcf2z-5yaaa-aaaal-ajxja-cai.icp0.io",
   "http://localhost:4321",
 ]);
@@ -55,7 +56,7 @@ export default {
           "User-Agent": "vc-job-board-refresh-worker",
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ ref: "master" }),
+        body: JSON.stringify({ ref: "main" }),
       },
     );
 

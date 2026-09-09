@@ -2,7 +2,7 @@
 
 The Great Crypto VC Job Board aggregates dozens of crypto VC and Web3 job portals into a single page, so you don't have to hunt down each portfolio's job board one by one.
 
-![image](https://github.com/user-attachments/assets/2dfd18d8-7457-435b-b593-fa0d08cdb289)
+<img width="1919" height="898" alt="Image" src="https://github.com/user-attachments/assets/31d4a150-f3b8-4b62-88e0-d3ae1cd0ee0e" />
 
 [![Build](https://github.com/ishaaqziyan/VC-Job-Board/actions/workflows/ci.yaml/badge.svg)](https://github.com/ishaaqziyan/VC-Job-Board/actions/workflows/ci.yaml)
 [![Refresh live job postings](https://github.com/ishaaqziyan/VC-Job-Board/actions/workflows/refresh-jobs.yaml/badge.svg)](https://github.com/ishaaqziyan/VC-Job-Board/actions/workflows/refresh-jobs.yaml)

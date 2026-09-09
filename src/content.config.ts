@@ -7,7 +7,7 @@ const boards = defineCollection({
   schema: z.object({
     title: z.string().min(1),
     // Validated at build time: a malformed URL fails the build instead of
-    // shipping a broken card.
+    // shipping a broken card. z.url() in Zod v4 enforces http(s) natively.
     url: z.url(),
     // Filename within src/assets/logos/. Deliberately a plain string rather
     // than the image() helper: image() makes Astro emit the unoptimized

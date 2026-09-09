@@ -30,8 +30,22 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
   </head>
 
   <body class="min-h-screen flex flex-col">
-    <header class="sticky top-0 z-10 bg-transparent text-white py-4">
-      <nav class="container mx-auto px-4 flex flex-wrap justify-end items-center gap-4">
+    <header class="sticky top-0 z-10 bg-gray-950/80 backdrop-blur-md text-white py-4">
+      <nav class="container mx-auto px-4 flex flex-wrap justify-between items-center gap-4">
+        <div class="flex flex-wrap items-center gap-4">
+          <a
+            href="/"
+            class="group bg-transparent hover:bg-lavender-blue-500 text-lavender-blue-300 hover:text-white font-semibold text-sm py-2 px-4 border border-lavender-blue-300/40 hover:border-transparent rounded transition"
+          >
+            <span class="inline-block transition-transform group-hover:-translate-x-1">&larr;</span> Back
+          </a>
+          <a
+            href="/job-boards"
+            class="bg-transparent hover:bg-lavender-blue-500 text-lavender-blue-300 hover:text-white font-semibold text-sm py-2 px-4 border border-lavender-blue-300/40 hover:border-transparent rounded transition"
+          >
+            Browse job boards instead
+          </a>
+        </div>
         <Image
           src={icpLogo}
           alt="Internet Computer logo"
@@ -42,12 +56,6 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
           class="w-24 sm:w-32 md:w-40 h-auto"
         />
       </nav>
-      <div class="container mx-auto px-4 mt-4 flex flex-wrap items-center gap-4">
-        <a href="/" class="text-sm text-white/70 hover:text-white">&larr; Back</a>
-        <a href="/job-boards" class="text-sm text-white/70 hover:text-white underline underline-offset-2">
-          Browse job boards instead
-        </a>
-      </div>
     </header>
 
     <main class="grow">
@@ -62,7 +70,7 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
               <button
                 id="refresh-jobs-btn"
                 type="button"
-                class="text-xs font-medium text-lavender-blue-300 hover:text-lavender-blue-200 border border-lavender-blue-300/40 rounded-full px-3 py-1 transition disabled:opacity-50 disabled:cursor-not-allowed"
+                class="bg-lavender-blue-500 hover:bg-lavender-blue-600 text-white font-bold text-xs py-2 px-4 rounded transition disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 Refresh now
               </button>
@@ -81,7 +89,7 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
                 type="search"
                 placeholder="Search role, company, or location…"
                 autocomplete="off"
-                class="w-full rounded-lg border-2 border-gray-200 px-4 py-2 focus:outline-none focus:border-lavender-blue-500"
+                class="w-full rounded-lg border-2 border-transparent bg-white/10 px-4 py-2 text-white placeholder-white/60 focus:outline-none focus:border-lavender-blue-500 focus:bg-white/5"
               />
             </label>
             <label class="flex items-center gap-2 text-sm text-gray-300 select-none">

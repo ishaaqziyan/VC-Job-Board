@@ -1,8 +1,8 @@
 name: Refresh live job postings
 
-# Runs against master only — GitHub only fires `schedule` for the workflow
+# Runs against main only — GitHub only fires `schedule` for the workflow
 # file as it exists on the repo's default branch, regardless of what's on
-# other branches. Push to master triggers deploy.yaml, so a successful
+# other branches. Push to main triggers deploy.yaml, so a successful
 # refresh here republishes the site with no extra deploy step required.
 on:
   workflow_dispatch:
@@ -18,12 +18,28 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the repo
-        uses: actions/checkout@v4
+      # WORKER_GITHUB_TOKEN in Doppler (project vc-jobs, config prd) — same
+      # PAT the Cloudflare Worker uses (see worker/refresh-trigger.js and
+      # .github/workflows/deploy-worker.yaml). Checking out with a PAT
+      # instead of the default ambient GITHUB_TOKEN matters: GitHub's
+      # anti-loop rule means a push made with the ambient token does NOT
+      # trigger other workflows' `on: push`, so deploy.yaml would silently
+      # never fire and the site would never pick up the refreshed data.
+      - name: Fetch deploy credentials from Doppler
+        id: doppler
+        uses: dopplerhq/secrets-fetch-action@v2.0.0
         with:
-          ref: master
+          doppler-token: ${{ secrets.DOPPLER_TOKEN }}
+          doppler-project: vc-jobs
+          doppler-config: prd
 
-      - uses: actions/setup-node@v4
+      - name: Check out the repo
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          token: ${{ steps.doppler.outputs.WORKER_GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
 
@@ -35,7 +51,7 @@ jobs:
 
       # Validates the freshly-fetched data against the content-collection
       # schema before it's committed, so a malformed upstream API response
-      # can't land on master and break the next deploy.
+      # can't land on main and break the next deploy.
       - name: Build site (schema validation gate)
         run: npm run build
 
@@ -49,4 +65,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/jobs.json
           git commit -m "chore: refresh live job postings"
-          git push origin HEAD:master
+          git push origin HEAD:main
