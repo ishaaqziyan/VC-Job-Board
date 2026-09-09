@@ -1,4 +1,5 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
+import { z } from "zod";
 import { file } from "astro/loaders";
 
 const boards = defineCollection({
@@ -7,7 +8,7 @@ const boards = defineCollection({
     title: z.string().min(1),
     // Validated at build time: a malformed URL fails the build instead of
     // shipping a broken card.
-    url: z.string().url(),
+    url: z.url(),
     // Filename within src/assets/logos/. Deliberately a plain string rather
     // than the image() helper: image() makes Astro emit the unoptimized
     // original into dist/_astro alongside the webp (3.3MB of files nothing
@@ -30,10 +31,10 @@ const jobs = defineCollection({
   schema: z.object({
     title: z.string().min(1),
     company: z.string().nullable(),
-    companyLogo: z.string().url().nullable(),
+    companyLogo: z.url().nullable(),
     location: z.string().nullable(),
     remote: z.boolean(),
-    url: z.string().url(),
+    url: z.url(),
     postedAt: z.string().nullable(),
     board: z.object({ id: z.string(), title: z.string() }),
   }),

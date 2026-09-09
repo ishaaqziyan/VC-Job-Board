@@ -122,7 +122,21 @@ const results = await mapWithConcurrency(boards, CONCURRENCY, (board) =>
   fetchBoard(board).catch((err) => ({ board, skipped: err.message })),
 );
 
-const jobs = results.flatMap((r) => r.jobs ?? []);
+const allJobs = results.flatMap((r) => r.jobs ?? []);
+
+// The same job posting often appears on multiple VC portfolio boards (shared
+// portfolio companies). Deduplicate by URL, keeping whichever board fetched
+// it first (boards.json order). The compound board:jobId key guarantees the
+// Astro content-collection ID is unique; the URL check removes the visible
+// duplicates a user would otherwise see on the jobs page.
+const seenUrls = new Set();
+const jobs = allJobs.filter((job) => {
+  if (seenUrls.has(job.url)) return false;
+  seenUrls.add(job.url);
+  return true;
+});
+const dupesDropped = allJobs.length - jobs.length;
+
 const boardSummaries = results.map((r) => ({
   id: r.board.id,
   title: r.board.title,
@@ -153,6 +167,6 @@ await writeFile(
 );
 
 console.log(
-  `[fetch-getro-jobs] ${ok.length}/${boards.length} boards yielded ${jobs.length} jobs; ${skipped.length} skipped`,
+  `[fetch-getro-jobs] ${ok.length}/${boards.length} boards yielded ${allJobs.length} jobs; ${dupesDropped} duplicates removed → ${jobs.length} unique; ${skipped.length} skipped`,
 );
 for (const b of skipped) console.log(`  skip: ${b.title}: ${b.skipped}`);

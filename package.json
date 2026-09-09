@@ -12,20 +12,20 @@
     "discover-boards": "node scripts/discover-boards.mjs"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.8",
-    "@astrojs/mdx": "^4.3.14",
-    "@astrojs/rss": "^4.0.17",
-    "@astrojs/sitemap": "^3.7.1",
+    "@astrojs/check": "^0.9.10",
+    "@astrojs/mdx": "^8.0.1",
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.4",
     "@types/p5": "^1.7.7",
-    "astro": "^5.18.1",
-    "baseline-browser-mapping": "^2.10.10",
+    "astro": "^7.3.2",
+    "baseline-browser-mapping": "^2.11.0",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
     "tailwindcss": "^4.2.2",
     "typescript": "^5.4.3"
   },
   "overrides": {
-    "fast-uri": ">=3.1.1"
+    "fast-uri": "3.1.7"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",
