@@ -72,7 +72,16 @@ async function fetchBoard(board) {
   const found = jobsState?.found;
   if (!Array.isArray(found)) return { board, skipped: "unexpected data shape" };
 
-  const jobs = found.map((job) => ({
+  const isValidUrl = (u) => {
+    try {
+      const parsed = new URL(u);
+      return parsed.protocol === "http:" || parsed.protocol === "https:";
+    } catch {
+      return false;
+    }
+  };
+
+  const allJobs = found.map((job) => ({
     id: `${board.id}:${job.id}`,
     title: job.title,
     company: job.organization?.name ?? null,
@@ -83,6 +92,14 @@ async function fetchBoard(board) {
     postedAt: job.createdAt ? new Date(job.createdAt * 1000).toISOString() : null,
     board: { id: board.id, title: board.title },
   }));
+
+  const jobs = allJobs.filter((job) => {
+    if (!isValidUrl(job.url)) {
+      console.warn(`  [skip] ${job.id}: invalid url ${JSON.stringify(job.url)}`);
+      return false;
+    }
+    return true;
+  });
 
   return { board, jobs, total: jobsState.total };
 }
