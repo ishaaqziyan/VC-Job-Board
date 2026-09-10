@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T09:49:27.915Z",
+  "fetchedAt": "2026-09-10T11:17:21.677Z",
   "boards": [
     {
       "id": "a16z-crypto",
@@ -75,7 +75,7 @@
       "id": "electric-capital",
       "title": "Electric Capital",
       "fetched": 20,
-      "total": 191,
+      "total": 194,
       "skipped": null
     },
     {
@@ -89,14 +89,14 @@
       "id": "digital-currency-group",
       "title": "Digital Currency Group",
       "fetched": 20,
-      "total": 1155,
+      "total": 1158,
       "skipped": null
     },
     {
       "id": "sv-angel",
       "title": "SV Angel",
       "fetched": 20,
-      "total": 2714,
+      "total": 2710,
       "skipped": null
     },
     {
@@ -201,7 +201,7 @@
       "id": "blockchain-capital",
       "title": "Blockchain Capital",
       "fetched": 20,
-      "total": 712,
+      "total": 715,
       "skipped": null
     },
     {
@@ -299,7 +299,7 @@
       "id": "blockchain-association",
       "title": "Blockchain Association",
       "fetched": 20,
-      "total": 1865,
+      "total": 1868,
       "skipped": null
     },
     {
@@ -837,20 +837,6 @@
       }
     },
     {
-      "id": "framework-ventures:91245256",
-      "title": "Staff Backend Engineer, Vaults",
-      "company": "Aave",
-      "companyLogo": "https://cdn.getro.com/companies/cf66a761-b801-4df4-bf46-46ddfd2fdeb0-1762134364",
-      "location": "Europe",
-      "remote": false,
-      "url": "https://www.linkedin.com/jobs/view/staff-backend-engineer-vaults-at-aave-labs-4457641483",
-      "postedAt": "2026-08-26T14:08:11.000Z",
-      "board": {
-        "id": "framework-ventures",
-        "title": "Framework Ventures"
-      }
-    },
-    {
       "id": "framework-ventures:91245255",
       "title": "Head of Risk",
       "company": "Aave",
@@ -858,6 +844,20 @@
       "location": "London, UK",
       "remote": false,
       "url": "https://uk.linkedin.com/jobs/view/head-of-risk-at-aave-labs-4457621669",
+      "postedAt": "2026-08-26T14:08:11.000Z",
+      "board": {
+        "id": "framework-ventures",
+        "title": "Framework Ventures"
+      }
+    },
+    {
+      "id": "framework-ventures:91245256",
+      "title": "Staff Backend Engineer, Vaults",
+      "company": "Aave",
+      "companyLogo": "https://cdn.getro.com/companies/cf66a761-b801-4df4-bf46-46ddfd2fdeb0-1762134364",
+      "location": "Europe",
+      "remote": false,
+      "url": "https://www.linkedin.com/jobs/view/staff-backend-engineer-vaults-at-aave-labs-4457641483",
       "postedAt": "2026-08-26T14:08:11.000Z",
       "board": {
         "id": "framework-ventures",
@@ -1117,20 +1117,6 @@
       }
     },
     {
-      "id": "polychain-capital:92581021",
-      "title": "People Analytics Intern",
-      "company": "Coinbase",
-      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/coinbase/jobs/8175517",
-      "postedAt": "2026-09-09T11:06:28.000Z",
-      "board": {
-        "id": "polychain-capital",
-        "title": "Polychain Capital"
-      }
-    },
-    {
       "id": "polychain-capital:92581018",
       "title": "Payment Risk Intern",
       "company": "Coinbase",
@@ -1138,6 +1124,20 @@
       "location": "New York, NY, USA",
       "remote": false,
       "url": "https://boards.greenhouse.io/coinbase/jobs/8175447",
+      "postedAt": "2026-09-09T11:06:28.000Z",
+      "board": {
+        "id": "polychain-capital",
+        "title": "Polychain Capital"
+      }
+    },
+    {
+      "id": "polychain-capital:92581021",
+      "title": "People Analytics Intern",
+      "company": "Coinbase",
+      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
+      "location": "New York, NY, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/coinbase/jobs/8175517",
       "postedAt": "2026-09-09T11:06:28.000Z",
       "board": {
         "id": "polychain-capital",
@@ -1159,13 +1159,13 @@
       }
     },
     {
-      "id": "polychain-capital:92581005",
-      "title": "Internal Audit Intern",
+      "id": "polychain-capital:92581008",
+      "title": "Learning & Development Intern",
       "company": "Coinbase",
       "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
       "location": "New York, NY, USA",
       "remote": false,
-      "url": "https://boards.greenhouse.io/coinbase/jobs/8175432",
+      "url": "https://boards.greenhouse.io/coinbase/jobs/8175514",
       "postedAt": "2026-09-09T11:06:27.000Z",
       "board": {
         "id": "polychain-capital",
@@ -1439,6 +1439,90 @@
       }
     },
     {
+      "id": "electric-capital:92708239",
+      "title": "Suspicious Activity Report - Analyst",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "United States",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/kraken.com/1b362f4d-ded1-4a05-9ee3-01a46ba41667",
+      "postedAt": "2026-09-10T10:33:13.000Z",
+      "board": {
+        "id": "electric-capital",
+        "title": "Electric Capital"
+      }
+    },
+    {
+      "id": "electric-capital:92708241",
+      "title": "Staff Engineer - Growth - Verifications",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "Brazil",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/kraken.com/9124b8bd-7eb5-43b8-8725-046a361ddc52",
+      "postedAt": "2026-09-10T10:33:13.000Z",
+      "board": {
+        "id": "electric-capital",
+        "title": "Electric Capital"
+      }
+    },
+    {
+      "id": "electric-capital:92708234",
+      "title": "Principal, Business Operations - Pro",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "Canada",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/kraken.com/73ac21d7-93c1-4158-8600-8e41f7e9322b",
+      "postedAt": "2026-09-10T10:33:11.000Z",
+      "board": {
+        "id": "electric-capital",
+        "title": "Electric Capital"
+      }
+    },
+    {
+      "id": "electric-capital:92708233",
+      "title": "Principal, Business Operations - Pro",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "United States",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/kraken.com/db6d1b59-ef61-4ce1-aea6-9553b21252bb",
+      "postedAt": "2026-09-10T10:33:11.000Z",
+      "board": {
+        "id": "electric-capital",
+        "title": "Electric Capital"
+      }
+    },
+    {
+      "id": "electric-capital:92708230",
+      "title": "Law Enforcement Production Associate",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "United States",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/kraken.com/c24d8abf-14ae-4bd5-ae30-8bd78c81184a",
+      "postedAt": "2026-09-10T10:33:11.000Z",
+      "board": {
+        "id": "electric-capital",
+        "title": "Electric Capital"
+      }
+    },
+    {
+      "id": "electric-capital:92708232",
+      "title": "Law Enforcement Production Associate",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "Canada",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/kraken.com/1f1281c9-f952-40c8-a861-8b0efe1cbd11",
+      "postedAt": "2026-09-10T10:33:11.000Z",
+      "board": {
+        "id": "electric-capital",
+        "title": "Electric Capital"
+      }
+    },
+    {
       "id": "electric-capital:92599330",
       "title": "Head of Growth",
       "company": "Gitcoin",
@@ -1481,20 +1565,6 @@
       }
     },
     {
-      "id": "electric-capital:92250995",
-      "title": "FIU Compliance Associate",
-      "company": "Kraken",
-      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
-      "location": "Philippines",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/kraken.com/a2d5cf5d-2cc7-478c-aed8-bff95fac3798",
-      "postedAt": "2026-09-04T13:21:12.000Z",
-      "board": {
-        "id": "electric-capital",
-        "title": "Electric Capital"
-      }
-    },
-    {
       "id": "electric-capital:92250993",
       "title": "Counsel - Regulatory (UK)",
       "company": "Kraken",
@@ -1502,6 +1572,20 @@
       "location": "United Kingdom",
       "remote": false,
       "url": "https://jobs.ashbyhq.com/kraken.com/da8b1179-9caa-464c-8eee-395132814f91",
+      "postedAt": "2026-09-04T13:21:12.000Z",
+      "board": {
+        "id": "electric-capital",
+        "title": "Electric Capital"
+      }
+    },
+    {
+      "id": "electric-capital:92250995",
+      "title": "FIU Compliance Associate",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "Philippines",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/kraken.com/a2d5cf5d-2cc7-478c-aed8-bff95fac3798",
       "postedAt": "2026-09-04T13:21:12.000Z",
       "board": {
         "id": "electric-capital",
@@ -1573,76 +1657,6 @@
       "remote": false,
       "url": "https://ats.rippling.com/bitwise-asset-management-inc/jobs/8e984a0e-3b54-4236-9c0f-16c871150b94",
       "postedAt": "2026-09-01T11:14:38.000Z",
-      "board": {
-        "id": "electric-capital",
-        "title": "Electric Capital"
-      }
-    },
-    {
-      "id": "electric-capital:91613441",
-      "title": "Head of Financial Risk Management - Bitnomial",
-      "company": "Kraken",
-      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
-      "location": "United States",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/kraken.com/4c9cafd3-0ff5-4497-aa85-4fcc4945247a",
-      "postedAt": "2026-08-29T13:24:14.000Z",
-      "board": {
-        "id": "electric-capital",
-        "title": "Electric Capital"
-      }
-    },
-    {
-      "id": "electric-capital:91613428",
-      "title": "Client Engagement Specialist | Fixed-term",
-      "company": "Kraken",
-      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
-      "location": "Mexico",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/kraken.com/0c61b28e-65c3-40dc-ac5a-ccdbb140f0be",
-      "postedAt": "2026-08-29T13:24:12.000Z",
-      "board": {
-        "id": "electric-capital",
-        "title": "Electric Capital"
-      }
-    },
-    {
-      "id": "electric-capital:91610098",
-      "title": "Office Manager",
-      "company": "Ellipsis Labs",
-      "companyLogo": "https://cdn.getro.com/companies/81331bf8-755d-4004-954d-0f178099b94c-1763343497",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/ellipsislabs/242047ee-4a79-44cd-b66c-37a693faa6fe",
-      "postedAt": "2026-08-29T13:14:30.000Z",
-      "board": {
-        "id": "electric-capital",
-        "title": "Electric Capital"
-      }
-    },
-    {
-      "id": "electric-capital:91434203",
-      "title": "People Operations Manager",
-      "company": "San Francisco Compute Company",
-      "companyLogo": "https://cdn.getro.com/companies/ccd5c0f4-6b45-45f7-b2ee-5b2e4104835d-1763429950",
-      "location": "San Francisco, CA, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/sfcompute/c9590a36-1743-4c8e-ac62-c8fee6b010cf",
-      "postedAt": "2026-08-28T12:03:25.000Z",
-      "board": {
-        "id": "electric-capital",
-        "title": "Electric Capital"
-      }
-    },
-    {
-      "id": "electric-capital:91321760",
-      "title": "Platform Product Manager — Payward Services",
-      "company": "Kraken",
-      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
-      "location": "Canada",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/kraken.com/c6298ed5-978b-49ea-8cec-ce90f275d540",
-      "postedAt": "2026-08-27T12:18:10.000Z",
       "board": {
         "id": "electric-capital",
         "title": "Electric Capital"
@@ -2573,6 +2587,20 @@
       }
     },
     {
+      "id": "coinbase-ventures:92700732",
+      "title": "Ongoing Monitoring Analyst",
+      "company": "BVNK",
+      "companyLogo": "https://cdn.getro.com/companies/79326e71-e4a9-4335-aa58-0e69d1fb7ccf-1766108126",
+      "location": "Bulgaria",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/bvnk/jobs/4972656101",
+      "postedAt": "2026-09-10T09:54:32.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
       "id": "coinbase-ventures:92588383",
       "title": "Customer Support Representative",
       "company": "Wave Mobile Money",
@@ -2735,20 +2763,6 @@
       "remote": false,
       "url": "https://in.linkedin.com/jobs/view/risk-operations-specialist-at-merge-4462038754",
       "postedAt": "2026-09-03T15:06:05.000Z",
-      "board": {
-        "id": "coinbase-ventures",
-        "title": "Coinbase Ventures"
-      }
-    },
-    {
-      "id": "coinbase-ventures:92050308",
-      "title": "Agent Liquidity Lead",
-      "company": "Wave Mobile Money",
-      "companyLogo": "https://cdn.getro.com/companies/0d32a2a0-7a88-472c-9765-8566eb03fe86-1761788675",
-      "location": "Cameroon",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/wavemm1/jobs/6177399004",
-      "postedAt": "2026-09-03T11:32:47.000Z",
       "board": {
         "id": "coinbase-ventures",
         "title": "Coinbase Ventures"
@@ -3455,48 +3469,6 @@
       }
     },
     {
-      "id": "blockchain-capital:92581012",
-      "title": "Machine Learning Engineer Intern",
-      "company": "Coinbase",
-      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
-      "location": "San Francisco, CA, USA",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/coinbase/jobs/8175441",
-      "postedAt": "2026-09-09T11:06:27.000Z",
-      "board": {
-        "id": "blockchain-capital",
-        "title": "Blockchain Capital"
-      }
-    },
-    {
-      "id": "blockchain-capital:92581008",
-      "title": "Learning & Development Intern",
-      "company": "Coinbase",
-      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/coinbase/jobs/8175514",
-      "postedAt": "2026-09-09T11:06:27.000Z",
-      "board": {
-        "id": "blockchain-capital",
-        "title": "Blockchain Capital"
-      }
-    },
-    {
-      "id": "blockchain-capital:92581002",
-      "title": "FP&A Intern",
-      "company": "Coinbase",
-      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/coinbase/jobs/8175438",
-      "postedAt": "2026-09-09T11:06:27.000Z",
-      "board": {
-        "id": "blockchain-capital",
-        "title": "Blockchain Capital"
-      }
-    },
-    {
       "id": "spartan-group:91697574",
       "title": "Business Operations Manager",
       "company": "Offchain Labs",
@@ -3917,20 +3889,6 @@
       }
     },
     {
-      "id": "foundation-capital:92595588",
-      "title": "AI Research, Intern",
-      "company": "One",
-      "companyLogo": "https://cdn.getro.com/companies/97ea4821-498d-4164-98fe-4cec886116eb-1760578494",
-      "location": "United States",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/oneapp/7cc2fdfb-a186-4a58-af1b-8255c173244a",
-      "postedAt": "2026-09-09T11:53:19.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
       "id": "foundation-capital:92595584",
       "title": "Software Engineer, Intern",
       "company": "One",
@@ -3952,6 +3910,20 @@
       "location": "United States",
       "remote": true,
       "url": "https://jobs.ashbyhq.com/oneapp/946f0192-9c64-4b86-8fbd-5ff107cbf88f",
+      "postedAt": "2026-09-09T11:53:19.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:92595588",
+      "title": "AI Research, Intern",
+      "company": "One",
+      "companyLogo": "https://cdn.getro.com/companies/97ea4821-498d-4164-98fe-4cec886116eb-1760578494",
+      "location": "United States",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/oneapp/7cc2fdfb-a186-4a58-af1b-8255c173244a",
       "postedAt": "2026-09-09T11:53:19.000Z",
       "board": {
         "id": "foundation-capital",
@@ -4919,48 +4891,6 @@
       "remote": false,
       "url": "https://boards.greenhouse.io/OKX/jobs/7989745003",
       "postedAt": "2026-09-09T12:46:17.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
-      "id": "blockchain-association:92594904",
-      "title": "Senior Analyst, Digital Trust and Resilience",
-      "company": "Crypto.com",
-      "companyLogo": "https://cdn.getro.com/companies/e7a18a88-470a-4fdf-b056-260a198dc053-1762220391",
-      "location": "Taipei City, Taiwan",
-      "remote": false,
-      "url": "https://jobs.lever.co/crypto/fb6b34a5-34ed-4c8e-b185-2cfdabde023b",
-      "postedAt": "2026-09-09T11:51:06.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
-      "id": "blockchain-association:92594905",
-      "title": "Senior Manager, Identity Governance",
-      "company": "Crypto.com",
-      "companyLogo": "https://cdn.getro.com/companies/e7a18a88-470a-4fdf-b056-260a198dc053-1762220391",
-      "location": "Sofia, Bulgaria",
-      "remote": false,
-      "url": "https://jobs.lever.co/crypto/b17ac35d-1b67-40de-bd45-4de7dfda2cd8",
-      "postedAt": "2026-09-09T11:51:06.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
-      "id": "blockchain-association:92594903",
-      "title": "Senior Analyst, Digital Trust and Resilience",
-      "company": "Crypto.com",
-      "companyLogo": "https://cdn.getro.com/companies/e7a18a88-470a-4fdf-b056-260a198dc053-1762220391",
-      "location": "Hong Kong",
-      "remote": false,
-      "url": "https://jobs.lever.co/crypto/47509c3a-b034-470b-903a-b8e0441d5d28",
-      "postedAt": "2026-09-09T11:51:05.000Z",
       "board": {
         "id": "blockchain-association",
         "title": "Blockchain Association"
