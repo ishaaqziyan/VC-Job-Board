@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-23T11:33:52.851Z",
+  "fetchedAt": "2026-09-24T09:31:08.657Z",
   "boards": [
     {
       "id": "a16z-crypto",
@@ -26,7 +26,7 @@
       "id": "multicoin-capital",
       "title": "Multicoin Capital",
       "fetched": 20,
-      "total": 499,
+      "total": 497,
       "skipped": null
     },
     {
@@ -47,7 +47,7 @@
       "id": "polychain-capital",
       "title": "Polychain Capital",
       "fetched": 20,
-      "total": 952,
+      "total": 951,
       "skipped": null
     },
     {
@@ -75,7 +75,7 @@
       "id": "electric-capital",
       "title": "Electric Capital",
       "fetched": 20,
-      "total": 206,
+      "total": 210,
       "skipped": null
     },
     {
@@ -89,14 +89,14 @@
       "id": "digital-currency-group",
       "title": "Digital Currency Group",
       "fetched": 20,
-      "total": 1107,
+      "total": 1123,
       "skipped": null
     },
     {
       "id": "sv-angel",
       "title": "SV Angel",
       "fetched": 20,
-      "total": 2755,
+      "total": 2758,
       "skipped": null
     },
     {
@@ -131,14 +131,14 @@
       "id": "coinbase-ventures",
       "title": "Coinbase Ventures",
       "fetched": 20,
-      "total": 575,
+      "total": 577,
       "skipped": null
     },
     {
       "id": "dragonfly-capital",
       "title": "Dragonfly Capital",
       "fetched": 20,
-      "total": 1101,
+      "total": 1099,
       "skipped": null
     },
     {
@@ -172,15 +172,15 @@
     {
       "id": "animoca-brands",
       "title": "Animoca Brands",
-      "fetched": 17,
-      "total": 17,
+      "fetched": 20,
+      "total": 21,
       "skipped": null
     },
     {
       "id": "longhash-ventures",
       "title": "Longhash Ventures",
       "fetched": 20,
-      "total": 105,
+      "total": 106,
       "skipped": null
     },
     {
@@ -201,7 +201,7 @@
       "id": "blockchain-capital",
       "title": "Blockchain Capital",
       "fetched": 20,
-      "total": 702,
+      "total": 704,
       "skipped": null
     },
     {
@@ -215,7 +215,7 @@
       "id": "spartan-group",
       "title": "Spartan Group",
       "fetched": 20,
-      "total": 45,
+      "total": 46,
       "skipped": null
     },
     {
@@ -229,7 +229,7 @@
       "id": "foundation-capital",
       "title": "Foundation Capital",
       "fetched": 20,
-      "total": 1505,
+      "total": 1530,
       "skipped": null
     },
     {
@@ -271,7 +271,7 @@
       "id": "solana-ecosystem-job-board",
       "title": "Solana Ecosystem Job Board",
       "fetched": 20,
-      "total": 402,
+      "total": 400,
       "skipped": null
     },
     {
@@ -285,7 +285,7 @@
       "id": "monad-ecosystem-job-board",
       "title": "Monad Ecosystem Job Board",
       "fetched": 20,
-      "total": 35,
+      "total": 30,
       "skipped": null
     },
     {
@@ -299,21 +299,21 @@
       "id": "blockchain-association",
       "title": "Blockchain Association",
       "fetched": 20,
-      "total": 1878,
+      "total": 1881,
       "skipped": null
     },
     {
       "id": "arbitrum-ecosystem-job-board",
       "title": "Arbitrum Ecosystem Job Board",
       "fetched": 20,
-      "total": 134,
+      "total": 133,
       "skipped": null
     },
     {
       "id": "castle-ventures",
       "title": "Castle Ventures",
       "fetched": 20,
-      "total": 667,
+      "total": 666,
       "skipped": null
     },
     {
@@ -327,11 +327,25 @@
       "id": "jump-crypto",
       "title": "Jump Crypto",
       "fetched": 20,
-      "total": 188,
+      "total": 193,
       "skipped": null
     }
   ],
   "jobs": [
+    {
+      "id": "multicoin-capital:94389005",
+      "title": "O&M Technician",
+      "company": "Fuse Energy",
+      "companyLogo": "https://cdn.getro.com/companies/55428246-50f2-4a39-ae68-2794a2700a04-1761182953",
+      "location": "Bristol, UK",
+      "remote": false,
+      "url": "https://apply.workable.com/fuseenergy/j/FDE56FAF3B",
+      "postedAt": "2026-09-23T11:51:07.000Z",
+      "board": {
+        "id": "multicoin-capital",
+        "title": "Multicoin Capital"
+      }
+    },
     {
       "id": "multicoin-capital:94290665",
       "title": "Accounting Manager, Global Entities & Intercompany",
@@ -593,20 +607,6 @@
       "remote": true,
       "url": "https://jobs.ashbyhq.com/passes/25264c38-7077-4d17-8430-d3762bcb3f84",
       "postedAt": "2026-09-15T11:26:34.000Z",
-      "board": {
-        "id": "multicoin-capital",
-        "title": "Multicoin Capital"
-      }
-    },
-    {
-      "id": "multicoin-capital:93155270",
-      "title": "Office Manager",
-      "company": "Workable",
-      "companyLogo": "https://cdn.getro.com/companies/e151fece-3423-45c4-bfde-bad551b784f6-1762220466",
-      "location": "Boston, MA, USA",
-      "remote": false,
-      "url": "https://apply.workable.com/careers/j/2ECE5A5123",
-      "postedAt": "2026-09-15T10:33:27.000Z",
       "board": {
         "id": "multicoin-capital",
         "title": "Multicoin Capital"
@@ -893,6 +893,90 @@
       }
     },
     {
+      "id": "polychain-capital:94424645",
+      "title": "Systems Administrator",
+      "company": "M0",
+      "companyLogo": "https://cdn.getro.com/companies/31cea7a2-3ab2-55ad-acef-62ef7cb853a5-1755653495",
+      "location": "United States",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/m0dbathenextthingltd/jobs/4414722009",
+      "postedAt": "2026-09-23T12:48:39.000Z",
+      "board": {
+        "id": "polychain-capital",
+        "title": "Polychain Capital"
+      }
+    },
+    {
+      "id": "polychain-capital:94404176",
+      "title": "Corporate Counsel",
+      "company": "Hyperbolic",
+      "companyLogo": "https://cdn.getro.com/companies/e3b4f959-3f71-49ed-8595-e8f3a14f2755-1761442248",
+      "location": "San Francisco, CA, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/hyperbolic/209b6140-aaf0-490e-a0f6-ccbcd442980b",
+      "postedAt": "2026-09-23T12:17:49.000Z",
+      "board": {
+        "id": "polychain-capital",
+        "title": "Polychain Capital"
+      }
+    },
+    {
+      "id": "polychain-capital:94396900",
+      "title": "Sports Creator Manager",
+      "company": "Polymarket",
+      "companyLogo": "https://cdn.getro.com/companies/26ca9fb9-7198-4fd7-9ef1-d42991f8c94b-1760578520",
+      "location": "New York, NY, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/polymarket/72d6220d-6db8-4104-b47a-0b6b0483d428",
+      "postedAt": "2026-09-23T12:04:04.000Z",
+      "board": {
+        "id": "polychain-capital",
+        "title": "Polychain Capital"
+      }
+    },
+    {
+      "id": "polychain-capital:94393287",
+      "title": "Chief Compliance Officer",
+      "company": "River Financial",
+      "companyLogo": "https://cdn.getro.com/companies/45bf429c-ba4d-4a27-b7f7-124867c3f9f9-1761529253",
+      "location": "India",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/river/d891b3a3-eddc-4293-b102-909a797d8048",
+      "postedAt": "2026-09-23T11:57:26.000Z",
+      "board": {
+        "id": "polychain-capital",
+        "title": "Polychain Capital"
+      }
+    },
+    {
+      "id": "polychain-capital:94386679",
+      "title": "Senior Software Engineer, Backend - Platform (Core AI Automation)",
+      "company": "Coinbase",
+      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
+      "location": "United States",
+      "remote": true,
+      "url": "https://boards.greenhouse.io/coinbase/jobs/8211452",
+      "postedAt": "2026-09-23T11:45:10.000Z",
+      "board": {
+        "id": "polychain-capital",
+        "title": "Polychain Capital"
+      }
+    },
+    {
+      "id": "polychain-capital:94386676",
+      "title": "Associate General Counsel, Privacy",
+      "company": "Coinbase",
+      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://boards.greenhouse.io/coinbase/jobs/8212923",
+      "postedAt": "2026-09-23T11:45:10.000Z",
+      "board": {
+        "id": "polychain-capital",
+        "title": "Polychain Capital"
+      }
+    },
+    {
       "id": "polychain-capital:94356129",
       "title": "Senior Software Engineer, Core",
       "company": "Ava Labs",
@@ -985,20 +1069,6 @@
       "remote": false,
       "url": "https://jobs.ashbyhq.com/Crusoe/cd54474a-b215-4600-80ab-89f66c9b1379",
       "postedAt": "2026-09-23T09:59:44.000Z",
-      "board": {
-        "id": "polychain-capital",
-        "title": "Polychain Capital"
-      }
-    },
-    {
-      "id": "polychain-capital:94289874",
-      "title": "Creator, Social & Influencer Lead, Football",
-      "company": "Polymarket",
-      "companyLogo": "https://cdn.getro.com/companies/26ca9fb9-7198-4fd7-9ef1-d42991f8c94b-1760578520",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/polymarket/328d0120-a49f-4d6a-bc46-e0df3598c404",
-      "postedAt": "2026-09-22T13:28:23.000Z",
       "board": {
         "id": "polychain-capital",
         "title": "Polychain Capital"
@@ -1103,84 +1173,42 @@
       }
     },
     {
-      "id": "polychain-capital:94197046",
-      "title": "Senior Staff Technical Program Manager, Cloud Engineering Operations",
-      "company": "Crusoe",
-      "companyLogo": "https://cdn.getro.com/companies/15632d41-e727-41b5-b3bd-db115adbba02-1763516385",
-      "location": "United States",
+      "id": "galaxy-digital:94395343",
+      "title": "Senior Manager - Lawfare",
+      "company": "Inca Digital",
+      "companyLogo": "https://cdn.getro.com/companies/6657b424-0590-41bd-8601-d0e63834dce4-1761269596",
+      "location": null,
       "remote": false,
-      "url": "https://jobs.ashbyhq.com/Crusoe/a824face-07b7-4a21-a793-b66410b66067",
-      "postedAt": "2026-09-22T10:11:26.000Z",
+      "url": "https://grnh.se/u1aytttu9us",
+      "postedAt": "2026-09-23T12:01:29.000Z",
       "board": {
-        "id": "polychain-capital",
-        "title": "Polychain Capital"
+        "id": "galaxy-digital",
+        "title": "Galaxy Digital"
       }
     },
     {
-      "id": "polychain-capital:94196992",
-      "title": "Tax Information Reporting Intern",
-      "company": "Coinbase",
-      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
-      "location": "New York, NY, USA",
+      "id": "galaxy-digital:94395338",
+      "title": "Brand & Communications Lead (US)",
+      "company": "Inca Digital",
+      "companyLogo": "https://cdn.getro.com/companies/6657b424-0590-41bd-8601-d0e63834dce4-1761269596",
+      "location": null,
       "remote": false,
-      "url": "https://boards.greenhouse.io/coinbase/jobs/8221241",
-      "postedAt": "2026-09-22T10:10:42.000Z",
+      "url": "https://grnh.se/8qhtoag59us",
+      "postedAt": "2026-09-23T12:01:29.000Z",
       "board": {
-        "id": "polychain-capital",
-        "title": "Polychain Capital"
+        "id": "galaxy-digital",
+        "title": "Galaxy Digital"
       }
     },
     {
-      "id": "polychain-capital:94196991",
-      "title": "Specialist, Market Operations",
-      "company": "Coinbase",
-      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
-      "location": "United States",
-      "remote": true,
-      "url": "https://boards.greenhouse.io/coinbase/jobs/8222259",
-      "postedAt": "2026-09-22T10:10:41.000Z",
-      "board": {
-        "id": "polychain-capital",
-        "title": "Polychain Capital"
-      }
-    },
-    {
-      "id": "polychain-capital:94196990",
-      "title": "Specialist, Market Operations",
-      "company": "Coinbase",
-      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://boards.greenhouse.io/coinbase/jobs/8222267",
-      "postedAt": "2026-09-22T10:10:41.000Z",
-      "board": {
-        "id": "polychain-capital",
-        "title": "Polychain Capital"
-      }
-    },
-    {
-      "id": "polychain-capital:94196988",
-      "title": "Senior Analyst, Compliance Technology",
-      "company": "Coinbase",
-      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
-      "location": "United States",
-      "remote": true,
-      "url": "https://boards.greenhouse.io/coinbase/jobs/8221985",
-      "postedAt": "2026-09-22T10:10:40.000Z",
-      "board": {
-        "id": "polychain-capital",
-        "title": "Polychain Capital"
-      }
-    },
-    {
-      "id": "galaxy-digital:93890072",
-      "title": "Product Operations Specialist (Growth)",
-      "company": "Redotpay",
-      "companyLogo": "https://cdn.getro.com/companies/ffc5633f-a31d-454b-919d-767f91c4c7c0-1762825078",
-      "location": "hong kong",
+      "id": "galaxy-digital:94395335",
+      "title": "Brand & Communications Lead (EU)",
+      "company": "Inca Digital",
+      "companyLogo": "https://cdn.getro.com/companies/6657b424-0590-41bd-8601-d0e63834dce4-1761269596",
+      "location": null,
       "remote": false,
-      "url": "https://hk.linkedin.com/jobs/view/product-operations-specialist-growth-at-redotpay-4469139681",
-      "postedAt": "2026-09-21T14:40:46.000Z",
+      "url": "https://grnh.se/exh5o8kw9us",
+      "postedAt": "2026-09-23T12:01:29.000Z",
       "board": {
         "id": "galaxy-digital",
         "title": "Galaxy Digital"
@@ -1201,8 +1229,22 @@
       }
     },
     {
+      "id": "galaxy-digital:93890072",
+      "title": "Product Operations Specialist (Growth)",
+      "company": "Redotpay",
+      "companyLogo": "https://cdn.getro.com/companies/ffc5633f-a31d-454b-919d-767f91c4c7c0-1762825078",
+      "location": "hong kong",
+      "remote": false,
+      "url": "https://hk.linkedin.com/jobs/view/product-operations-specialist-growth-at-redotpay-4469139681",
+      "postedAt": "2026-09-21T14:40:46.000Z",
+      "board": {
+        "id": "galaxy-digital",
+        "title": "Galaxy Digital"
+      }
+    },
+    {
       "id": "galaxy-digital:93829298",
-      "title": "All - NY (Copy)",
+      "title": "Senior Designer",
       "company": "Ornn",
       "companyLogo": "https://cdn.getro.com/companies/35aa53f2-b12f-4ee4-8ab2-e49fcc2dee70-1782563067",
       "location": "New York, NY, USA",
@@ -1257,20 +1299,6 @@
       }
     },
     {
-      "id": "galaxy-digital:93571619",
-      "title": "Data Analyst / Chief of Staff (Tampa, FL - On-site)",
-      "company": "Inca Digital",
-      "companyLogo": "https://cdn.getro.com/companies/6657b424-0590-41bd-8601-d0e63834dce4-1761269596",
-      "location": null,
-      "remote": false,
-      "url": "https://grnh.se/iphz4qqk9us",
-      "postedAt": "2026-09-18T11:17:20.000Z",
-      "board": {
-        "id": "galaxy-digital",
-        "title": "Galaxy Digital"
-      }
-    },
-    {
       "id": "galaxy-digital:93571618",
       "title": "Mid/Senior-level Golang Data Engineer (EU)",
       "company": "Inca Digital",
@@ -1278,6 +1306,20 @@
       "location": null,
       "remote": false,
       "url": "https://grnh.se/ofmdpr7n9us",
+      "postedAt": "2026-09-18T11:17:20.000Z",
+      "board": {
+        "id": "galaxy-digital",
+        "title": "Galaxy Digital"
+      }
+    },
+    {
+      "id": "galaxy-digital:93571619",
+      "title": "Data Analyst / Chief of Staff (Tampa, FL - On-site)",
+      "company": "Inca Digital",
+      "companyLogo": "https://cdn.getro.com/companies/6657b424-0590-41bd-8601-d0e63834dce4-1761269596",
+      "location": null,
+      "remote": false,
+      "url": "https://grnh.se/iphz4qqk9us",
       "postedAt": "2026-09-18T11:17:20.000Z",
       "board": {
         "id": "galaxy-digital",
@@ -1397,59 +1439,45 @@
       }
     },
     {
-      "id": "galaxy-digital:93377071",
-      "title": "Software Engineer Intern, Infrastructure",
-      "company": "Talos",
-      "companyLogo": "https://cdn.getro.com/companies/d2667ba3-69c1-47fa-b6be-2ca665d86bd5-1770601606",
-      "location": "London, UK",
+      "id": "electric-capital:94460087",
+      "title": "Community Lead - Kraken Pro",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "United States",
       "remote": false,
-      "url": "https://jobs.ashbyhq.com/Talos-Trading/f2a0aaa2-af88-4715-9f2d-8f61bd5e2935",
-      "postedAt": "2026-09-16T13:11:23.000Z",
+      "url": "https://jobs.ashbyhq.com/kraken.com/f6100b36-d906-4c8d-93b8-a03399452966",
+      "postedAt": "2026-09-23T13:38:18.000Z",
       "board": {
-        "id": "galaxy-digital",
-        "title": "Galaxy Digital"
+        "id": "electric-capital",
+        "title": "Electric Capital"
       }
     },
     {
-      "id": "galaxy-digital:93377076",
-      "title": "Software Engineer Intern, Trading",
-      "company": "Talos",
-      "companyLogo": "https://cdn.getro.com/companies/d2667ba3-69c1-47fa-b6be-2ca665d86bd5-1770601606",
-      "location": "London, UK",
+      "id": "electric-capital:94460055",
+      "title": "Community Lead - Kraken Pro",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "Canada",
       "remote": false,
-      "url": "https://jobs.ashbyhq.com/Talos-Trading/42cad756-c312-4142-a9b7-18ed76f61c5d",
-      "postedAt": "2026-09-16T13:11:23.000Z",
+      "url": "https://jobs.ashbyhq.com/kraken.com/5c4d1c46-02ec-4a87-a548-44a794aec51d",
+      "postedAt": "2026-09-23T13:38:15.000Z",
       "board": {
-        "id": "galaxy-digital",
-        "title": "Galaxy Digital"
+        "id": "electric-capital",
+        "title": "Electric Capital"
       }
     },
     {
-      "id": "galaxy-digital:93358006",
-      "title": "AI Security Engineer",
-      "company": "Fireblocks",
-      "companyLogo": "https://cdn.getro.com/companies/e1031f83-2432-4719-ad76-8b7be9be85a8-1761644501",
-      "location": "Tel Aviv District, Israel",
+      "id": "electric-capital:94460016",
+      "title": "Senior Software Engineer - React Native - Business Services",
+      "company": "Kraken",
+      "companyLogo": "https://cdn.getro.com/companies/93a9809c-c56d-5a4a-b397-9500a794cc57-1746495613",
+      "location": "Brazil",
       "remote": false,
-      "url": "https://boards.greenhouse.io/fireblocks/jobs/4713012006",
-      "postedAt": "2026-09-16T12:32:37.000Z",
+      "url": "https://jobs.ashbyhq.com/kraken.com/4c6e1cb1-b9b4-4263-897f-830b09b593ae",
+      "postedAt": "2026-09-23T13:38:11.000Z",
       "board": {
-        "id": "galaxy-digital",
-        "title": "Galaxy Digital"
-      }
-    },
-    {
-      "id": "galaxy-digital:93358007",
-      "title": "Director, Security Engineering",
-      "company": "Fireblocks",
-      "companyLogo": "https://cdn.getro.com/companies/e1031f83-2432-4719-ad76-8b7be9be85a8-1761644501",
-      "location": "Tel Aviv District, Israel",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/fireblocks/jobs/4713010006",
-      "postedAt": "2026-09-16T12:32:37.000Z",
-      "board": {
-        "id": "galaxy-digital",
-        "title": "Galaxy Digital"
+        "id": "electric-capital",
+        "title": "Electric Capital"
       }
     },
     {
@@ -1971,6 +1999,118 @@
       }
     },
     {
+      "id": "digital-currency-group:94464123",
+      "title": "Technical Solutions Consultant (Pre-Sales)",
+      "company": "Blockstream",
+      "companyLogo": "https://cdn.getro.com/companies/7d51b5fd-19e2-457e-9967-870286a34467-1761644645",
+      "location": "New York, NY, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/blockstream/6022d5f3-a6df-4581-9bae-ea496d5c5027",
+      "postedAt": "2026-09-23T13:45:06.000Z",
+      "board": {
+        "id": "digital-currency-group",
+        "title": "Digital Currency Group"
+      }
+    },
+    {
+      "id": "digital-currency-group:94464129",
+      "title": "Technical Solutions Consultant (Pre-Sales)",
+      "company": "Blockstream",
+      "companyLogo": "https://cdn.getro.com/companies/7d51b5fd-19e2-457e-9967-870286a34467-1761644645",
+      "location": "Menlo Park, CA, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/blockstream/7825297a-f6a6-4159-91ed-1fad94748955",
+      "postedAt": "2026-09-23T13:45:06.000Z",
+      "board": {
+        "id": "digital-currency-group",
+        "title": "Digital Currency Group"
+      }
+    },
+    {
+      "id": "digital-currency-group:94423422",
+      "title": "Senior Cryptocurrency Intelligence Scientist",
+      "company": "Elliptic",
+      "companyLogo": "https://cdn.getro.com/companies/c177c2ce-56fb-4c6f-a2f5-008aaeac5045-1762134365",
+      "location": "Washington, DC, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/elliptic/77a34b06-cb02-40bc-abd2-202ec43a2563",
+      "postedAt": "2026-09-23T12:47:03.000Z",
+      "board": {
+        "id": "digital-currency-group",
+        "title": "Digital Currency Group"
+      }
+    },
+    {
+      "id": "digital-currency-group:94404014",
+      "title": "Customer Success Associate",
+      "company": "Figure",
+      "companyLogo": "https://cdn.getro.com/companies/c368cbf7-612c-4b26-b4c4-8f91e00c992c-1763256931",
+      "location": "Reno, NV, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/figure/jobs/8818582002",
+      "postedAt": "2026-09-23T12:17:33.000Z",
+      "board": {
+        "id": "digital-currency-group",
+        "title": "Digital Currency Group"
+      }
+    },
+    {
+      "id": "digital-currency-group:94404010",
+      "title": "Customer Success Associate",
+      "company": "Figure",
+      "companyLogo": "https://cdn.getro.com/companies/c368cbf7-612c-4b26-b4c4-8f91e00c992c-1763256931",
+      "location": "Charlotte, NC, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/figure/jobs/8811994002",
+      "postedAt": "2026-09-23T12:17:33.000Z",
+      "board": {
+        "id": "digital-currency-group",
+        "title": "Digital Currency Group"
+      }
+    },
+    {
+      "id": "digital-currency-group:94404012",
+      "title": "Customer Success Associate",
+      "company": "Figure",
+      "companyLogo": "https://cdn.getro.com/companies/c368cbf7-612c-4b26-b4c4-8f91e00c992c-1763256931",
+      "location": "Dallas, TX, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/figure/jobs/8818670002",
+      "postedAt": "2026-09-23T12:17:33.000Z",
+      "board": {
+        "id": "digital-currency-group",
+        "title": "Digital Currency Group"
+      }
+    },
+    {
+      "id": "digital-currency-group:94367296",
+      "title": "Office Manager",
+      "company": "Utila",
+      "companyLogo": "https://cdn.getro.com/companies/5dca1a69-7524-4b6f-885e-b20450f671c1-1760924318",
+      "location": "Tel Aviv-Yafo, Israel",
+      "remote": false,
+      "url": "https://www.comeet.com/jobs/utila/D9.00F/office-manager/BF.277",
+      "postedAt": "2026-09-23T11:05:59.000Z",
+      "board": {
+        "id": "digital-currency-group",
+        "title": "Digital Currency Group"
+      }
+    },
+    {
+      "id": "digital-currency-group:94366981",
+      "title": "AI Automation Engineer",
+      "company": "Ripio",
+      "companyLogo": "https://cdn.getro.com/companies/aec9f079-7057-4eae-b487-b5ccba226e8a-1761644468",
+      "location": null,
+      "remote": false,
+      "url": "https://jobs.ripio.com/jobs/8437471-ai-automation-engineer",
+      "postedAt": "2026-09-23T11:05:04.000Z",
+      "board": {
+        "id": "digital-currency-group",
+        "title": "Digital Currency Group"
+      }
+    },
+    {
       "id": "digital-currency-group:94357329",
       "title": "Infrastructure Engineer",
       "company": "Ondo Finance",
@@ -2027,392 +2167,280 @@
       }
     },
     {
-      "id": "digital-currency-group:94266422",
-      "title": "Business Lead",
-      "company": "Blockchain.com",
-      "companyLogo": "https://cdn.getro.com/companies/e3c17438-01ea-4744-a728-6f1b23c5b279-1762220264",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/blockchain/jobs/8221122",
-      "postedAt": "2026-09-22T12:44:34.000Z",
-      "board": {
-        "id": "digital-currency-group",
-        "title": "Digital Currency Group"
-      }
-    },
-    {
-      "id": "digital-currency-group:94258080",
-      "title": "Senior Product Engineer, Frontend",
-      "company": "Zerion",
-      "companyLogo": "https://cdn.getro.com/companies/acf4a824-cc27-4e95-a652-68ad9470da39-1761644569",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://jobs.lever.co/zerion/157049e4-b7d7-469c-833a-6256756baf51",
-      "postedAt": "2026-09-22T12:37:25.000Z",
-      "board": {
-        "id": "digital-currency-group",
-        "title": "Digital Currency Group"
-      }
-    },
-    {
-      "id": "digital-currency-group:94256702",
-      "title": "Senior Accountant (Finance)",
-      "company": "eToro",
-      "companyLogo": "https://cdn.getro.com/companies/1f40484d-fc60-40cd-a86b-edb1aedd8203-1762220546",
-      "location": "New York, USA",
-      "remote": false,
-      "url": "https://www.comeet.com/jobs/etoro/41.009/senior-accountant-finance/6E.A65",
-      "postedAt": "2026-09-22T12:34:43.000Z",
-      "board": {
-        "id": "digital-currency-group",
-        "title": "Digital Currency Group"
-      }
-    },
-    {
-      "id": "digital-currency-group:94232200",
-      "title": "Forward Deployed Engineer, Integrations",
-      "company": "Sardine",
-      "companyLogo": "https://cdn.getro.com/companies/90665fee-f6cf-4188-b4ca-67403a0adb39-1760837505",
-      "location": "United States",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/sardine/5a6411d4-455f-48d5-a282-7bec2bec3494",
-      "postedAt": "2026-09-22T11:48:26.000Z",
-      "board": {
-        "id": "digital-currency-group",
-        "title": "Digital Currency Group"
-      }
-    },
-    {
-      "id": "digital-currency-group:94225193",
-      "title": "Sales Development Representative (EST based)",
-      "company": "Hedera Hashgraph",
-      "companyLogo": "https://cdn.getro.com/companies/a6db1396-8352-411f-b923-d1f94d97e739-1761961445",
-      "location": "United States",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/hashgraph/8364acd9-9726-46dc-93ed-9be5dad94a2f",
-      "postedAt": "2026-09-22T11:32:20.000Z",
-      "board": {
-        "id": "digital-currency-group",
-        "title": "Digital Currency Group"
-      }
-    },
-    {
-      "id": "digital-currency-group:94196989",
-      "title": "Specialist, Market Operations",
-      "company": "Coinbase",
-      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
-      "location": "Singapore",
-      "remote": true,
-      "url": "https://boards.greenhouse.io/coinbase/jobs/8222264",
-      "postedAt": "2026-09-22T10:10:40.000Z",
-      "board": {
-        "id": "digital-currency-group",
-        "title": "Digital Currency Group"
-      }
-    },
-    {
-      "id": "digital-currency-group:94196986",
-      "title": "Internal Audit Analytics Intern",
-      "company": "Coinbase",
-      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/coinbase/jobs/8221238",
-      "postedAt": "2026-09-22T10:10:39.000Z",
-      "board": {
-        "id": "digital-currency-group",
-        "title": "Digital Currency Group"
-      }
-    },
-    {
-      "id": "digital-currency-group:93888786",
-      "title": "Lead Data Engineer",
-      "company": "Immersive",
-      "companyLogo": "https://cdn.getro.com/companies/ae8f5812-2801-4945-b63a-5f527a9985fb-1761702210",
-      "location": "New Zealand",
-      "remote": false,
-      "url": "https://nz.linkedin.com/jobs/view/lead-data-engineer-at-immersve-4469843334",
-      "postedAt": "2026-09-21T14:31:02.000Z",
-      "board": {
-        "id": "digital-currency-group",
-        "title": "Digital Currency Group"
-      }
-    },
-    {
-      "id": "digital-currency-group:93887514",
-      "title": "Growth Lead",
-      "company": "Axis Pay",
-      "companyLogo": "https://cdn.getro.com/companies/ecdf6f5c-344e-43d6-ad17-5a1b68211a1f-1761011417",
-      "location": "Zamalek, Cairo Governorate, Egypt",
-      "remote": false,
-      "url": "https://eg.linkedin.com/jobs/view/growth-lead-at-axis-4467389878",
-      "postedAt": "2026-09-21T14:22:36.000Z",
-      "board": {
-        "id": "digital-currency-group",
-        "title": "Digital Currency Group"
-      }
-    },
-    {
-      "id": "sv-angel:94365438",
-      "title": "Social Growth Strategist",
-      "company": "ElevenLabs",
-      "companyLogo": "https://cdn.getro.com/companies/028a629b-21ff-5be4-b9da-c7d8d86e5e84",
-      "location": "France",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/elevenlabs/56a211b6-e298-4f71-b211-27023628d195",
-      "postedAt": "2026-09-23T10:59:56.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:94365426",
-      "title": "Enterprise Account Executive - Chile",
-      "company": "ElevenLabs",
-      "companyLogo": "https://cdn.getro.com/companies/028a629b-21ff-5be4-b9da-c7d8d86e5e84",
-      "location": "Argentina",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/elevenlabs/91dd600a-d0dd-4a75-a53d-f59aa9855626",
-      "postedAt": "2026-09-23T10:59:55.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:94362719",
-      "title": "Data Engineer",
-      "company": "WorkOS",
-      "companyLogo": "https://cdn.getro.com/companies/02a354de-887e-4a1f-95a7-7475a6f853f9-1760577704",
-      "location": "United States",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/workos/26377b4d-b392-4fd7-b813-10c2920299f9",
-      "postedAt": "2026-09-23T10:49:58.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:94350167",
-      "title": "Recruiter",
-      "company": "Kodex",
-      "companyLogo": "https://cdn.getro.com/companies/be4446e2-4bda-4edd-a999-141f7dbe2735-1768958499",
-      "location": "United States",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/kodex/201a9124-9bd3-4b8e-ba6a-adab7295e315",
-      "postedAt": "2026-09-23T09:58:50.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:94350004",
-      "title": "FP&A Manager, GTM",
-      "company": "Garner Health",
-      "companyLogo": "https://cdn.getro.com/companies/32161716-d25c-40c0-9c29-ce1c9959184c-1761298969",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://boards.greenhouse.io/garnerhealth/jobs/6195974004",
-      "postedAt": "2026-09-23T09:56:41.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:94349816",
-      "title": "Funder",
-      "company": "Point",
-      "companyLogo": "https://cdn.getro.com/companies/31a71e9a-35ac-4eb2-a44c-0dd41cf8b5db-1763256937",
-      "location": "United States",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/pointdigitalfinance/jobs/8816911002",
-      "postedAt": "2026-09-23T09:55:13.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:94349812",
+      "id": "sv-angel:94445328",
       "title": "Associate Software Engineer",
       "company": "Point",
       "companyLogo": "https://cdn.getro.com/companies/31a71e9a-35ac-4eb2-a44c-0dd41cf8b5db-1763256937",
       "location": "San Francisco, CA, USA",
       "remote": false,
-      "url": "https://boards.greenhouse.io/pointdigitalfinance/jobs/8829278002",
-      "postedAt": "2026-09-23T09:55:12.000Z",
+      "url": "https://point.com/careers/job/associate-software-engineer-8829278002",
+      "postedAt": "2026-09-23T13:25:13.000Z",
       "board": {
         "id": "sv-angel",
         "title": "SV Angel"
       }
     },
     {
-      "id": "sv-angel:94306963",
-      "title": "Growth & AI Operations - Intern",
-      "company": "Roon",
-      "companyLogo": "https://cdn.getro.com/companies/466e92ab-b8d6-4d63-988a-a61946584532-1761788582",
-      "location": null,
+      "id": "sv-angel:94445316",
+      "title": "Funder",
+      "company": "Point",
+      "companyLogo": "https://cdn.getro.com/companies/31a71e9a-35ac-4eb2-a44c-0dd41cf8b5db-1763256937",
+      "location": "United States",
       "remote": false,
-      "url": "https://rooncare.notion.site/Growth-AI-Operations-Intern-3e30598f74218007bc7fcc125a12dac5?pvs=25",
-      "postedAt": "2026-09-22T14:29:05.000Z",
+      "url": "https://point.com/careers/job/funder-8816911002",
+      "postedAt": "2026-09-23T13:25:13.000Z",
       "board": {
         "id": "sv-angel",
         "title": "SV Angel"
       }
     },
     {
-      "id": "sv-angel:94296307",
-      "title": "Software Engineer",
-      "company": "SmartAsset",
-      "companyLogo": "https://cdn.getro.com/companies/e5970dc5-de91-426c-9326-930c273e67bc-1764121122",
-      "location": "Remote",
+      "id": "sv-angel:94443317",
+      "title": "IT Engineer",
+      "company": "HeyGen",
+      "companyLogo": "https://cdn.getro.com/companies/e252d3f2-4ab9-5d57-9e23-7f8a0321fc59-1748741814",
+      "location": "Palo Alto, CA, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/heygen/jobs/5246262007",
+      "postedAt": "2026-09-23T13:21:56.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94443312",
+      "title": "Full-Cycle Technical Recruiter",
+      "company": "HeyGen",
+      "companyLogo": "https://cdn.getro.com/companies/e252d3f2-4ab9-5d57-9e23-7f8a0321fc59-1748741814",
+      "location": "Palo Alto, CA, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/heygen/jobs/5246730007",
+      "postedAt": "2026-09-23T13:21:55.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94439332",
+      "title": "Insurance Leaders: Perspectives on Strategy and Operations",
+      "company": "Terac",
+      "companyLogo": "https://cdn.getro.com/companies/8ef72eac-0412-4c26-95a9-f192cd168389-1767874734",
+      "location": "United States",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/terac/9e58fa7b-1323-42b7-bf2e-20520dad4c38",
+      "postedAt": "2026-09-23T13:14:57.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94439329",
+      "title": "Personal Trainers: Paid Study on Home Equipment Workflows",
+      "company": "Terac",
+      "companyLogo": "https://cdn.getro.com/companies/8ef72eac-0412-4c26-95a9-f192cd168389-1767874734",
+      "location": "United States",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/terac/964ce51d-37d3-4151-abf8-f110c2c22fe7",
+      "postedAt": "2026-09-23T13:14:56.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94437570",
+      "title": "Senior Manager, Fraud",
+      "company": "Underdog Fantasy",
+      "companyLogo": "https://cdn.getro.com/companies/8b46b038-bb0d-4dd7-b667-d5932e98992b-1764812369",
+      "location": "United States",
       "remote": true,
-      "url": "https://boards.greenhouse.io/smartasset/jobs/8817968002",
-      "postedAt": "2026-09-22T13:42:52.000Z",
+      "url": "https://boards.greenhouse.io/underdog/jobs/4737024005",
+      "postedAt": "2026-09-23T13:12:05.000Z",
       "board": {
         "id": "sv-angel",
         "title": "SV Angel"
       }
     },
     {
-      "id": "sv-angel:94288641",
-      "title": "Partnership Operations Associate",
-      "company": "Ethos Life",
-      "companyLogo": "https://cdn.getro.com/companies/796491ff-824f-450f-81e1-7acb842ca8a9-1761529305",
-      "location": "Bengaluru, Karnataka, India",
+      "id": "sv-angel:94433383",
+      "title": "Principal Forward Deployed Engineer",
+      "company": "Docker",
+      "companyLogo": "https://cdn.getro.com/companies/aa6b4057-5cee-47f8-bcd0-cb450872a91d-1761788644",
+      "location": "San Jose, CA, USA",
       "remote": false,
-      "url": "https://boards.greenhouse.io/ethoslife/jobs/8813454002",
-      "postedAt": "2026-09-22T13:25:18.000Z",
+      "url": "https://jobs.ashbyhq.com/docker/f50260bc-5da2-475d-bc4b-172ad7c5aa01",
+      "postedAt": "2026-09-23T13:06:53.000Z",
       "board": {
         "id": "sv-angel",
         "title": "SV Angel"
       }
     },
     {
-      "id": "sv-angel:94283972",
-      "title": "Commercial Sales Manager, Account Executive/Account Management",
+      "id": "sv-angel:94433022",
+      "title": "Lead, Advanced Practice Providers",
+      "company": "Pomelo Care",
+      "companyLogo": "https://cdn.getro.com/companies/cee3fad5-d9f7-4358-b65a-5a911d42b96d-1760837686",
+      "location": "United States",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/pomelocare/jobs/6205060004",
+      "postedAt": "2026-09-23T13:06:02.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94426254",
+      "title": "Revenue Operations Manager",
+      "company": "Drata",
+      "companyLogo": "https://cdn.getro.com/companies/84fbc00d-528a-4291-a10b-dc5fd8408b2b-1761616027",
+      "location": "San Francisco, CA, USA",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/drata/7ee6086a-3d73-427a-a5e0-2a768d9595ef",
+      "postedAt": "2026-09-23T12:51:30.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94426096",
+      "title": "Account Development Representative - EMEA",
+      "company": "Rescale",
+      "companyLogo": "https://cdn.getro.com/companies/d9a82a0e-d37d-57c8-b41e-e12802e68513",
+      "location": "Northern Europe",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/rescale/b6f152eb-780d-4679-8e33-8f3fbdbc5488",
+      "postedAt": "2026-09-23T12:51:16.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94422812",
+      "title": "Software Engineer 3",
+      "company": "Cedar",
+      "companyLogo": "https://cdn.getro.com/companies/64fdda61-d916-5a61-b23f-0a9f4b0977bc-1748655549",
+      "location": "United States",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/careportalinc/jobs/8220717",
+      "postedAt": "2026-09-23T12:45:57.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94420950",
+      "title": "Forward Deployed Engineering Lead (SF)",
+      "company": "Doppel",
+      "companyLogo": "https://cdn.getro.com/companies/a21d5498-fa8e-462c-803e-2f033fd1707f-1769305380",
+      "location": "San Francisco, CA, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/Doppel/1422dadf-11d8-4274-ba89-5e3f4807791c",
+      "postedAt": "2026-09-23T12:42:44.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94420953",
+      "title": "Forward Deployed Engineering Lead (TOR)",
+      "company": "Doppel",
+      "companyLogo": "https://cdn.getro.com/companies/a21d5498-fa8e-462c-803e-2f033fd1707f-1769305380",
+      "location": "Toronto, ON, Canada",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/Doppel/b02d8a40-a331-450b-a650-e23b41002ce0",
+      "postedAt": "2026-09-23T12:42:44.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94419857",
+      "title": "Senior Customer Success Manager - Technical Account Management",
+      "company": "Zip",
+      "companyLogo": "https://cdn.getro.com/companies/bc43a71d-f954-4e45-8335-ad9bea4ff887-1760578600",
+      "location": "Toronto, ON, Canada",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/zip/2b00c4fc-3a21-469b-8114-de7ca1b1fa71",
+      "postedAt": "2026-09-23T12:41:30.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94419853",
+      "title": "Head of EMEA Marketing",
       "company": "Zip",
       "companyLogo": "https://cdn.getro.com/companies/bc43a71d-f954-4e45-8335-ad9bea4ff887-1760578600",
       "location": "London, UK",
       "remote": false,
-      "url": "https://jobs.ashbyhq.com/zip/3e41ec8b-430a-4054-b04d-9513f475e0eb",
-      "postedAt": "2026-09-22T13:14:59.000Z",
+      "url": "https://jobs.ashbyhq.com/zip/45530714-1ce9-4476-8bd1-886aad4e1d27",
+      "postedAt": "2026-09-23T12:41:30.000Z",
       "board": {
         "id": "sv-angel",
         "title": "SV Angel"
       }
     },
     {
-      "id": "sv-angel:94283968",
-      "title": "Strategic Account Executive",
+      "id": "sv-angel:94419861",
+      "title": "Senior Customer Success Manager - Technical Account Management",
       "company": "Zip",
       "companyLogo": "https://cdn.getro.com/companies/bc43a71d-f954-4e45-8335-ad9bea4ff887-1760578600",
-      "location": "London, UK",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/zip/8f55d950-ada5-4f0a-9d9f-f485258ba166",
-      "postedAt": "2026-09-22T13:14:59.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:94278135",
-      "title": "Product Engineer",
-      "company": "Complir",
-      "companyLogo": "https://cdn.getro.com/companies/0de273b4-c923-5f06-9276-9f017704769d-1751258779",
-      "location": "Copenhagen, Denmark",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/complir/7a469a7f-de68-48f7-9cf0-f816dbabc766",
-      "postedAt": "2026-09-22T13:02:11.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:94272845",
-      "title": "Strategic Finance, Corporate",
-      "company": "Loops",
-      "companyLogo": "https://cdn.getro.com/companies/a750ed8e-9dc6-497d-9b97-ef8281570f88-1762134352",
       "location": "San Francisco, CA, USA",
       "remote": false,
-      "url": "https://jobs.ashbyhq.com/notion/72e0f2c1-d599-4301-8096-491835757b9e",
-      "postedAt": "2026-09-22T12:53:36.000Z",
+      "url": "https://jobs.ashbyhq.com/zip/396c01bb-a65e-4eca-8ca8-1184fd9d6ae6",
+      "postedAt": "2026-09-23T12:41:30.000Z",
       "board": {
         "id": "sv-angel",
         "title": "SV Angel"
       }
     },
     {
-      "id": "sv-angel:94272834",
-      "title": "Software Engineer, Data Platform (Foundations Lead)",
-      "company": "Loops",
-      "companyLogo": "https://cdn.getro.com/companies/a750ed8e-9dc6-497d-9b97-ef8281570f88-1762134352",
+      "id": "sv-angel:94419864",
+      "title": "Senior Customer Success Manager - Technical Account Management",
+      "company": "Zip",
+      "companyLogo": "https://cdn.getro.com/companies/bc43a71d-f954-4e45-8335-ad9bea4ff887-1760578600",
+      "location": "New York, NY, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/zip/042a729f-9fba-4b06-9d18-24fccf51cd4f",
+      "postedAt": "2026-09-23T12:41:30.000Z",
+      "board": {
+        "id": "sv-angel",
+        "title": "SV Angel"
+      }
+    },
+    {
+      "id": "sv-angel:94410078",
+      "title": "Field Marketing Manager",
+      "company": "Decagon",
+      "companyLogo": "https://cdn.getro.com/companies/ace09fa6-09a9-4ab4-ad77-4f0567ed57e6-1769688966",
       "location": "San Francisco, CA, USA",
       "remote": false,
-      "url": "https://jobs.ashbyhq.com/notion/e9bf7ffa-9cf2-4360-a2e4-e9fa66859927",
-      "postedAt": "2026-09-22T12:53:35.000Z",
+      "url": "https://jobs.ashbyhq.com/decagon/23dcd983-a57d-445a-8cd3-4f819f47268a",
+      "postedAt": "2026-09-23T12:27:50.000Z",
       "board": {
         "id": "sv-angel",
         "title": "SV Angel"
       }
     },
     {
-      "id": "sv-angel:94265289",
-      "title": "Recruiter, Vault Hiring (Contract)",
-      "company": "Alt",
-      "companyLogo": "https://cdn.getro.com/companies/eb0d920a-4609-4c2d-be24-ed8663a6d093-1769737600",
-      "location": null,
+      "id": "sv-angel:94410068",
+      "title": "Growth Marketing Manager, Web & Search",
+      "company": "Decagon",
+      "companyLogo": "https://cdn.getro.com/companies/ace09fa6-09a9-4ab4-ad77-4f0567ed57e6-1769688966",
+      "location": "San Francisco, CA, USA",
       "remote": false,
-      "url": "https://jobs.ashbyhq.com/alt/893c1f79-926e-40ff-b436-65f31bd2af7a",
-      "postedAt": "2026-09-22T12:43:42.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:94265262",
-      "title": "Staff Software Engineer, Ledger",
-      "company": "Alt",
-      "companyLogo": "https://cdn.getro.com/companies/eb0d920a-4609-4c2d-be24-ed8663a6d093-1769737600",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/alt/e0eb543c-efa3-4074-9b60-999e34ee5df7",
-      "postedAt": "2026-09-22T12:43:41.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:94265265",
-      "title": "Senior Manager, Vault Operations",
-      "company": "Alt",
-      "companyLogo": "https://cdn.getro.com/companies/eb0d920a-4609-4c2d-be24-ed8663a6d093-1769737600",
-      "location": null,
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/alt/6aa0705a-cd72-4f51-b6fa-a48fe8a7c2c1",
-      "postedAt": "2026-09-22T12:43:41.000Z",
-      "board": {
-        "id": "sv-angel",
-        "title": "SV Angel"
-      }
-    },
-    {
-      "id": "sv-angel:94254452",
-      "title": "Staff Software Engineer, Agentic Commerce & Payments",
-      "company": "Replit",
-      "companyLogo": "https://cdn.getro.com/companies/b7c3b36b-41ac-52ad-a4fd-e666ebdf1432",
-      "location": "Foster City, CA, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/replit/22e99380-e48c-4bc3-a870-721411b22957",
-      "postedAt": "2026-09-22T12:30:48.000Z",
+      "url": "https://jobs.ashbyhq.com/decagon/dd7da929-3a93-4c13-bcf3-802e74eebdaf",
+      "postedAt": "2026-09-23T12:27:49.000Z",
       "board": {
         "id": "sv-angel",
         "title": "SV Angel"
@@ -2643,6 +2671,104 @@
       }
     },
     {
+      "id": "coinbase-ventures:94443771",
+      "title": "Compliance Manager - Singapore",
+      "company": "BVNK",
+      "companyLogo": "https://cdn.getro.com/companies/79326e71-e4a9-4335-aa58-0e69d1fb7ccf-1766108126",
+      "location": "Singapore",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/bvnk/jobs/4982809101",
+      "postedAt": "2026-09-23T13:22:47.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
+      "id": "coinbase-ventures:94443773",
+      "title": "Head of Risk - Singapore",
+      "company": "BVNK",
+      "companyLogo": "https://cdn.getro.com/companies/79326e71-e4a9-4335-aa58-0e69d1fb7ccf-1766108126",
+      "location": "Singapore",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/bvnk/jobs/4982798101",
+      "postedAt": "2026-09-23T13:22:47.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
+      "id": "coinbase-ventures:94418260",
+      "title": "Sales Representative",
+      "company": "Wave Mobile Money",
+      "companyLogo": "https://cdn.getro.com/companies/0d32a2a0-7a88-472c-9765-8566eb03fe86-1761788675",
+      "location": "Banjul, The Gambia",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/wavemm1/jobs/6204932004",
+      "postedAt": "2026-09-23T12:39:13.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
+      "id": "coinbase-ventures:94418258",
+      "title": "Regional Lead",
+      "company": "Wave Mobile Money",
+      "companyLogo": "https://cdn.getro.com/companies/0d32a2a0-7a88-472c-9765-8566eb03fe86-1761788675",
+      "location": "Cameroon",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/wavemm1/jobs/6202877004",
+      "postedAt": "2026-09-23T12:39:12.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
+      "id": "coinbase-ventures:94418252",
+      "title": "Field Officer",
+      "company": "Wave Mobile Money",
+      "companyLogo": "https://cdn.getro.com/companies/0d32a2a0-7a88-472c-9765-8566eb03fe86-1761788675",
+      "location": "Niamey, Niger",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/wavemm1/jobs/6202495004",
+      "postedAt": "2026-09-23T12:39:12.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
+      "id": "coinbase-ventures:94418247",
+      "title": "Field Auditor",
+      "company": "Wave Mobile Money",
+      "companyLogo": "https://cdn.getro.com/companies/0d32a2a0-7a88-472c-9765-8566eb03fe86-1761788675",
+      "location": "Cameroon",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/wavemm1/jobs/6200357004",
+      "postedAt": "2026-09-23T12:39:11.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
+      "id": "coinbase-ventures:94389857",
+      "title": "Manager, Corporate IT",
+      "company": "Greenhouse",
+      "companyLogo": "https://cdn.getro.com/companies/e0504449-2150-4d08-ad9a-650f3f690720-1764633204",
+      "location": "Northern Ireland, UK",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/greenhouse/jobs/8208105",
+      "postedAt": "2026-09-23T11:52:52.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
       "id": "coinbase-ventures:94364650",
       "title": "Senior Tax Accountant",
       "company": "Notion",
@@ -2661,24 +2787,10 @@
       "title": "Chief Information Security Officer",
       "company": "BVNK",
       "companyLogo": "https://cdn.getro.com/companies/79326e71-e4a9-4335-aa58-0e69d1fb7ccf-1766108126",
-      "location": "Remote",
-      "remote": true,
+      "location": "Singapore",
+      "remote": false,
       "url": "https://boards.greenhouse.io/bvnk/jobs/4971786101",
       "postedAt": "2026-09-22T11:08:15.000Z",
-      "board": {
-        "id": "coinbase-ventures",
-        "title": "Coinbase Ventures"
-      }
-    },
-    {
-      "id": "coinbase-ventures:94209881",
-      "title": "Operations Training Regional Lead",
-      "company": "Wave Mobile Money",
-      "companyLogo": "https://cdn.getro.com/companies/0d32a2a0-7a88-472c-9765-8566eb03fe86-1761788675",
-      "location": "Kinshasa, Democratic Republic of the Congo",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/wavemm1/jobs/6202395004",
-      "postedAt": "2026-09-22T11:00:29.000Z",
       "board": {
         "id": "coinbase-ventures",
         "title": "Coinbase Ventures"
@@ -2692,6 +2804,20 @@
       "location": "Kinshasa, Democratic Republic of the Congo",
       "remote": false,
       "url": "https://boards.greenhouse.io/wavemm1/jobs/6201584004",
+      "postedAt": "2026-09-22T11:00:29.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
+      "id": "coinbase-ventures:94209881",
+      "title": "Operations Training Regional Lead",
+      "company": "Wave Mobile Money",
+      "companyLogo": "https://cdn.getro.com/companies/0d32a2a0-7a88-472c-9765-8566eb03fe86-1761788675",
+      "location": "Kinshasa, Democratic Republic of the Congo",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/wavemm1/jobs/6202395004",
       "postedAt": "2026-09-22T11:00:29.000Z",
       "board": {
         "id": "coinbase-ventures",
@@ -2721,6 +2847,34 @@
       "remote": false,
       "url": "https://boards.greenhouse.io/wavemm1/jobs/6202385004",
       "postedAt": "2026-09-22T11:00:28.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
+      "id": "coinbase-ventures:94209396",
+      "title": "Strategic Finance, Corporate",
+      "company": "Notion",
+      "companyLogo": "https://cdn.getro.com/companies/113dad0f-8182-5277-88d0-ca8884e4d48b-1747704363",
+      "location": "San Francisco, CA, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/notion/72e0f2c1-d599-4301-8096-491835757b9e",
+      "postedAt": "2026-09-22T10:59:21.000Z",
+      "board": {
+        "id": "coinbase-ventures",
+        "title": "Coinbase Ventures"
+      }
+    },
+    {
+      "id": "coinbase-ventures:94209395",
+      "title": "Software Engineer, Data Platform (Foundations Lead)",
+      "company": "Notion",
+      "companyLogo": "https://cdn.getro.com/companies/113dad0f-8182-5277-88d0-ca8884e4d48b-1747704363",
+      "location": "San Francisco, CA, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/notion/e9bf7ffa-9cf2-4360-a2e4-e9fa66859927",
+      "postedAt": "2026-09-22T10:59:20.000Z",
       "board": {
         "id": "coinbase-ventures",
         "title": "Coinbase Ventures"
@@ -2797,87 +2951,31 @@
       }
     },
     {
-      "id": "coinbase-ventures:93757933",
-      "title": "Software Engineer",
-      "company": "Greenhouse",
-      "companyLogo": "https://cdn.getro.com/companies/e0504449-2150-4d08-ad9a-650f3f690720-1764633204",
-      "location": "Ontario, Canada",
+      "id": "dragonfly-capital:94424822",
+      "title": "Consultant - Accounting ( 1 year contract)",
+      "company": "Animoca Brands",
+      "companyLogo": "https://cdn.getro.com/companies/cec7fb97-6aee-413f-b9c5-15528dc11177-1763516387",
+      "location": "Hong Kong",
       "remote": false,
-      "url": "https://boards.greenhouse.io/greenhouse/jobs/8214721",
-      "postedAt": "2026-09-19T13:09:10.000Z",
+      "url": "https://jobs.lever.co/animocabrands/1c938940-9dae-42b1-ae24-ee8b5ab6ed77",
+      "postedAt": "2026-09-23T12:48:52.000Z",
       "board": {
-        "id": "coinbase-ventures",
-        "title": "Coinbase Ventures"
+        "id": "dragonfly-capital",
+        "title": "Dragonfly Capital"
       }
     },
     {
-      "id": "coinbase-ventures:93631061",
-      "title": "Manager, Solutions Consultants, UKI",
-      "company": "Notion",
-      "companyLogo": "https://cdn.getro.com/companies/113dad0f-8182-5277-88d0-ca8884e4d48b-1747704363",
-      "location": "London, UK",
+      "id": "dragonfly-capital:94424818",
+      "title": "Assistant Manager, Group Reporting",
+      "company": "Animoca Brands",
+      "companyLogo": "https://cdn.getro.com/companies/cec7fb97-6aee-413f-b9c5-15528dc11177-1763516387",
+      "location": "Hong Kong",
       "remote": false,
-      "url": "https://jobs.ashbyhq.com/notion/2f7589e1-b08d-49b1-83aa-2ea2454550db",
-      "postedAt": "2026-09-18T13:22:49.000Z",
+      "url": "https://jobs.lever.co/animocabrands/d89f0cfc-8fdd-4892-a83b-d9782d577506",
+      "postedAt": "2026-09-23T12:48:52.000Z",
       "board": {
-        "id": "coinbase-ventures",
-        "title": "Coinbase Ventures"
-      }
-    },
-    {
-      "id": "coinbase-ventures:93613509",
-      "title": "Risk & Compliance Lead",
-      "company": "Wave Mobile Money",
-      "companyLogo": "https://cdn.getro.com/companies/0d32a2a0-7a88-472c-9765-8566eb03fe86-1761788675",
-      "location": "Niamey, Niger",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/wavemm1/jobs/6198056004",
-      "postedAt": "2026-09-18T12:46:04.000Z",
-      "board": {
-        "id": "coinbase-ventures",
-        "title": "Coinbase Ventures"
-      }
-    },
-    {
-      "id": "coinbase-ventures:93606968",
-      "title": "Treasury & PayOps Analyst",
-      "company": "BVNK",
-      "companyLogo": "https://cdn.getro.com/companies/79326e71-e4a9-4335-aa58-0e69d1fb7ccf-1766108126",
-      "location": "United States",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/bvnk/jobs/4979569101",
-      "postedAt": "2026-09-18T12:35:39.000Z",
-      "board": {
-        "id": "coinbase-ventures",
-        "title": "Coinbase Ventures"
-      }
-    },
-    {
-      "id": "coinbase-ventures:93519830",
-      "title": "GTM Recruiter, EMEA",
-      "company": "Notion",
-      "companyLogo": "https://cdn.getro.com/companies/113dad0f-8182-5277-88d0-ca8884e4d48b-1747704363",
-      "location": "Paris, France",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/notion/fb3cd30c-0557-40ec-a47d-e0118663d346",
-      "postedAt": "2026-09-17T14:03:00.000Z",
-      "board": {
-        "id": "coinbase-ventures",
-        "title": "Coinbase Ventures"
-      }
-    },
-    {
-      "id": "coinbase-ventures:93519834",
-      "title": "Business Operations & Strategy",
-      "company": "Notion",
-      "companyLogo": "https://cdn.getro.com/companies/113dad0f-8182-5277-88d0-ca8884e4d48b-1747704363",
-      "location": "San Francisco, CA, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/notion/0d000633-4a69-4dae-ab5f-da19b5ab8cc0",
-      "postedAt": "2026-09-17T14:03:00.000Z",
-      "board": {
-        "id": "coinbase-ventures",
-        "title": "Coinbase Ventures"
+        "id": "dragonfly-capital",
+        "title": "Dragonfly Capital"
       }
     },
     {
@@ -2895,20 +2993,6 @@
       }
     },
     {
-      "id": "dragonfly-capital:94351719",
-      "title": "Enterprise Sales Director - APAC (SG)",
-      "company": "Velocity",
-      "companyLogo": "https://cdn.getro.com/companies/a42d3e3d-5e01-4672-8d0a-a631566b2551-1772069624",
-      "location": "Singapore",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/velocity/a2effddc-0538-440a-ae62-fcc45611e62e",
-      "postedAt": "2026-09-23T10:06:17.000Z",
-      "board": {
-        "id": "dragonfly-capital",
-        "title": "Dragonfly Capital"
-      }
-    },
-    {
       "id": "dragonfly-capital:94351720",
       "title": "Enterprise Sales Director - APAC (HK)",
       "company": "Velocity",
@@ -2916,6 +3000,20 @@
       "location": "Hong Kong",
       "remote": false,
       "url": "https://jobs.ashbyhq.com/velocity/99fbe06d-f825-4ea2-9916-7d05cf3f04e6",
+      "postedAt": "2026-09-23T10:06:17.000Z",
+      "board": {
+        "id": "dragonfly-capital",
+        "title": "Dragonfly Capital"
+      }
+    },
+    {
+      "id": "dragonfly-capital:94351719",
+      "title": "Enterprise Sales Director - APAC (SG)",
+      "company": "Velocity",
+      "companyLogo": "https://cdn.getro.com/companies/a42d3e3d-5e01-4672-8d0a-a631566b2551-1772069624",
+      "location": "Singapore",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/velocity/a2effddc-0538-440a-ae62-fcc45611e62e",
       "postedAt": "2026-09-23T10:06:17.000Z",
       "board": {
         "id": "dragonfly-capital",
@@ -3004,6 +3102,20 @@
       "board": {
         "id": "dragonfly-capital",
         "title": "Dragonfly Capital"
+      }
+    },
+    {
+      "id": "variant-fund:94382034",
+      "title": "Engineering Manager - DevOps",
+      "company": "Openfx",
+      "companyLogo": "https://cdn.getro.com/companies/46a6fe52-6b13-4f12-bba8-e728dd4b8fb0-1765676291",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/openfx/jobs/5431083008",
+      "postedAt": "2026-09-23T11:35:00.000Z",
+      "board": {
+        "id": "variant-fund",
+        "title": "Variant Fund"
       }
     },
     {
@@ -3343,17 +3455,17 @@
       }
     },
     {
-      "id": "animoca-brands:74070887",
-      "title": "Executive Assistant",
-      "company": "Animoca Brands",
-      "companyLogo": "https://cdn.getro.com/companies/cec7fb97-6aee-413f-b9c5-15528dc11177-1763516387",
-      "location": "Hong Kong",
-      "remote": false,
-      "url": "https://jobs.lever.co/animocabrands/cc1091e6-02ff-4ab8-955d-a6d1750dcf3e",
-      "postedAt": "2026-04-12T05:43:57.000Z",
+      "id": "longhash-ventures:94388853",
+      "title": "Senior Product Engineer, Frontend",
+      "company": "Decent Land Labs",
+      "companyLogo": "https://cdn.getro.com/companies/13fb0d86-b043-49c6-bc87-f4aa16e90ab1-1762393065",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://web3.career/senior-product-engineer-frontend-zerion/154463",
+      "postedAt": "2026-09-23T11:50:42.000Z",
       "board": {
-        "id": "animoca-brands",
-        "title": "Animoca Brands"
+        "id": "longhash-ventures",
+        "title": "Longhash Ventures"
       }
     },
     {
@@ -3371,20 +3483,6 @@
       }
     },
     {
-      "id": "longhash-ventures:92734811",
-      "title": "Quantitative Researcher",
-      "company": "Hyperbolic",
-      "companyLogo": "https://cdn.getro.com/companies/e3b4f959-3f71-49ed-8595-e8f3a14f2755-1761442248",
-      "location": "San Francisco, CA, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/hyperbolic/fd861fe3-88a2-436d-8391-c5c8f35e5793",
-      "postedAt": "2026-09-10T11:44:32.000Z",
-      "board": {
-        "id": "longhash-ventures",
-        "title": "Longhash Ventures"
-      }
-    },
-    {
       "id": "longhash-ventures:92734810",
       "title": "Member of Technical Staff - Inference",
       "company": "Hyperbolic",
@@ -3392,6 +3490,20 @@
       "location": "San Francisco, CA, USA",
       "remote": false,
       "url": "https://jobs.ashbyhq.com/hyperbolic/38121cf9-aa24-44f6-a500-ebcd2d3ca3ef",
+      "postedAt": "2026-09-10T11:44:32.000Z",
+      "board": {
+        "id": "longhash-ventures",
+        "title": "Longhash Ventures"
+      }
+    },
+    {
+      "id": "longhash-ventures:92734811",
+      "title": "Quantitative Researcher",
+      "company": "Hyperbolic",
+      "companyLogo": "https://cdn.getro.com/companies/e3b4f959-3f71-49ed-8595-e8f3a14f2755-1761442248",
+      "location": "San Francisco, CA, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/hyperbolic/fd861fe3-88a2-436d-8391-c5c8f35e5793",
       "postedAt": "2026-09-10T11:44:32.000Z",
       "board": {
         "id": "longhash-ventures",
@@ -3539,31 +3651,17 @@
       }
     },
     {
-      "id": "longhash-ventures:90265506",
-      "title": "Junior Controller",
-      "company": "Zero Gravity",
-      "companyLogo": "https://cdn.getro.com/companies/a3f171bc-cbfd-4d56-baa3-1c0effe0cacd-1761442288",
-      "location": "Singapore",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/0g/9f01486f-eff1-4eb3-86de-c7bc5a515157",
-      "postedAt": "2026-08-18T11:44:44.000Z",
+      "id": "blockchain-capital:94400496",
+      "title": "Tech Ops Engineer (Overnight EST Support 1am -9am)",
+      "company": "AlphaPoint",
+      "companyLogo": "https://cdn.getro.com/companies/34501549-4d00-4cbf-b2fa-f519bfc1cfb5-1768399950",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://alphapoint.applytojob.com/apply/CqC4D5wHJN/Tech-Ops-Engineer-Overnight-EST-Support-1am-9am",
+      "postedAt": "2026-09-23T12:10:56.000Z",
       "board": {
-        "id": "longhash-ventures",
-        "title": "Longhash Ventures"
-      }
-    },
-    {
-      "id": "longhash-ventures:90265498",
-      "title": "Enterprise Product Manager",
-      "company": "Zero Gravity",
-      "companyLogo": "https://cdn.getro.com/companies/a3f171bc-cbfd-4d56-baa3-1c0effe0cacd-1761442288",
-      "location": "Singapore",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/0g/859cb27c-7bb8-4c80-8bd7-1c053a01d21a",
-      "postedAt": "2026-08-18T11:44:43.000Z",
-      "board": {
-        "id": "longhash-ventures",
-        "title": "Longhash Ventures"
+        "id": "blockchain-capital",
+        "title": "Blockchain Capital"
       }
     },
     {
@@ -3609,42 +3707,84 @@
       }
     },
     {
-      "id": "blockchain-capital:93722019",
-      "title": "IT Support Lead",
-      "company": "Parity Technologies",
-      "companyLogo": "https://cdn.getro.com/companies/34fdcb4f-b9f6-499f-a431-6d55c5d8af08-1761875239",
-      "location": "United Kingdom",
+      "id": "blockchain-capital:94196992",
+      "title": "Tax Information Reporting Intern",
+      "company": "Coinbase",
+      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
+      "location": "New York, NY, USA",
       "remote": false,
-      "url": "https://jobs.ashbyhq.com/parity/7a0c0bc5-7876-4370-8132-622f02286558",
-      "postedAt": "2026-09-19T11:50:50.000Z",
+      "url": "https://boards.greenhouse.io/coinbase/jobs/8221241",
+      "postedAt": "2026-09-22T10:10:42.000Z",
       "board": {
         "id": "blockchain-capital",
         "title": "Blockchain Capital"
       }
     },
     {
-      "id": "blockchain-capital:93717261",
-      "title": "Senior Analyst, Fund Management",
-      "company": "Circle",
-      "companyLogo": "https://cdn.getro.com/companies/142aa0b4-87aa-48d1-bbca-27a53e3a5bbb-1762134350",
-      "location": "Bermuda",
-      "remote": false,
-      "url": "https://careers.circle.com/us/en/job/JR101148",
-      "postedAt": "2026-09-19T11:37:24.000Z",
+      "id": "blockchain-capital:94196990",
+      "title": "Specialist, Market Operations",
+      "company": "Coinbase",
+      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://boards.greenhouse.io/coinbase/jobs/8222267",
+      "postedAt": "2026-09-22T10:10:41.000Z",
       "board": {
         "id": "blockchain-capital",
         "title": "Blockchain Capital"
       }
     },
     {
-      "id": "blockchain-capital:93700830",
-      "title": "Institutional Senior Sales Associate",
-      "company": "BitGo",
-      "companyLogo": "https://cdn.getro.com/companies/2c623ac4-2a45-44f4-a0df-d4f88f89befd-1761644645",
-      "location": "California, USA",
+      "id": "blockchain-capital:94196991",
+      "title": "Specialist, Market Operations",
+      "company": "Coinbase",
+      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
+      "location": "United States",
+      "remote": true,
+      "url": "https://boards.greenhouse.io/coinbase/jobs/8222259",
+      "postedAt": "2026-09-22T10:10:41.000Z",
+      "board": {
+        "id": "blockchain-capital",
+        "title": "Blockchain Capital"
+      }
+    },
+    {
+      "id": "blockchain-capital:94196988",
+      "title": "Senior Analyst, Compliance Technology",
+      "company": "Coinbase",
+      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
+      "location": "United States",
+      "remote": true,
+      "url": "https://boards.greenhouse.io/coinbase/jobs/8221985",
+      "postedAt": "2026-09-22T10:10:40.000Z",
+      "board": {
+        "id": "blockchain-capital",
+        "title": "Blockchain Capital"
+      }
+    },
+    {
+      "id": "blockchain-capital:94196989",
+      "title": "Specialist, Market Operations",
+      "company": "Coinbase",
+      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
+      "location": "Singapore",
+      "remote": true,
+      "url": "https://boards.greenhouse.io/coinbase/jobs/8222264",
+      "postedAt": "2026-09-22T10:10:40.000Z",
+      "board": {
+        "id": "blockchain-capital",
+        "title": "Blockchain Capital"
+      }
+    },
+    {
+      "id": "blockchain-capital:94196986",
+      "title": "Internal Audit Analytics Intern",
+      "company": "Coinbase",
+      "companyLogo": "https://cdn.getro.com/companies/b6e4e919-a7aa-4c87-9045-88899c951faf-1762134364",
+      "location": "New York, NY, USA",
       "remote": false,
-      "url": "https://boards.greenhouse.io/bitgo/jobs/8792129002",
-      "postedAt": "2026-09-19T11:06:52.000Z",
+      "url": "https://boards.greenhouse.io/coinbase/jobs/8221238",
+      "postedAt": "2026-09-22T10:10:39.000Z",
       "board": {
         "id": "blockchain-capital",
         "title": "Blockchain Capital"
@@ -3833,269 +3973,283 @@
       }
     },
     {
-      "id": "foundation-capital:94360080",
-      "title": "Talent Activation Coordinator",
-      "company": "Chord Commerce",
-      "companyLogo": "https://cdn.getro.com/companies/fc2ffe63-99d0-438c-9d21-8468738febfc-1767921913",
-      "location": "San Francisco, CA, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/m13/26c3e7c9-a449-4e1f-aae9-212483ca8915",
-      "postedAt": "2026-09-23T10:42:18.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94294064",
-      "title": "Staff Hardware Engineer",
-      "company": "Graphcore",
-      "companyLogo": "https://cdn.getro.com/companies/5ce92c03-eb84-4917-b65c-5e9a4f9d826b-1761012705",
-      "location": "Austin, TX, USA",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/graphcore/jobs/8829245002",
-      "postedAt": "2026-09-22T13:37:57.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94294065",
-      "title": "Staff SoC Architect",
-      "company": "Graphcore",
-      "companyLogo": "https://cdn.getro.com/companies/5ce92c03-eb84-4917-b65c-5e9a4f9d826b-1761012705",
-      "location": "Bristol, UK",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/graphcore/jobs/8829940002",
-      "postedAt": "2026-09-22T13:37:57.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94294063",
-      "title": "Senior Systems Engineer",
-      "company": "Graphcore",
-      "companyLogo": "https://cdn.getro.com/companies/5ce92c03-eb84-4917-b65c-5e9a4f9d826b-1761012705",
-      "location": "Austin, TX, USA",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/graphcore/jobs/8829217002",
-      "postedAt": "2026-09-22T13:37:56.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94282005",
-      "title": "Staff Software Engineer, Inference API",
-      "company": "Cerebras",
-      "companyLogo": "https://cdn.getro.com/companies/06009b24-8d16-49e8-9b24-7d65e57955bd-1761012603",
-      "location": "Toronto, ON, Canada",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/cerebras/17a6a5e1-a2a7-4f77-8ff5-38884736838e",
-      "postedAt": "2026-09-22T13:08:43.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94281999",
-      "title": "AI Datacenter Infra engineer",
-      "company": "Cerebras",
-      "companyLogo": "https://cdn.getro.com/companies/06009b24-8d16-49e8-9b24-7d65e57955bd-1761012603",
-      "location": "Sunnyvale, CA, USA",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/cerebras/3a943706-87b4-4a0f-b1ac-70d1ff3d00e2",
-      "postedAt": "2026-09-22T13:08:42.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94262349",
-      "title": "Capital Markets Operation Lead",
-      "company": "Addi",
-      "companyLogo": "https://cdn.getro.com/companies/55739465-e567-55ff-a3f6-706093eadc48-1750647576",
-      "location": "Latambarcem, Goa, India",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/addi/b3b0f097-8961-4001-b8ba-0baacda32bb7",
-      "postedAt": "2026-09-22T12:41:31.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94262323",
-      "title": "Senior Hunter Marketplace",
-      "company": "Addi",
-      "companyLogo": "https://cdn.getro.com/companies/55739465-e567-55ff-a3f6-706093eadc48-1750647576",
-      "location": "Colombia",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/addi/b32ab3e6-5782-4935-8c92-33cc77013659",
-      "postedAt": "2026-09-22T12:41:30.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94261058",
-      "title": "Merchandising Administration Assistant, E-Commerce DTC",
-      "company": "HipDot",
-      "companyLogo": "https://cdn.getro.com/companies/e49b8cce-eca2-58d5-a823-a82fe2ed7065-1749001162",
-      "location": "London, UK",
-      "remote": false,
-      "url": "https://jobs.jobvite.com/funko/job/oILMAfwz",
-      "postedAt": "2026-09-22T12:40:50.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94260159",
-      "title": "Software Engineer, Full Stack",
-      "company": "Tessera Labs",
-      "companyLogo": "https://cdn.getro.com/companies/fa904772-8ff6-4be7-8574-c3112ce6d33c-1765541796",
-      "location": "San Jose, CA, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/tessera-labs/202be46b-0d9d-4277-b8b2-719c3321a352",
-      "postedAt": "2026-09-22T12:40:16.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94241743",
-      "title": "AI Research Intern",
-      "company": "One",
-      "companyLogo": "https://cdn.getro.com/companies/97ea4821-498d-4164-98fe-4cec886116eb-1760578494",
-      "location": "United States",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/oneapp/84beb108-c04b-42d3-a9ae-9a91210201b7",
-      "postedAt": "2026-09-22T12:07:13.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94241734",
-      "title": "Partnerships Intern",
-      "company": "One",
-      "companyLogo": "https://cdn.getro.com/companies/97ea4821-498d-4164-98fe-4cec886116eb-1760578494",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/oneapp/a6db6bbb-bc8d-43d2-9dd6-1047a9d5aec5",
-      "postedAt": "2026-09-22T12:07:12.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94241737",
-      "title": "Legal & Compliance Intern",
-      "company": "One",
-      "companyLogo": "https://cdn.getro.com/companies/97ea4821-498d-4164-98fe-4cec886116eb-1760578494",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/oneapp/f641bb45-b779-4a71-a775-9ee8e43bc8c2",
-      "postedAt": "2026-09-22T12:07:12.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94241740",
-      "title": "Design Intern",
-      "company": "One",
-      "companyLogo": "https://cdn.getro.com/companies/97ea4821-498d-4164-98fe-4cec886116eb-1760578494",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/oneapp/ae9fcbfc-424f-4d17-9712-3ea3126e1063",
-      "postedAt": "2026-09-22T12:07:12.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94241722",
-      "title": "Product Intern",
-      "company": "One",
-      "companyLogo": "https://cdn.getro.com/companies/97ea4821-498d-4164-98fe-4cec886116eb-1760578494",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/oneapp/901eab26-08e3-4e6c-ad3d-c4acef4662c8",
-      "postedAt": "2026-09-22T12:07:11.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94241713",
-      "title": "Marketing Intern",
-      "company": "One",
-      "companyLogo": "https://cdn.getro.com/companies/97ea4821-498d-4164-98fe-4cec886116eb-1760578494",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/oneapp/ddad1427-27c3-4db5-ae4f-bb2487d72c1d",
-      "postedAt": "2026-09-22T12:07:10.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94241703",
-      "title": "Finance Intern",
-      "company": "One",
-      "companyLogo": "https://cdn.getro.com/companies/97ea4821-498d-4164-98fe-4cec886116eb-1760578494",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/oneapp/07c0a56b-f130-4055-9ccd-f200883d9a5c",
-      "postedAt": "2026-09-22T12:07:09.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94238963",
-      "title": "Senior Content Marketing Manager",
-      "company": "CaptivateIQ",
-      "companyLogo": "https://cdn.getro.com/companies/c521c2da-e28f-40ed-aaaf-9eaa64bb71b0-1762047602",
-      "location": "United States",
-      "remote": true,
-      "url": "https://jobs.lever.co/captivateiq/2502b59c-3c80-4d4e-9719-35184914a127",
-      "postedAt": "2026-09-22T12:01:28.000Z",
-      "board": {
-        "id": "foundation-capital",
-        "title": "Foundation Capital"
-      }
-    },
-    {
-      "id": "foundation-capital:94229068",
-      "title": "Systems Administrator",
+      "id": "foundation-capital:94406665",
+      "title": "(Senior) Commercial Manager E-Commerce (m/w/d)",
       "company": "Mya Systems",
       "companyLogo": "https://cdn.getro.com/companies/40e39439-97a2-41dd-964b-299ad47b5057-1763084457",
-      "location": "Warsaw, Poland",
+      "location": "Düsseldorf, Germany",
       "remote": false,
-      "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000150697780",
-      "postedAt": "2026-09-22T11:41:08.000Z",
+      "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000151063389",
+      "postedAt": "2026-09-23T12:21:47.000Z",
       "board": {
         "id": "foundation-capital",
         "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94406662",
+      "title": "(Senior) Category Manager E-Commerce (m/w/d)",
+      "company": "Mya Systems",
+      "companyLogo": "https://cdn.getro.com/companies/40e39439-97a2-41dd-964b-299ad47b5057-1763084457",
+      "location": "Düsseldorf, Germany",
+      "remote": false,
+      "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000151063042",
+      "postedAt": "2026-09-23T12:21:47.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94406636",
+      "title": "Quereinsteiger im Vertrieb (m/w/d) - Neukunden",
+      "company": "Mya Systems",
+      "companyLogo": "https://cdn.getro.com/companies/40e39439-97a2-41dd-964b-299ad47b5057-1763084457",
+      "location": "Münster, Germany",
+      "remote": false,
+      "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000151335919",
+      "postedAt": "2026-09-23T12:21:46.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94406654",
+      "title": "Finance Systems Manager (m/w/d)",
+      "company": "Mya Systems",
+      "companyLogo": "https://cdn.getro.com/companies/40e39439-97a2-41dd-964b-299ad47b5057-1763084457",
+      "location": "Düsseldorf, Germany",
+      "remote": false,
+      "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000151323289",
+      "postedAt": "2026-09-23T12:21:46.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94406621",
+      "title": "Vertriebsmitarbeiter (m/w/d) B2B Telefonischer Neukundenvertrieb",
+      "company": "Mya Systems",
+      "companyLogo": "https://cdn.getro.com/companies/40e39439-97a2-41dd-964b-299ad47b5057-1763084457",
+      "location": "Paderborn, Germany",
+      "remote": false,
+      "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000151336229",
+      "postedAt": "2026-09-23T12:21:45.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94405925",
+      "title": "Integrations Specialist",
+      "company": "Campfire",
+      "companyLogo": "https://cdn.getro.com/companies/688b34e6-2740-4a9f-a443-0f4bac4bba84-1763602860",
+      "location": "San Francisco, CA, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/campfire/0d91aa5c-a93f-4500-9018-5ed84bf6a5f7",
+      "postedAt": "2026-09-23T12:20:46.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94405923",
+      "title": "Partner Enablement Specialist",
+      "company": "Campfire",
+      "companyLogo": "https://cdn.getro.com/companies/688b34e6-2740-4a9f-a443-0f4bac4bba84-1763602860",
+      "location": "San Francisco, CA, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/campfire/6c40a307-a0f1-43cf-b8c4-26dd5cbac083",
+      "postedAt": "2026-09-23T12:20:46.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404174",
+      "title": "Security Solution Architect",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/United-Kingdom---Remote/Security-Solution-Architect_R04775",
+      "postedAt": "2026-09-23T12:17:49.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404171",
+      "title": "Security Sales Specialist",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/United-Kingdom---Remote/Security-Sales-Specialist_R04773",
+      "postedAt": "2026-09-23T12:17:49.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404170",
+      "title": "Security Solution Architect",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "Germany",
+      "remote": true,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Germany---Remote/Security-Solution-Architect_R04777",
+      "postedAt": "2026-09-23T12:17:49.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404164",
+      "title": "Security Solution Architect",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "United States",
+      "remote": true,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/USA---California---Remote/Security-Solution-Architect_R04781",
+      "postedAt": "2026-09-23T12:17:47.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404160",
+      "title": "Security Solution Architect",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "United States",
+      "remote": false,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Denver-Metro-Area---Colorado---USA-Remote/Security-Solution-Architect_R04779",
+      "postedAt": "2026-09-23T12:17:46.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404144",
+      "title": "Senior Director, Global Channel & Alliances Operations",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "Santa Clara, CA, USA",
+      "remote": false,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Senior-Director--Global-Channel---Alliances-Operations_R04709",
+      "postedAt": "2026-09-23T12:17:45.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404147",
+      "title": "Principal Sales Engineer",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Cohesity---London/Principal-Sales-Engineer_R03748",
+      "postedAt": "2026-09-23T12:17:45.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404139",
+      "title": "Director of Product Management",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "Santa Clara, CA, USA",
+      "remote": false,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Director-of-Product-Management_R04734-1",
+      "postedAt": "2026-09-23T12:17:44.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404141",
+      "title": "Sr. Manager, International Security Sales",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "Germany",
+      "remote": true,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Germany---Remote/Sr-Manager--International-Security-Sales_R04794-1",
+      "postedAt": "2026-09-23T12:17:44.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404132",
+      "title": "Channel Development Manager",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "Colombia",
+      "remote": true,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Colombia---Remote/Channel-Development-Manager_R04729",
+      "postedAt": "2026-09-23T12:17:44.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404125",
+      "title": "Sr. Director, Security Solutions Architecture",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "Texas, USA",
+      "remote": true,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/USA---Texas---Remote/Sr-Director--Security-Solutions-Architecture_R04774",
+      "postedAt": "2026-09-23T12:17:43.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "foundation-capital:94404112",
+      "title": "Channel Development Manager",
+      "company": "Cohesity",
+      "companyLogo": "https://cdn.getro.com/companies/5955a969-b559-4a71-95ce-39ead0cca556-1762047458",
+      "location": "Illinois, USA",
+      "remote": true,
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/USA---Illinois---Remote/Channel-Development-Manager_R04792",
+      "postedAt": "2026-09-23T12:17:42.000Z",
+      "board": {
+        "id": "foundation-capital",
+        "title": "Foundation Capital"
+      }
+    },
+    {
+      "id": "placeholder-ventures:94258080",
+      "title": "Senior Product Engineer, Frontend",
+      "company": "Zerion",
+      "companyLogo": "https://cdn.getro.com/companies/acf4a824-cc27-4e95-a652-68ad9470da39-1761644569",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://jobs.lever.co/zerion/157049e4-b7d7-469c-833a-6256756baf51",
+      "postedAt": "2026-09-22T12:37:25.000Z",
+      "board": {
+        "id": "placeholder-ventures",
+        "title": "Placeholder Ventures"
       }
     },
     {
@@ -4236,6 +4390,20 @@
       "board": {
         "id": "placeholder-ventures",
         "title": "Placeholder Ventures"
+      }
+    },
+    {
+      "id": "outlier-ventures:93888786",
+      "title": "Lead Data Engineer",
+      "company": "Immersive",
+      "companyLogo": "https://cdn.getro.com/companies/ae8f5812-2801-4945-b63a-5f527a9985fb-1761702210",
+      "location": "New Zealand",
+      "remote": false,
+      "url": "https://nz.linkedin.com/jobs/view/lead-data-engineer-at-immersve-4469843334",
+      "postedAt": "2026-09-21T14:31:02.000Z",
+      "board": {
+        "id": "outlier-ventures",
+        "title": "Outlier Ventures"
       }
     },
     {
@@ -4505,6 +4673,48 @@
       }
     },
     {
+      "id": "solana-ecosystem-job-board:94445491",
+      "title": "Lead Engineer, Frontier Traders",
+      "company": "Solana Foundation",
+      "companyLogo": "https://cdn.getro.com/companies/774ddf76-045d-4e25-bc60-aa131e3de320-1763948343",
+      "location": "United States",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/Solana%20Foundation/4a3cefc1-82c3-4e6b-a7b6-44f9d087c45a",
+      "postedAt": "2026-09-23T13:25:19.000Z",
+      "board": {
+        "id": "solana-ecosystem-job-board",
+        "title": "Solana Ecosystem Job Board"
+      }
+    },
+    {
+      "id": "solana-ecosystem-job-board:94383369",
+      "title": "General Manager (Europe)",
+      "company": "Kast",
+      "companyLogo": "https://cdn.getro.com/companies/e622b181-2625-4628-baf3-6e6889954fc6-1762134181",
+      "location": "Dublin, Ireland",
+      "remote": false,
+      "url": "https://careers.kast.xyz/en/postings/a0553f80-e6c3-4d18-aefd-183d70280ca3",
+      "postedAt": "2026-09-23T11:38:42.000Z",
+      "board": {
+        "id": "solana-ecosystem-job-board",
+        "title": "Solana Ecosystem Job Board"
+      }
+    },
+    {
+      "id": "solana-ecosystem-job-board:94373410",
+      "title": "Marketing Designer",
+      "company": "Fomo",
+      "companyLogo": "https://cdn.getro.com/companies/8ebd3960-d310-40af-9450-a01bc880f0c2-1782735311",
+      "location": "New York, NY, USA",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/fomo-labs/f73f41c7-1dae-4162-9dfd-4059faa5374f",
+      "postedAt": "2026-09-23T11:21:44.000Z",
+      "board": {
+        "id": "solana-ecosystem-job-board",
+        "title": "Solana Ecosystem Job Board"
+      }
+    },
+    {
       "id": "solana-ecosystem-job-board:94286981",
       "title": "Senior Engineer, Solana",
       "company": "R3",
@@ -4541,20 +4751,6 @@
       "remote": true,
       "url": "https://www.solflare.com/careers/data-analyst/",
       "postedAt": "2026-09-22T11:36:52.000Z",
-      "board": {
-        "id": "solana-ecosystem-job-board",
-        "title": "Solana Ecosystem Job Board"
-      }
-    },
-    {
-      "id": "solana-ecosystem-job-board:94223598",
-      "title": "Content Manager & Copywriter",
-      "company": "Akash Network",
-      "companyLogo": "https://cdn.getro.com/companies/a164731b-9ba6-46be-bfbe-751f883c9ff6-1760578304",
-      "location": "United States",
-      "remote": true,
-      "url": "https://jobs.lever.co/AkashNetwork/6faebc20-f057-4c1e-8bc3-a2a5f25488f2",
-      "postedAt": "2026-09-22T11:27:53.000Z",
       "board": {
         "id": "solana-ecosystem-job-board",
         "title": "Solana Ecosystem Job Board"
@@ -4855,62 +5051,6 @@
       }
     },
     {
-      "id": "monad-ecosystem-job-board:88887074",
-      "title": "Software Engineer Lead",
-      "company": "PrismaX",
-      "companyLogo": "https://cdn.getro.com/companies/8a8ecf3e-50b4-432a-890c-2a71981dd8b9-1785932182",
-      "location": null,
-      "remote": false,
-      "url": "https://www.prismax.ai/careers/software-engineer-lead",
-      "postedAt": "2026-08-05T16:04:05.000Z",
-      "board": {
-        "id": "monad-ecosystem-job-board",
-        "title": "Monad Ecosystem Job Board"
-      }
-    },
-    {
-      "id": "monad-ecosystem-job-board:88887075",
-      "title": "Full Stack Engineer",
-      "company": "PrismaX",
-      "companyLogo": "https://cdn.getro.com/companies/8a8ecf3e-50b4-432a-890c-2a71981dd8b9-1785932182",
-      "location": null,
-      "remote": false,
-      "url": "https://www.prismax.ai/careers/full-stack-engineer",
-      "postedAt": "2026-08-05T16:04:05.000Z",
-      "board": {
-        "id": "monad-ecosystem-job-board",
-        "title": "Monad Ecosystem Job Board"
-      }
-    },
-    {
-      "id": "monad-ecosystem-job-board:88887076",
-      "title": "Business Development Manager, Enterprise (Robotics)",
-      "company": "PrismaX",
-      "companyLogo": "https://cdn.getro.com/companies/8a8ecf3e-50b4-432a-890c-2a71981dd8b9-1785932182",
-      "location": null,
-      "remote": false,
-      "url": "https://www.prismax.ai/careers/business-development-manager-enterprise-(robotics)",
-      "postedAt": "2026-08-05T16:04:05.000Z",
-      "board": {
-        "id": "monad-ecosystem-job-board",
-        "title": "Monad Ecosystem Job Board"
-      }
-    },
-    {
-      "id": "monad-ecosystem-job-board:88887077",
-      "title": "Marketing & Community Manager",
-      "company": "PrismaX",
-      "companyLogo": "https://cdn.getro.com/companies/8a8ecf3e-50b4-432a-890c-2a71981dd8b9-1785932182",
-      "location": null,
-      "remote": false,
-      "url": "https://www.prismax.ai/careers/marketing-community-manager",
-      "postedAt": "2026-08-05T16:04:05.000Z",
-      "board": {
-        "id": "monad-ecosystem-job-board",
-        "title": "Monad Ecosystem Job Board"
-      }
-    },
-    {
       "id": "monad-ecosystem-job-board:88849148",
       "title": "CMO + Social Media Manager + Content Creators",
       "company": "CRSHMARKET",
@@ -4936,6 +5076,188 @@
       "board": {
         "id": "monad-ecosystem-job-board",
         "title": "Monad Ecosystem Job Board"
+      }
+    },
+    {
+      "id": "monad-ecosystem-job-board:86212792",
+      "title": "People Operations & Office Coordinator",
+      "company": "Agora",
+      "companyLogo": "https://cdn.getro.com/companies/17aca299-b338-5da4-8e70-c97b071df1ad-1748395281",
+      "location": "New York, NY, USA",
+      "remote": false,
+      "url": "https://jobs.gem.com/agora/am9icG9zdDqUybtbjPMzRLmtZZA00RKU",
+      "postedAt": "2026-07-14T11:00:45.000Z",
+      "board": {
+        "id": "monad-ecosystem-job-board",
+        "title": "Monad Ecosystem Job Board"
+      }
+    },
+    {
+      "id": "monad-ecosystem-job-board:83509512",
+      "title": "Senior Software Engineer, Formal Verification",
+      "company": "Category Labs",
+      "companyLogo": "https://cdn.getro.com/companies/cf3eb237-6837-4153-9bdc-6b2962f2ff86-1768350891",
+      "location": "New York, NY, USA",
+      "remote": false,
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-formal-verification-at-category-labs-4429612810",
+      "postedAt": "2026-06-21T02:06:43.000Z",
+      "board": {
+        "id": "monad-ecosystem-job-board",
+        "title": "Monad Ecosystem Job Board"
+      }
+    },
+    {
+      "id": "monad-ecosystem-job-board:83509513",
+      "title": "Senior Software Engineer, Formal Verification",
+      "company": "Category Labs",
+      "companyLogo": "https://cdn.getro.com/companies/cf3eb237-6837-4153-9bdc-6b2962f2ff86-1768350891",
+      "location": "United States",
+      "remote": false,
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-formal-verification-at-category-labs-4429398924",
+      "postedAt": "2026-06-21T02:06:43.000Z",
+      "board": {
+        "id": "monad-ecosystem-job-board",
+        "title": "Monad Ecosystem Job Board"
+      }
+    },
+    {
+      "id": "blockchain-association:94432193",
+      "title": "Python Engineer | Python Performance",
+      "company": "Jump Crypto",
+      "companyLogo": "https://cdn.getro.com/companies/f5001432-cf09-5163-8bd4-f502bce143d9-1749691375",
+      "location": "London, UK",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/jumptrading/jobs/8129752",
+      "postedAt": "2026-09-23T13:03:34.000Z",
+      "board": {
+        "id": "blockchain-association",
+        "title": "Blockchain Association"
+      }
+    },
+    {
+      "id": "blockchain-association:94432192",
+      "title": "Campus Quantitative Researcher | Trading Team PhD/Postdoc (Full-Time)",
+      "company": "Jump Crypto",
+      "companyLogo": "https://cdn.getro.com/companies/f5001432-cf09-5163-8bd4-f502bce143d9-1749691375",
+      "location": "New York, NY, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/jumptrading/jobs/8209424",
+      "postedAt": "2026-09-23T13:03:34.000Z",
+      "board": {
+        "id": "blockchain-association",
+        "title": "Blockchain Association"
+      }
+    },
+    {
+      "id": "blockchain-association:94432112",
+      "title": "Senior Product Manager, Token Listing",
+      "company": "OKX",
+      "companyLogo": "https://cdn.getro.com/companies/4850100e-68ad-4cda-ae65-9d575d9e53af-1761096891",
+      "location": "Singapore",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/OKX/jobs/8001671003",
+      "postedAt": "2026-09-23T13:03:28.000Z",
+      "board": {
+        "id": "blockchain-association",
+        "title": "Blockchain Association"
+      }
+    },
+    {
+      "id": "blockchain-association:94432087",
+      "title": "Senior HR Business Partner",
+      "company": "OKX",
+      "companyLogo": "https://cdn.getro.com/companies/4850100e-68ad-4cda-ae65-9d575d9e53af-1761096891",
+      "location": "United States",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/OKX/jobs/8002890003",
+      "postedAt": "2026-09-23T13:03:27.000Z",
+      "board": {
+        "id": "blockchain-association",
+        "title": "Blockchain Association"
+      }
+    },
+    {
+      "id": "blockchain-association:94432063",
+      "title": "Deputy General Counsel, Strategic Partnerships & Institutions",
+      "company": "OKX",
+      "companyLogo": "https://cdn.getro.com/companies/4850100e-68ad-4cda-ae65-9d575d9e53af-1761096891",
+      "location": "California, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/OKX/jobs/8002788003",
+      "postedAt": "2026-09-23T13:03:26.000Z",
+      "board": {
+        "id": "blockchain-association",
+        "title": "Blockchain Association"
+      }
+    },
+    {
+      "id": "blockchain-association:94421785",
+      "title": "Senior Investment Lead",
+      "company": "Arbitrum",
+      "companyLogo": "https://cdn.getro.com/companies/0347fe24-2e4e-46c0-9e5c-2f24c6cd13c6-1763516390",
+      "location": "Cayman Islands",
+      "remote": false,
+      "url": "https://jobs.lever.co/arbitrumfoundation/af6008a0-dadd-49ae-8684-2c104f36600c",
+      "postedAt": "2026-09-23T12:44:16.000Z",
+      "board": {
+        "id": "blockchain-association",
+        "title": "Blockchain Association"
+      }
+    },
+    {
+      "id": "blockchain-association:94399062",
+      "title": "Team Lead, People Technology",
+      "company": "Cumberland",
+      "companyLogo": "https://cdn.getro.com/companies/58c2467a-66d6-4ee3-9e86-d0b6fe5c82ab-1761644569",
+      "location": "Chicago, IL, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/drweng/jobs/8220906",
+      "postedAt": "2026-09-23T12:07:46.000Z",
+      "board": {
+        "id": "blockchain-association",
+        "title": "Blockchain Association"
+      }
+    },
+    {
+      "id": "blockchain-association:94399059",
+      "title": "Senior Software Engineer (Options)",
+      "company": "Cumberland",
+      "companyLogo": "https://cdn.getro.com/companies/58c2467a-66d6-4ee3-9e86-d0b6fe5c82ab-1761644569",
+      "location": "Chicago, IL, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/drweng/jobs/8223295",
+      "postedAt": "2026-09-23T12:07:46.000Z",
+      "board": {
+        "id": "blockchain-association",
+        "title": "Blockchain Association"
+      }
+    },
+    {
+      "id": "blockchain-association:94399064",
+      "title": "Threat Specialist",
+      "company": "Cumberland",
+      "companyLogo": "https://cdn.getro.com/companies/58c2467a-66d6-4ee3-9e86-d0b6fe5c82ab-1761644569",
+      "location": "London, UK",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/drweng/jobs/8208116",
+      "postedAt": "2026-09-23T12:07:46.000Z",
+      "board": {
+        "id": "blockchain-association",
+        "title": "Blockchain Association"
+      }
+    },
+    {
+      "id": "blockchain-association:94399056",
+      "title": "Corporate Actions Associate",
+      "company": "Cumberland",
+      "companyLogo": "https://cdn.getro.com/companies/58c2467a-66d6-4ee3-9e86-d0b6fe5c82ab-1761644569",
+      "location": "Chicago, IL, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/drweng/jobs/8204565",
+      "postedAt": "2026-09-23T12:07:45.000Z",
+      "board": {
+        "id": "blockchain-association",
+        "title": "Blockchain Association"
       }
     },
     {
@@ -4995,132 +5317,6 @@
       }
     },
     {
-      "id": "blockchain-association:94292518",
-      "title": "Trade Ops Associate",
-      "company": "FalconX",
-      "companyLogo": "https://cdn.getro.com/companies/3fa43b35-dff6-543f-bce4-b8d9a51ca1e8",
-      "location": "Bengaluru, Karnataka, India",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/falconx/jobs/4734433005",
-      "postedAt": "2026-09-22T13:34:52.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
-      "id": "blockchain-association:94292516",
-      "title": "Head of Compliance - Malta",
-      "company": "FalconX",
-      "companyLogo": "https://cdn.getro.com/companies/3fa43b35-dff6-543f-bce4-b8d9a51ca1e8",
-      "location": "Malta",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/falconx/jobs/4736235005",
-      "postedAt": "2026-09-22T13:34:51.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
-      "id": "blockchain-association:94277573",
-      "title": "Market Technology Specialist",
-      "company": "Cumberland",
-      "companyLogo": "https://cdn.getro.com/companies/58c2467a-66d6-4ee3-9e86-d0b6fe5c82ab-1761644569",
-      "location": "Singapore",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/drweng/jobs/8210328",
-      "postedAt": "2026-09-22T13:01:25.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
-      "id": "blockchain-association:94277576",
-      "title": "Trader",
-      "company": "Cumberland",
-      "companyLogo": "https://cdn.getro.com/companies/58c2467a-66d6-4ee3-9e86-d0b6fe5c82ab-1761644569",
-      "location": "Singapore",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/drweng/jobs/8210375",
-      "postedAt": "2026-09-22T13:01:25.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
-      "id": "blockchain-association:94260468",
-      "title": "Portfolio Finance",
-      "company": "Jump Crypto",
-      "companyLogo": "https://cdn.getro.com/companies/f5001432-cf09-5163-8bd4-f502bce143d9-1749691375",
-      "location": "London, UK",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/jumptrading/jobs/8069135",
-      "postedAt": "2026-09-22T12:40:27.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
-      "id": "blockchain-association:94258295",
-      "title": "Senior Solutions Architect, Tokenisation",
-      "company": "Chainlink Labs",
-      "companyLogo": "https://cdn.getro.com/companies/6c1e7666-a4bd-46da-bb5a-3f4f58cb197a-1762134369",
-      "location": "United States",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/chainlink-labs/005cba6f-0e37-40ec-814e-3e02b1aa3d9f",
-      "postedAt": "2026-09-22T12:37:51.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
-      "id": "blockchain-association:94258287",
-      "title": "Manager, Insider Trust",
-      "company": "Chainlink Labs",
-      "companyLogo": "https://cdn.getro.com/companies/6c1e7666-a4bd-46da-bb5a-3f4f58cb197a-1762134369",
-      "location": "Phoenix, AZ, USA",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/chainlink-labs/4d630479-eb6f-422f-a6de-a13fd8af5a02",
-      "postedAt": "2026-09-22T12:37:50.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
-      "id": "blockchain-association:94256660",
-      "title": "Experienced MFT Quantitative Researcher",
-      "company": "FlowTraders",
-      "companyLogo": "https://cdn.getro.com/companies/b1494166-7a46-4e20-816d-7a0f547a8976-1760664682",
-      "location": "Hong Kong",
-      "remote": false,
-      "url": "https://flowtraders.com/careers/job-description/8222298",
-      "postedAt": "2026-09-22T12:34:37.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
-      "id": "blockchain-association:94241013",
-      "title": "Staff Engineer, Public Cloud Operations",
-      "company": "OKX",
-      "companyLogo": "https://cdn.getro.com/companies/4850100e-68ad-4cda-ae65-9d575d9e53af-1761096891",
-      "location": "Singapore",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/OKX/jobs/8002221003",
-      "postedAt": "2026-09-22T12:05:39.000Z",
-      "board": {
-        "id": "blockchain-association",
-        "title": "Blockchain Association"
-      }
-    },
-    {
       "id": "arbitrum-ecosystem-job-board:93005414",
       "title": "Program Manager (Customer Success)",
       "company": "OpenZeppelin",
@@ -5163,28 +5359,14 @@
       }
     },
     {
-      "id": "arbitrum-ecosystem-job-board:92543025",
-      "title": "Compliance Officer",
-      "company": "Douro Labs",
-      "companyLogo": "https://cdn.getro.com/companies/58cad497-c0af-431d-92c2-edbdde3286f4-1761183798",
-      "location": "United States",
+      "id": "castle-ventures:94390398",
+      "title": "Member of Technical Staff, Forward Deployed",
+      "company": "Chakra Labs",
+      "companyLogo": "https://cdn.getro.com/companies/d25ad0f7-7293-4d68-80c0-1eba3aa032cb-1781957705",
+      "location": "Brooklyn, NY, USA",
       "remote": false,
-      "url": "https://jobs.ashbyhq.com/dourolabs.xyz/20f3e7d8-6fd4-4d05-8eab-e0b69d04ead4",
-      "postedAt": "2026-09-08T13:35:57.000Z",
-      "board": {
-        "id": "arbitrum-ecosystem-job-board",
-        "title": "Arbitrum Ecosystem Job Board"
-      }
-    },
-    {
-      "id": "castle-ventures:94276945",
-      "title": "Lead Software Engineer(Java)",
-      "company": "DolarApp",
-      "companyLogo": "https://cdn.getro.com/companies/206ffda2-d8d1-44f9-b997-b99ef0b1c561-1761701728",
-      "location": "London, UK",
-      "remote": false,
-      "url": "https://jobs.ashbyhq.com/ARQ/75491cc9-d063-463a-b6be-f8cff704cb00",
-      "postedAt": "2026-09-22T13:00:22.000Z",
+      "url": "https://jobs.ashbyhq.com/chakra-labs/b6b34ba4-5c53-41f2-8753-edb5bf7297c7",
+      "postedAt": "2026-09-23T11:53:24.000Z",
       "board": {
         "id": "castle-ventures",
         "title": "Castle Ventures"
@@ -5219,13 +5401,13 @@
       }
     },
     {
-      "id": "castle-ventures:94276954",
-      "title": "Software Engineer (Java)",
+      "id": "castle-ventures:94276945",
+      "title": "Lead Software Engineer(Java)",
       "company": "DolarApp",
       "companyLogo": "https://cdn.getro.com/companies/206ffda2-d8d1-44f9-b997-b99ef0b1c561-1761701728",
-      "location": "Kraków, Poland",
+      "location": "London, UK",
       "remote": false,
-      "url": "https://jobs.ashbyhq.com/ARQ/68e14c97-dd64-43b2-878b-0be0b6dfddeb",
+      "url": "https://jobs.ashbyhq.com/ARQ/75491cc9-d063-463a-b6be-f8cff704cb00",
       "postedAt": "2026-09-22T13:00:22.000Z",
       "board": {
         "id": "castle-ventures",
@@ -5240,6 +5422,20 @@
       "location": "London, UK",
       "remote": false,
       "url": "https://jobs.ashbyhq.com/ARQ/d52abcd9-b6d6-4bda-9543-3f5752508b8a",
+      "postedAt": "2026-09-22T13:00:22.000Z",
+      "board": {
+        "id": "castle-ventures",
+        "title": "Castle Ventures"
+      }
+    },
+    {
+      "id": "castle-ventures:94276954",
+      "title": "Software Engineer (Java)",
+      "company": "DolarApp",
+      "companyLogo": "https://cdn.getro.com/companies/206ffda2-d8d1-44f9-b997-b99ef0b1c561-1761701728",
+      "location": "Kraków, Poland",
+      "remote": false,
+      "url": "https://jobs.ashbyhq.com/ARQ/68e14c97-dd64-43b2-878b-0be0b6dfddeb",
       "postedAt": "2026-09-22T13:00:22.000Z",
       "board": {
         "id": "castle-ventures",
@@ -5275,76 +5471,6 @@
       }
     },
     {
-      "id": "castle-ventures:93839975",
-      "title": "Business Operations Manager",
-      "company": "Matrixport",
-      "companyLogo": "https://cdn.getro.com/companies/915988a8-b281-4e76-988c-9198ef0cfa9d-1762998167",
-      "location": "Kuala Lumpur, Malaysia",
-      "remote": false,
-      "url": "https://my.linkedin.com/jobs/view/business-operations-manager-at-bit-official-4468465450",
-      "postedAt": "2026-09-21T09:32:03.000Z",
-      "board": {
-        "id": "castle-ventures",
-        "title": "Castle Ventures"
-      }
-    },
-    {
-      "id": "castle-ventures:93839973",
-      "title": "Business Operations Analyst",
-      "company": "Matrixport",
-      "companyLogo": "https://cdn.getro.com/companies/915988a8-b281-4e76-988c-9198ef0cfa9d-1762998167",
-      "location": "Kuala Lumpur, Malaysia",
-      "remote": false,
-      "url": "https://my.linkedin.com/jobs/view/business-operations-analyst-at-bit-official-4468454756",
-      "postedAt": "2026-09-21T09:32:02.000Z",
-      "board": {
-        "id": "castle-ventures",
-        "title": "Castle Ventures"
-      }
-    },
-    {
-      "id": "castle-ventures:93791949",
-      "title": "Community Operations Executive",
-      "company": "Matrixport",
-      "companyLogo": "https://cdn.getro.com/companies/915988a8-b281-4e76-988c-9198ef0cfa9d-1762998167",
-      "location": "hong kong",
-      "remote": false,
-      "url": "https://hk.linkedin.com/jobs/view/community-operations-executive-at-bit-official-4466840478",
-      "postedAt": "2026-09-19T14:05:23.000Z",
-      "board": {
-        "id": "castle-ventures",
-        "title": "Castle Ventures"
-      }
-    },
-    {
-      "id": "castle-ventures:93791950",
-      "title": "Responsible Officer",
-      "company": "Matrixport",
-      "companyLogo": "https://cdn.getro.com/companies/915988a8-b281-4e76-988c-9198ef0cfa9d-1762998167",
-      "location": "hong kong",
-      "remote": false,
-      "url": "https://hk.linkedin.com/jobs/view/responsible-officer-at-bit-official-4467186787",
-      "postedAt": "2026-09-19T14:05:23.000Z",
-      "board": {
-        "id": "castle-ventures",
-        "title": "Castle Ventures"
-      }
-    },
-    {
-      "id": "castle-ventures:93791951",
-      "title": "Head of Product Design",
-      "company": "Matrixport",
-      "companyLogo": "https://cdn.getro.com/companies/915988a8-b281-4e76-988c-9198ef0cfa9d-1762998167",
-      "location": "Singapore",
-      "remote": false,
-      "url": "https://sg.linkedin.com/jobs/view/head-of-product-design-at-bit-official-4466647393",
-      "postedAt": "2026-09-19T14:05:23.000Z",
-      "board": {
-        "id": "castle-ventures",
-        "title": "Castle Ventures"
-      }
-    },
-    {
       "id": "jump-crypto:93862929",
       "title": "Senior Copywriter",
       "company": "Bitpanda",
@@ -5367,6 +5493,20 @@
       "remote": true,
       "url": "https://boards.greenhouse.io/figure/jobs/8796519002",
       "postedAt": "2026-09-19T13:21:51.000Z",
+      "board": {
+        "id": "jump-crypto",
+        "title": "Jump Crypto"
+      }
+    },
+    {
+      "id": "jump-crypto:93700830",
+      "title": "Institutional Senior Sales Associate",
+      "company": "BitGo",
+      "companyLogo": "https://cdn.getro.com/companies/2c623ac4-2a45-44f4-a0df-d4f88f89befd-1761644645",
+      "location": "California, USA",
+      "remote": false,
+      "url": "https://boards.greenhouse.io/bitgo/jobs/8792129002",
+      "postedAt": "2026-09-19T11:06:52.000Z",
       "board": {
         "id": "jump-crypto",
         "title": "Jump Crypto"
@@ -5437,76 +5577,6 @@
       "remote": false,
       "url": "https://boards.greenhouse.io/bitgo/jobs/8811580002",
       "postedAt": "2026-09-16T12:21:28.000Z",
-      "board": {
-        "id": "jump-crypto",
-        "title": "Jump Crypto"
-      }
-    },
-    {
-      "id": "jump-crypto:93352303",
-      "title": "Office Manager",
-      "company": "BitGo",
-      "companyLogo": "https://cdn.getro.com/companies/2c623ac4-2a45-44f4-a0df-d4f88f89befd-1761644645",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/bitgo/jobs/8812117002",
-      "postedAt": "2026-09-16T12:21:27.000Z",
-      "board": {
-        "id": "jump-crypto",
-        "title": "Jump Crypto"
-      }
-    },
-    {
-      "id": "jump-crypto:93051397",
-      "title": "Director, Technical Program Management",
-      "company": "BitGo",
-      "companyLogo": "https://cdn.getro.com/companies/2c623ac4-2a45-44f4-a0df-d4f88f89befd-1761644645",
-      "location": "New York, NY, USA",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/bitgo/jobs/8802480002",
-      "postedAt": "2026-09-12T14:05:05.000Z",
-      "board": {
-        "id": "jump-crypto",
-        "title": "Jump Crypto"
-      }
-    },
-    {
-      "id": "jump-crypto:93051392",
-      "title": "Director, Technical Program Management",
-      "company": "BitGo",
-      "companyLogo": "https://cdn.getro.com/companies/2c623ac4-2a45-44f4-a0df-d4f88f89befd-1761644645",
-      "location": "Palo Alto, CA, USA",
-      "remote": false,
-      "url": "https://boards.greenhouse.io/bitgo/jobs/8802524002",
-      "postedAt": "2026-09-12T14:05:04.000Z",
-      "board": {
-        "id": "jump-crypto",
-        "title": "Jump Crypto"
-      }
-    },
-    {
-      "id": "jump-crypto:92903075",
-      "title": "Credit Risk Manager",
-      "company": "Figure Markets",
-      "companyLogo": "https://cdn.getro.com/companies/8ee1a0e9-8a52-4018-9870-18a5ffbe2cbe-1762393225",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://boards.greenhouse.io/figure/jobs/8783449002",
-      "postedAt": "2026-09-11T13:22:33.000Z",
-      "board": {
-        "id": "jump-crypto",
-        "title": "Jump Crypto"
-      }
-    },
-    {
-      "id": "jump-crypto:92869875",
-      "title": "Growth Partnerships Lead",
-      "company": "Phantom",
-      "companyLogo": "https://cdn.getro.com/companies/285aeb34-2462-4879-9dc6-80563d3e2053-1762738836",
-      "location": "United States",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/phantom/d1c4fabe-d012-4a5d-845c-986a1e5ea976",
-      "postedAt": "2026-09-11T12:04:06.000Z",
       "board": {
         "id": "jump-crypto",
         "title": "Jump Crypto"
