@@ -24,9 +24,27 @@ const boards = defineCollection({
 
 // src/data/jobs.json is written by scripts/fetch-getro-jobs.mjs and wraps
 // the array in { fetchedAt, boards, jobs }; unwrap it for the loader.
+//
+// The Getro API occasionally returns malformed companyLogo values (e.g. bare
+// paths, empty strings, or relative URLs). We sanitise them in the parser so
+// bad data from the API becomes null instead of failing the build.
+function sanitiseLogo(value: unknown): string | null {
+  if (!value || typeof value !== "string") return null;
+  try {
+    const u = new URL(value);
+    return u.protocol === "http:" || u.protocol === "https:" ? value : null;
+  } catch {
+    return null;
+  }
+}
+
 const jobs = defineCollection({
   loader: file("src/data/jobs.json", {
-    parser: (text) => JSON.parse(text).jobs,
+    parser: (text) =>
+      (JSON.parse(text).jobs as Array<Record<string, unknown>>).map((job) => ({
+        ...job,
+        companyLogo: sanitiseLogo(job.companyLogo),
+      })),
   }),
   schema: z.object({
     title: z.string().min(1),
