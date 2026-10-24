@@ -1,46 +1,46 @@
 <div
-  id="vanta-bg"
-  class="fixed inset-0 -z-10 bg-[#0c1220]"
+  class="fixed inset-0 -z-10 overflow-hidden bg-[#0c1220]"
   role="presentation"
-  aria-label="Animated network background"
-/>
+  aria-hidden="true"
+>
+  <div
+    class="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_100%,rgba(39,86,115,0.48),transparent_58%),radial-gradient(ellipse_at_15%_85%,rgba(74,47,112,0.32),transparent_55%),#0c1220]"
+  ></div>
+  <canvas
+    id="aurora-bg"
+    class="absolute inset-0 h-full w-full opacity-0 transition-opacity duration-700"
+  ></canvas>
+</div>
 
 <script>
-  // Defer the p5/vanta bundle off the critical path: it's decorative, so it
-  // shouldn't compete with real content for main-thread time during load.
-  // Skipped entirely under prefers-reduced-motion (also saves the CPU/battery
-  // cost of a continuous canvas loop for users who asked not to see motion).
-  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    const init = async () => {
-      // vanta/dist/vanta.topology.min is a UMD bundle — it has no ESM default
-      // export. It self-registers onto window.VANTA via its factory, so we
-      // import both modules for their side-effects, then call the registered
-      // effect directly.
-      const [{ default: p5 }] = await Promise.all([
-        import("p5"),
-        import("vanta/dist/vanta.topology.min"),
-      ]);
+  const canvas = document.getElementById("aurora-bg") as HTMLCanvasElement;
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-      // @ts-ignore — VANTA is set by the UMD bundle above
-      window.VANTA.TOPOLOGY({
-        el: "#vanta-bg",
-        p5,
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.0,
-        minWidth: 200.0,
-        scale: 1.0,
-        scaleMobile: 1.0,
-        color: 0x3a6bd8,
-        backgroundColor: 0x0c1220,
+  const init = async () => {
+    try {
+      const { createShaderRenderer } = await import("shadertown");
+      const renderer = createShaderRenderer(canvas, {
+        shader: "aurora",
+        params: { speed: 0.35, intensity: 0.8, warp: 0.45 },
+        dpr: [1, 1.25],
+        paused: reducedMotion,
+        onStatus(status) {
+          if (status === "ready") canvas.classList.replace("opacity-0", "opacity-100");
+          if (status === "unsupported" || status === "error") canvas.remove();
+        },
       });
-    };
 
-    if ("requestIdleCallback" in window) {
-      requestIdleCallback(init);
-    } else {
-      setTimeout(init, 1000);
+      renderer.ready.catch(() => canvas.remove());
+      window.addEventListener("pagehide", () => renderer.destroy(), { once: true });
+    } catch {
+      // Keep the CSS night-sky fallback visible if WebGPU cannot initialize.
+      canvas.remove();
     }
+  };
+
+  if ("requestIdleCallback" in window) {
+    requestIdleCallback(init);
+  } else {
+    setTimeout(init, 1000);
   }
 </script>
