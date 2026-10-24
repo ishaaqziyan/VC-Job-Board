@@ -12,13 +12,14 @@ const boards = await getCollection("boards");
 
 const cards = boards
   .map(({ data }) => {
-    const logo = logos[data.image];
+    const remoteImage = /^https:\/\//i.test(data.image);
+    const logo = remoteImage ? data.image : logos[data.image];
     if (!logo) {
       throw new Error(
         `Missing logo "src/assets/logos/${data.image}" for board "${data.title}".`,
       );
     }
-    return { ...data, logo };
+    return { ...data, logo, remoteImage };
   })
   .sort((a, b) => a.title.localeCompare(b.title));
 ---
@@ -86,6 +87,7 @@ const cards = boards
               <Article
                 title={card.title}
                 image={card.logo}
+                remoteImage={card.remoteImage}
                 description={card.description}
                 url={card.url}
               />

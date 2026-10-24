@@ -6,8 +6,7 @@ const boards = defineCollection({
   loader: file("src/data/boards.json"),
   schema: z.object({
     title: z.string().min(1),
-    // Validated at build time: a malformed URL fails the build instead of
-    // shipping a broken card. z.url() in Zod v4 enforces http(s) natively.
+    // Board thumbnails can be local assets or remote image URLs.
     url: z.url(),
     // Filename within src/assets/logos/. Deliberately a plain string rather
     // than the image() helper: image() makes Astro emit the unoptimized
@@ -15,9 +14,12 @@ const boards = defineCollection({
     // references). The page resolves this through a static import map
     // instead (src/data/logos.ts), which emits only the optimized output,
     // and still fails the build on a missing file.
-    image: z
-      .string()
-      .regex(/^[\w.-]+\.(png|jpe?g|webp|avif)$/i, "must be an image filename"),
+    image: z.string().refine(
+      (value) =>
+        /^[\w.-]+\.(png|jpe?g|webp|avif)$/i.test(value) ||
+        /^https:\/\//i.test(value),
+      "must be an image filename or HTTPS URL",
+    ),
     description: z.string().optional(),
   }),
 });
