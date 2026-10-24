@@ -7,9 +7,10 @@ interface Props {
   url: string;
   postedAt: string | null;
   boardTitle: string;
+  boardId: string;
 }
 
-const { title, company, location, remote, url, postedAt, boardTitle } = Astro.props;
+const { title, company, location, remote, url, postedAt, boardTitle, boardId } = Astro.props;
 
 const posted = postedAt
   ? new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" }).format(new Date(postedAt))
@@ -24,6 +25,7 @@ const searchKey = [title, company, location, boardTitle].filter(Boolean).join(" 
   rel="noopener noreferrer"
   data-job-search={searchKey}
   data-job-remote={remote ? "true" : "false"}
+  data-job-solana={boardId === "solana-ecosystem-job-board" ? "true" : "false"}
   class="group flex flex-col gap-1 bg-white shadow-sm rounded-lg p-4 border border-gray-100 transition hover:shadow-md hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-lavender-blue-500"
 >
   <h4 class="font-bold text-black group-hover:text-lavender-blue-600 leading-snug">{title}</h4>
