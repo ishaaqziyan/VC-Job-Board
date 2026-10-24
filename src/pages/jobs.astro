@@ -96,6 +96,10 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
               <input id="job-remote-only" type="checkbox" class="rounded border-gray-300" />
               Remote only
             </label>
+            <label class="flex items-center gap-2 text-sm text-gray-300 select-none">
+              <input id="job-solana-only" type="checkbox" class="rounded border-gray-300" />
+              Solana ecosystem only
+            </label>
           </div>
 
           <p id="job-count" class="mb-4 text-sm text-gray-300" aria-live="polite">
@@ -111,6 +115,7 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
                 url={job.url}
                 postedAt={job.postedAt}
                 boardTitle={job.board.title}
+                boardId={job.board.id}
               />
             ))}
           </div>
@@ -135,6 +140,7 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
     <script>
       const jobInput = document.getElementById("job-search") as HTMLInputElement;
       const remoteOnly = document.getElementById("job-remote-only") as HTMLInputElement;
+      const solanaOnly = document.getElementById("job-solana-only") as HTMLInputElement;
       const jobGrid = document.getElementById("job-grid") as HTMLElement;
       const jobCards = Array.from(jobGrid.children) as HTMLElement[];
       const jobTotal = jobCards.length;
@@ -144,12 +150,14 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
       function applyJobFilter() {
         const query = jobInput.value.trim().toLowerCase();
         const onlyRemote = remoteOnly.checked;
+        const onlySolana = solanaOnly.checked;
         let shown = 0;
 
         for (const card of jobCards) {
           const matchesQuery = !query || (card.dataset.jobSearch ?? "").includes(query);
           const matchesRemote = !onlyRemote || card.dataset.jobRemote === "true";
-          const matches = matchesQuery && matchesRemote;
+          const matchesSolana = !onlySolana || card.dataset.jobSolana === "true";
+          const matches = matchesQuery && matchesRemote && matchesSolana;
           card.classList.toggle("hidden", !matches);
           if (matches) shown++;
         }
@@ -161,6 +169,7 @@ const jobBoardCount = jobsFile.boards.filter((b: { skipped: string | null }) => 
 
       jobInput.addEventListener("input", applyJobFilter);
       remoteOnly.addEventListener("change", applyJobFilter);
+      solanaOnly.addEventListener("change", applyJobFilter);
     </script>
 
     <script>
